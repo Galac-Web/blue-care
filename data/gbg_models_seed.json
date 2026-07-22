@@ -1,0 +1,142 @@
+{
+  "ALFA ROMEO": [
+    {
+      "group_id": "000.0000",
+      "group": "ALFA ROMEO ALFA 33",
+      "models": [
+        {"id": "000.0000.0000", "label": "ALFA ROMEO ALFA 33 1983-1990 (905/907)", "years": "1983-1990", "img": "http://gbg-eshop.gr/images/efar/0656.jpg"},
+        {"id": "000.0000.0001", "label": "ALFA ROMEO ALFA 33 1990-1995 (905/907)", "years": "1990-1995", "img": "http://gbg-eshop.gr/images/efar/0658.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0001",
+      "group": "ALFA ROMEO ALFA 75",
+      "models": [
+        {"id": "000.0001.0000", "label": "ALFA ROMEO ALFA 75 1985-1992 (162)", "years": "1985-1992", "img": "http://gbg-eshop.gr/images/efar/0654.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0002",
+      "group": "ALFA ROMEO 145",
+      "models": [
+        {"id": "000.0002.0000", "label": "ALFA ROMEO 145 1994-1999 (930)", "years": "1994-1999", "img": "http://gbg-eshop.gr/images/efar/0664.jpg"},
+        {"id": "000.0002.0001", "label": "ALFA ROMEO 145 1999-2001 (930)", "years": "1999-2001", "img": "http://gbg-eshop.gr/images/efar/0176.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0003",
+      "group": "ALFA ROMEO 146",
+      "models": [
+        {"id": "000.0003.0000", "label": "ALFA ROMEO 146 1994-1999 (930)", "years": "1994-1999", "img": "http://gbg-eshop.gr/images/efar/0668.jpg"},
+        {"id": "000.0003.0001", "label": "ALFA ROMEO 146 1999-2001 (930)", "years": "1999-2001", "img": "http://gbg-eshop.gr/images/efar/0177.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0004",
+      "group": "ALFA ROMEO 147",
+      "models": [
+        {"id": "000.0004.0000", "label": "ALFA ROMEO 147 2000-2010 (937)", "years": "2000-2010", "img": "http://gbg-eshop.gr/images/efar/0194.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0005",
+      "group": "ALFA ROMEO 155",
+      "models": [
+        {"id": "000.0005.0000", "label": "ALFA ROMEO 155 1992-1997 (167)", "years": "1992-1997", "img": "http://gbg-eshop.gr/images/efar/0652.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0006",
+      "group": "ALFA ROMEO 156",
+      "models": [
+        {"id": "000.0006.0000", "label": "ALFA ROMEO 156 1997-2003 (932)", "years": "1997-2003", "img": "http://gbg-eshop.gr/images/efar/0644.jpg"},
+        {"id": "000.0006.0001", "label": "ALFA ROMEO 156 2003-2005 (932)", "years": "2003-2005", "img": "http://gbg-eshop.gr/images/efar/0344.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0007",
+      "group": "ALFA ROMEO 159",
+      "models": [
+        {"id": "000.0007.0000", "label": "ALFA ROMEO 159 2005-2011 (939)", "years": "2005-2011", "img": "http://gbg-eshop.gr/images/efar/0449.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0008",
+      "group": "ALFA ROMEO 164",
+      "models": [
+        {"id": "000.0008.0000", "label": "ALFA ROMEO 164 1987-1998 (164)", "years": "1987-1998", "img": "http://gbg-eshop.gr/images/efar/0662.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0009",
+      "group": "ALFA ROMEO 166",
+      "models": [
+        {"id": "000.0009.0000", "label": "ALFA ROMEO 166 1998-2007 (936)", "years": "1998-2007", "img": "http://gbg-eshop.gr/images/efar/0142.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0010",
+      "group": "ALFA ROMEO SPIDER",
+      "models": [
+        {"id": "000.0010.0000", "label": "ALFA ROMEO SPIDER/GTV 1994-2006 (916)", "years": "1994-2006", "img": "http://gbg-eshop.gr/images/efar/1009.jpg"},
+        {"id": "000.0010.0001", "label": "ALFA ROMEO SPIDER 2006-2011 (939)", "years": "2006-2011", "img": "http://gbg-eshop.gr/images/efar/0805.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0011",
+      "group": "ALFA ROMEO BRERA",
+      "models": [
+        {"id": "000.0011.0000", "label": "ALFA ROMEO BRERA 2006-2010 (939)", "years": "2006-2010", "img": "http://gbg-eshop.gr/images/efar/0341.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0012",
+      "group": "ALFA ROMEO GT",
+      "models": [
+        {"id": "000.0012.0000", "label": "ALFA ROMEO GT 2003-2010 (937)", "years": "2003-2010", "img": "http://gbg-eshop.gr/images/efar/0240.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0013",
+      "group": "ALFA ROMEO MITO",
+      "models": [
+        {"id": "000.0013.0000", "label": "ALFA ROMEO MITO 2008-2018 (955)", "years": "2008-2018", "img": "http://gbg-eshop.gr/images/efar/0976.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0014",
+      "group": "ALFA ROMEO GIULIETTA",
+      "models": [
+        {"id": "000.0014.0000", "label": "ALFA ROMEO GIULIETTA 2010-2020 (940)", "years": "2010-2020", "img": "http://gbg-eshop.gr/images/efar/1000.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0015",
+      "group": "ALFA ROMEO GIULIA",
+      "models": [
+        {"id": "000.0015.0000", "label": "ALFA ROMEO GIULIA 2015- (952)", "years": "2015-", "img": "http://gbg-eshop.gr/images/efar/1010.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0016",
+      "group": "ALFA ROMEO STELVIO",
+      "models": [
+        {"id": "000.0016.0000", "label": "ALFA ROMEO STELVIO 2016- (949)", "years": "2016-", "img": "http://gbg-eshop.gr/images/efar/1020.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0017",
+      "group": "ALFA ROMEO TONALE",
+      "models": [
+        {"id": "000.0017.0000", "label": "ALFA ROMEO TONALE 2022- (965)", "years": "2022-", "img": "http://gbg-eshop.gr/images/efar/1030.jpg"}
+      ]
+    },
+    {
+      "group_id": "000.0018",
+      "group": "ALFA ROMEO JUNIOR",
+      "models": [
+        {"id": "000.0018.0000", "label": "ALFA ROMEO JUNIOR 2024- (626/627)", "years": "2024-", "img": "http://gbg-eshop.gr/images/efar/1032.jpg"}
+      ]
+    }
+  ]
+}

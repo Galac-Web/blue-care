@@ -1,0 +1,38 @@
+[
+    {
+        "source": "shop_checkout",
+        "name": "Radu Galac",
+        "phone": "067277747",
+        "email": "galacradu1992@gmail.com",
+        "address": "27 August 32",
+        "note": "D",
+        "total": "430,45 lei",
+        "items": [
+            "AC Rolcar Mecanism actionare geam fata stanga, cu motor electric ALFA ROMEO ALFA ROMEO ALFA 33 AN FAB 1983 - 1990 Cod OE 60573687 / 01.0117 NOUA x1 — 430,45 lei (OEM 01.0117)"
+        ],
+        "p": "067277747",
+        "s": "comanda",
+        "t": "AC Rolcar Mecanism actionare geam fata stanga, cu motor electric ALFA ROMEO ALFA ROMEO ALFA 33 AN FAB 1983 - 1990 Cod OE 60573687 / 01.0117 NOUA x1 — 430,45 lei (OEM 01.0117)\nTotal: 430,45 lei",
+        "id": 1,
+        "created_at": "2026-06-23 16:56:28"
+    },
+    {
+        "source": "shop_checkout",
+        "name": "Galac Radu",
+        "phone": "067277747",
+        "email": "galacivan@tutamail.com",
+        "address": "27 August 32",
+        "note": "",
+        "total": "430,45 lei",
+        "items": [
+            "Radiator ALFA ROMEO ALFA ROMEO ALFA 33 AN FAB 1983 - 1990 Cod OE 60573687 / 82.641 NOUA x1 — 430,45 lei (OEM 82.641)"
+        ],
+        "order_id": "BC-20260623-417661",
+        "order_number": "BC-0002",
+        "p": "067277747",
+        "s": "comanda",
+        "t": "Radiator ALFA ROMEO ALFA ROMEO ALFA 33 AN FAB 1983 - 1990 Cod OE 60573687 / 82.641 NOUA x1 — 430,45 lei (OEM 82.641)\nTotal: 430,45 lei",
+        "id": 2,
+        "created_at": "2026-06-23 17:05:18"
+    }
+]

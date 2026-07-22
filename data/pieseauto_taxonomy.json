@@ -1,0 +1,5324 @@
+{
+  "version": 1,
+  "source": "pieseauto.ro taxonomy",
+  "fallbacks": {
+    "Accesorii auto": "Diverse accesorii auto",
+    "Accesorii roti": "Alte accesorii roti",
+    "Aprindere": "Alte piese aprindere",
+    "Cabluri auto": "Alte cabluri auto",
+    "Car audio": "Alte componente car audio",
+    "Caroserie": "Alte piese de caroserie",
+    "Climatizare": "Alte piese clima auto",
+    "Directie": "Alte piese directie",
+    "Electrica & Electronica Auto": "Alte piese Electrica & Electronica",
+    "Evacuare": "Alte piese evacuare",
+    "Faruri stopuri lumini": "Alte piese lumini auto",
+    "Filtre auto": "Alte filtre auto",
+    "Frane": "Alte elemente frana",
+    "Interioare auto": "Alte piese interior",
+    "Intretinere auto": "Alte produse intretinere",
+    "Piese Motoare": "Alte sonde",
+    "Pompe si injectoare": "Alte piese alimentare",
+    "Punte si rulmenti": "Alte piese tren rulare",
+    "Racire": "Alte piese racire",
+    "Scule auto": "Alte scule auto",
+    "Suspensie": "Alte piese suspensie",
+    "Transmisie": "Alte piese transmisie",
+    "Tuning": "Alte piese de tuning",
+    "Turbo": "Alte piese turbo",
+    "Ulei Auto": "Alte uleiuri auto",
+    "Xenon": "Alte elemente Xenon"
+  },
+  "entries": [
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Alarme auto",
+      "keywords": [
+        "alarme auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Aspirator auto",
+      "keywords": [
+        "aspirator auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Bare longitudinale",
+      "keywords": [
+        "bare longitudinale"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Bare portbagaj",
+      "keywords": [
+        "bare portbagaj"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Breloc",
+      "keywords": [
+        "breloc"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Cablu remorcare",
+      "keywords": [
+        "cablu remorcare"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Cabluri pornire",
+      "keywords": [
+        "cabluri pornire"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Camera marsarier",
+      "keywords": [
+        "camera marsarier",
+        "kamera cofania"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Camera video auto",
+      "keywords": [
+        "camera video auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Canistra",
+      "keywords": [
+        "canistra"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Car kit",
+      "keywords": [
+        "car kit"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Carcasa cheie",
+      "keywords": [
+        "carcasa cheie"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Carlig remorcare",
+      "keywords": [
+        "carlig remorcare"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Chei brute",
+      "keywords": [
+        "chei brute"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Compresor roti",
+      "keywords": [
+        "compresor roti"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Cui tractare",
+      "keywords": [
+        "cui tractare",
+        "hak holowniczy"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Cutie portbagaj auto",
+      "keywords": [
+        "cutie portbagaj auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Deflector capota",
+      "keywords": [
+        "deflector capota"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Detector radar",
+      "keywords": [
+        "detector radar"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Diverse accesorii auto",
+      "keywords": [
+        "akcesoria",
+        "diverse accesorii auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Husa volan",
+      "keywords": [
+        "husa volan",
+        "kierownica",
+        "pokrowiec na kierownice",
+        "steering wheel",
+        "volan",
+        "volan piele",
+        "volan sport"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Huse incalzite",
+      "keywords": [
+        "huse incalzite"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Huse scaune",
+      "keywords": [
+        "huse scaune",
+        "pokrowce na fotele"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Inchidere centralizata",
+      "keywords": [
+        "centralny zamek",
+        "inchidere centralizata"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Invertor",
+      "keywords": [
+        "invertor"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Lopata zapada",
+      "keywords": [
+        "lopata zapada"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Pachet legislativ",
+      "keywords": [
+        "pachet legislativ"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Paravanturi",
+      "keywords": [
+        "paravanturi"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Prelata auto",
+      "keywords": [
+        "plandeka",
+        "prelata auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Racleta",
+      "keywords": [
+        "racleta"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Redresor auto",
+      "keywords": [
+        "redresor auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Scaune copii",
+      "keywords": [
+        "scaune copii"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Senzori parcare",
+      "keywords": [
+        "czujnik parkowania",
+        "pdc",
+        "senzori parcare"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Snorkel",
+      "keywords": [
+        "snorkel"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Statii emisie receptie",
+      "keywords": [
+        "statii emisie receptie"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Stergatoare",
+      "keywords": [
+        "stergatoare",
+        "wycieraczka"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Stergatoare lamelare",
+      "keywords": [
+        "stergatoare lamelare"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Stingatoare auto",
+      "keywords": [
+        "stingatoare auto"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Suport bicicleta",
+      "keywords": [
+        "suport bicicleta"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Suport schiuri",
+      "keywords": [
+        "suport schiuri"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Trolii",
+      "keywords": [
+        "trolii"
+      ]
+    },
+    {
+      "main_category": "Accesorii auto",
+      "sub_category": "Trusa medicala",
+      "keywords": [
+        "trusa medicala"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Alte accesorii roti",
+      "keywords": [
+        "alte accesorii roti"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Antifurt roti",
+      "keywords": [
+        "antifurt roti"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Aparatori noroi",
+      "keywords": [
+        "aparatori noroi"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Capace centrale roata",
+      "keywords": [
+        "capace centrale roata"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Capace roti",
+      "keywords": [
+        "capace roti"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Capacele ventil",
+      "keywords": [
+        "capacele ventil"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Cric",
+      "keywords": [
+        "cric"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Distantiere",
+      "keywords": [
+        "distantiere"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Flanse",
+      "keywords": [
+        "flanse"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Huse antiderapante",
+      "keywords": [
+        "huse antiderapante"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Huse roti",
+      "keywords": [
+        "huse roti"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Inel centrare",
+      "keywords": [
+        "inel centrare"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Kit pana",
+      "keywords": [
+        "kit pana"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Kit roata de rezerva",
+      "keywords": [
+        "kit roata de rezerva"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Lanturi antiderapante",
+      "keywords": [
+        "lanturi antiderapante"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Piulite",
+      "keywords": [
+        "piulite"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Prezoane",
+      "keywords": [
+        "prezoane"
+      ]
+    },
+    {
+      "main_category": "Accesorii roti",
+      "sub_category": "Roata de rezerva",
+      "keywords": [
+        "roata de rezerva"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Alte piese aprindere",
+      "keywords": [
+        "alte piese aprindere"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Aprindere electronica",
+      "keywords": [
+        "aprindere electronica"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Bobina inductie",
+      "keywords": [
+        "bobina inductie",
+        "cewka zaplonowa"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Bujii",
+      "keywords": [
+        "bujie",
+        "bujii",
+        "swieca zaplonowa"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Bujii incandescente",
+      "keywords": [
+        "bujii incandescente"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Delcou",
+      "keywords": [
+        "delcou"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Fise bujii",
+      "keywords": [
+        "fise bujii"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Kit aprindere",
+      "keywords": [
+        "kit aprindere"
+      ]
+    },
+    {
+      "main_category": "Aprindere",
+      "sub_category": "Releu bujii",
+      "keywords": [
+        "releu bujii"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Alte cabluri auto",
+      "keywords": [
+        "alte cabluri auto"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu acceleratie",
+      "keywords": [
+        "cablu acceleratie"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu ambreiaj",
+      "keywords": [
+        "ambreiaj",
+        "cablu ambreiaj",
+        "clutch",
+        "kit ambreiaj",
+        "sprzęgło",
+        "volanta ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu deschidere capota",
+      "keywords": [
+        "cablu deschidere capota"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu deschidere usa",
+      "keywords": [
+        "cablu deschidere usa"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu frana",
+      "keywords": [
+        "cablu frana"
+      ]
+    },
+    {
+      "main_category": "Cabluri auto",
+      "sub_category": "Cablu kilometraj",
+      "keywords": [
+        "cablu kilometraj"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Accesorii montaj",
+      "keywords": [
+        "accesorii montaj"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Alte componente car audio",
+      "keywords": [
+        "alte componente car audio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Amplificator audio",
+      "keywords": [
+        "amplificator audio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Antena radio",
+      "keywords": [
+        "antena radio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Baterii deep cycle",
+      "keywords": [
+        "baterii deep cycle"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Boxe auto",
+      "keywords": [
+        "boxe auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Car PC",
+      "keywords": [
+        "car pc"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "CD player auto",
+      "keywords": [
+        "cd player auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Condensator audio",
+      "keywords": [
+        "condensator audio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Conectica auto",
+      "keywords": [
+        "conectica auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "DVD player",
+      "keywords": [
+        "dvd player"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Insonorizare",
+      "keywords": [
+        "insonorizare"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Interfata audio",
+      "keywords": [
+        "interfata audio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Magazie CD",
+      "keywords": [
+        "magazie cd"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Modulator FM",
+      "keywords": [
+        "modulator fm"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Monitoare LCD auto",
+      "keywords": [
+        "monitoare lcd auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "MP3 player auto",
+      "keywords": [
+        "mp3 player auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Pachete car audio",
+      "keywords": [
+        "pachete car audio"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Rama adaptoare",
+      "keywords": [
+        "rama adaptoare"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "Subwoofer auto",
+      "keywords": [
+        "subwoofer auto"
+      ]
+    },
+    {
+      "main_category": "Car audio",
+      "sub_category": "TV tuner auto",
+      "keywords": [
+        "tv tuner auto"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Alte piese de caroserie",
+      "keywords": [
+        "alte piese de caroserie",
+        "cwiartka",
+        "element caroserie",
+        "karoseria",
+        "nadwozie"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Amortizoare capota",
+      "keywords": [
+        "amortizoare capota"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Amortizoare haion",
+      "keywords": [
+        "amortizoare haion"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Aripa fata",
+      "keywords": [
+        "aripa fata",
+        "blotnik",
+        "blotnik przedni",
+        "błotnik",
+        "fender"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Aripa spate",
+      "keywords": [
+        "aripa spate",
+        "blotnik tylny"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Armatura bara fata",
+      "keywords": [
+        "armatura bara fata",
+        "belka zderzaka"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Armatura bara spate",
+      "keywords": [
+        "armatura bara spate"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Balamale",
+      "keywords": [
+        "balamale",
+        "zawias"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Bandouri",
+      "keywords": [
+        "bandouri",
+        "carbon",
+        "listwa",
+        "listwy",
+        "ornament"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Bara fata",
+      "keywords": [
+        "bara fata",
+        "bumper front",
+        "kompletny przod",
+        "przedni zderzak",
+        "zderzak przedni"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Bara spate",
+      "keywords": [
+        "bara spate",
+        "tylny zderzak",
+        "zderzak tylny"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Brat oglinda",
+      "keywords": [
+        "brat oglinda"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Brat stergator",
+      "keywords": [
+        "brat stergator"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Broasca capota",
+      "keywords": [
+        "broasca capota"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Broasca haion",
+      "keywords": [
+        "broasca haion"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Broasca portbagaj",
+      "keywords": [
+        "broasca portbagaj"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Broasca usa",
+      "keywords": [
+        "broasca usa",
+        "zamek drzwi"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Bullbar",
+      "keywords": [
+        "bullbar"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Buson rezervor",
+      "keywords": [
+        "buson rezervor"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Buson vas lichid parbriz",
+      "keywords": [
+        "buson vas lichid parbriz"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Butuc capota",
+      "keywords": [
+        "butuc capota"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Butuc haion",
+      "keywords": [
+        "butuc haion"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Butuc portbagaj",
+      "keywords": [
+        "butuc portbagaj"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Butuc usa",
+      "keywords": [
+        "butuc usa"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Cadru motor",
+      "keywords": [
+        "cadru motor"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Capac bara",
+      "keywords": [
+        "capac bara"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Capac oglinda",
+      "keywords": [
+        "capac oglinda"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Capac spalator faruri",
+      "keywords": [
+        "capac spalator faruri",
+        "far",
+        "far dreapta",
+        "far full led",
+        "far laser",
+        "far matrix",
+        "far stanga",
+        "halogen",
+        "headlight",
+        "led",
+        "reflektor",
+        "xenon"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Capota",
+      "keywords": [
+        "bonnet",
+        "capota",
+        "maska",
+        "pokrywa silnika"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Capota portbagaj",
+      "keywords": [
+        "capota portbagaj",
+        "klapa",
+        "klapa bagaznika"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Carcasa baterie auto",
+      "keywords": [
+        "carcasa baterie auto",
+        "obudowa akumulatora"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Carenaj roata",
+      "keywords": [
+        "carenaj roata",
+        "nadkole"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Catadioptru",
+      "keywords": [
+        "catadioptru",
+        "odblask"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Chedere",
+      "keywords": [
+        "broasca",
+        "chedere",
+        "zamek"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Clipsuri auto",
+      "keywords": [
+        "clip",
+        "clipsuri auto",
+        "klips"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Difuzor bara fata",
+      "keywords": [
+        "difuzor bara fata",
+        "dyfuzor"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Difuzor bara spate",
+      "keywords": [
+        "difuzor bara spate"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Duza spalare parbriz",
+      "keywords": [
+        "duza spalare parbriz"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Emblema",
+      "keywords": [
+        "emblem",
+        "emblema",
+        "znak"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Fata completa",
+      "keywords": [
+        "fata completa"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Flaps bara",
+      "keywords": [
+        "flaps bara",
+        "flapsy"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Geamuri",
+      "keywords": [
+        "geam",
+        "geamuri",
+        "szyba"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Grila",
+      "keywords": [
+        "atrapa",
+        "grila",
+        "grila centrala",
+        "grila radiator",
+        "grilaj",
+        "grill"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Grila bara",
+      "keywords": [
+        "grila bara"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Grila proiector",
+      "keywords": [
+        "grila proiector"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Grila radiator",
+      "keywords": [
+        "atrapa chlodnicy",
+        "chlodnica",
+        "grila radiator",
+        "kratka"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Grila stergatoare",
+      "keywords": [
+        "grila stergatoare"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Haion",
+      "keywords": [
+        "capac portbagaj",
+        "haion",
+        "klapa bagażnika",
+        "portbagaj",
+        "tailgate"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Hardtop",
+      "keywords": [
+        "dach twardy",
+        "hardtop"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Kit reparatie macara",
+      "keywords": [
+        "kit reparatie macara"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Luneta",
+      "keywords": [
+        "geam spate",
+        "luneta",
+        "szyba tylna"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Maner deschidere capota",
+      "keywords": [
+        "maner deschidere capota"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Maner haion",
+      "keywords": [
+        "maner haion"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Maner portbagaj",
+      "keywords": [
+        "maner portbagaj"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Maner usa",
+      "keywords": [
+        "klamka",
+        "maner usa"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Oglinzi complete",
+      "keywords": [
+        "lusterko",
+        "oglinda",
+        "oglinzi complete"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Opritor usa",
+      "keywords": [
+        "opritor usa"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Ornament far",
+      "keywords": [
+        "ornament far"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Panou despartitor",
+      "keywords": [
+        "panou despartitor"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Parbriz",
+      "keywords": [
+        "parbriz",
+        "parbriz incalzit",
+        "szyba przednia",
+        "windshield"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Perie geam",
+      "keywords": [
+        "perie geam"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Praguri",
+      "keywords": [
+        "prag",
+        "prag lateral",
+        "praguri",
+        "progi",
+        "próg",
+        "sill"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Rola usa culisanta",
+      "keywords": [
+        "rola usa culisanta"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Scut cutie de viteze",
+      "keywords": [
+        "scut cutie de viteze"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Scut motor metalic",
+      "keywords": [
+        "osłona silnika",
+        "scut motor",
+        "scut motor metalic"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Scut Motor Plastic",
+      "keywords": [
+        "scut motor plastic"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Scut sub bara",
+      "keywords": [
+        "scut sub bara"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Spalator faruri",
+      "keywords": [
+        "spalator faruri"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Spoilere",
+      "keywords": [
+        "eleron",
+        "spoiler",
+        "spoilere",
+        "spojler"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Sticla oglinda",
+      "keywords": [
+        "sticla oglinda"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Suport baterie auto",
+      "keywords": [
+        "suport baterie auto"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Suport far",
+      "keywords": [
+        "suport far"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Suport numar inmatriculare",
+      "keywords": [
+        "suport numar inmatriculare"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Suporti prindere bara",
+      "keywords": [
+        "suporti prindere bara"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Trager",
+      "keywords": [
+        "trager"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Trapa",
+      "keywords": [
+        "szyberdach",
+        "trapa"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Usa culisanta",
+      "keywords": [
+        "usa culisanta"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Usa fata",
+      "keywords": [
+        "drzwi przednie",
+        "usa fata"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Usa spate",
+      "keywords": [
+        "drzwi tylne",
+        "usa spate"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Usita rezervor",
+      "keywords": [
+        "usita rezervor"
+      ]
+    },
+    {
+      "main_category": "Caroserie",
+      "sub_category": "Vas lichid parbriz",
+      "keywords": [
+        "vas lichid parbriz"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Aer conditionat auto",
+      "keywords": [
+        "aer conditionat auto"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Aeroterma",
+      "keywords": [
+        "aeroterma"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Alte piese clima auto",
+      "keywords": [
+        "alte piese clima auto",
+        "clima",
+        "klimatyzacja"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Ambreiaj compresor AC",
+      "keywords": [
+        "ambreiaj compresor ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Bobina compresor AC",
+      "keywords": [
+        "bobina compresor ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Calorifer",
+      "keywords": [
+        "calorifer"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Climatronic",
+      "keywords": [
+        "climatronic"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Compresor AC",
+      "keywords": [
+        "ac compressor",
+        "aer conditionat",
+        "compresor ac",
+        "compresor clima",
+        "kompresor klimatyzacji",
+        "sprężarka klimatyzacji"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Conducte AC",
+      "keywords": [
+        "conducte ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Electroventilator clima AC",
+      "keywords": [
+        "electroventilator clima ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Fulie compresor AC",
+      "keywords": [
+        "fulie compresor ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Motoras clapeta aeroterma",
+      "keywords": [
+        "motoras clapeta aeroterma"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Panou comanda AC clima",
+      "keywords": [
+        "panou comanda ac clima"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Radiator clima AC",
+      "keywords": [
+        "radiator clima ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Senzor presiune AC",
+      "keywords": [
+        "senzor presiune ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Supapa expansiune clima",
+      "keywords": [
+        "supapa expansiune clima"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Uscator AC",
+      "keywords": [
+        "uscator ac"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Vaporizator",
+      "keywords": [
+        "vaporizator"
+      ]
+    },
+    {
+      "main_category": "Climatizare",
+      "sub_category": "Webasto",
+      "keywords": [
+        "webasto"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Alte piese directie",
+      "keywords": [
+        "alte piese directie",
+        "directie",
+        "kierownica"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bara directie",
+      "keywords": [
+        "bara directie"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bieleta antiruliu",
+      "keywords": [
+        "bieleta antiruliu"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bieleta directie",
+      "keywords": [
+        "bieleta",
+        "bieleta directie",
+        "drążek kierowniczy"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Blocaj volan",
+      "keywords": [
+        "blocaj volan"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Brate si bascule",
+      "keywords": [
+        "brate si bascule"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bucsa bara stabilizatoare",
+      "keywords": [
+        "bucsa bara stabilizatoare"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bucsa bascula",
+      "keywords": [
+        "bucsa bascula"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Bucse",
+      "keywords": [
+        "bucse"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Burduf caseta directie",
+      "keywords": [
+        "burduf caseta directie"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Cap de bara",
+      "keywords": [
+        "cap de bara"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Caseta directie",
+      "keywords": [
+        "caseta directie",
+        "cremaliera",
+        "przekladnia kierownicza"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Coloana directie",
+      "keywords": [
+        "coloana directie"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Conducte servodirectie",
+      "keywords": [
+        "conducte servodirectie"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Fuzeta",
+      "keywords": [
+        "fuzeta",
+        "fuzeta fata",
+        "fuzeta spate",
+        "knuckle",
+        "pivot",
+        "zwrotnica"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Kit mutare volan",
+      "keywords": [
+        "kit mutare volan"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Pivot",
+      "keywords": [
+        "pivot"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Pompa servodirectie",
+      "keywords": [
+        "pompa servodirectie",
+        "pompa wspomagania"
+      ]
+    },
+    {
+      "main_category": "Directie",
+      "sub_category": "Vas lichid servodirectie",
+      "keywords": [
+        "vas lichid servodirectie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Actuator inchidere centralizata",
+      "keywords": [
+        "actuator inchidere centralizata"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Acumulatori auto",
+      "keywords": [
+        "acumulatori auto"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Alte piese Electrica & Electronica",
+      "keywords": [
+        "alte piese electrica & electronica",
+        "elektryka",
+        "modul"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Alternator",
+      "keywords": [
+        "alternator",
+        "generator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Ansamblu stergatoare",
+      "keywords": [
+        "ansamblu stergatoare",
+        "stergatoare",
+        "wycieraczki"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Bendix electromotor",
+      "keywords": [
+        "bendix electromotor"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Bloc lumini",
+      "keywords": [
+        "bloc lumini"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Bobina electromotor",
+      "keywords": [
+        "bobina electromotor"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Borne baterie",
+      "keywords": [
+        "borne baterie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Cablaj carlig",
+      "keywords": [
+        "cablaj carlig"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator ABS",
+      "keywords": [
+        "calculator abs"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator airbag",
+      "keywords": [
+        "calculator airbag"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator clima",
+      "keywords": [
+        "calculator clima"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator confort",
+      "keywords": [
+        "calculator confort"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator cutie automata",
+      "keywords": [
+        "calculator cutie",
+        "calculator cutie automata",
+        "mechatronic",
+        "modul cutie",
+        "sterownik skrzyni",
+        "tcu"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator ECU",
+      "keywords": [
+        "calculator ecu",
+        "ecu",
+        "modul",
+        "sterownik"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator ESP",
+      "keywords": [
+        "calculator esp"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator frana mana",
+      "keywords": [
+        "calculator frana mana"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator injectie",
+      "keywords": [
+        "calculator injectie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator lumini",
+      "keywords": [
+        "calculator lumini"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Calculator parcare",
+      "keywords": [
+        "calculator parcare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Claxon",
+      "keywords": [
+        "claxon"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Comutator pedala ambreiaj",
+      "keywords": [
+        "comutator pedala ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Contact auto",
+      "keywords": [
+        "contact auto"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Debitmetru",
+      "keywords": [
+        "debitmetru"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Diode alternator",
+      "keywords": [
+        "diode alternator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Electromotor",
+      "keywords": [
+        "electromotor",
+        "rozrusznik",
+        "starter"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Imobilizator",
+      "keywords": [
+        "imobilizator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Instalatie electrica",
+      "keywords": [
+        "instalatie electrica"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Interfete diagnoza",
+      "keywords": [
+        "interfete diagnoza"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Kit impamantare",
+      "keywords": [
+        "kit impamantare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Kit pornire",
+      "keywords": [
+        "kit pornire"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Macara geam electric",
+      "keywords": [
+        "macara geam electric",
+        "mechanizm szyby",
+        "podnosnik szyby",
+        "window regulator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Maneta semnalizare",
+      "keywords": [
+        "maneta semnalizare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Maneta stergatoare",
+      "keywords": [
+        "maneta stergatoare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Maneta tempomat",
+      "keywords": [
+        "maneta tempomat"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Modul inchidere centralizata",
+      "keywords": [
+        "modul inchidere centralizata"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Motoras deschidere portbagaj",
+      "keywords": [
+        "motoras deschidere portbagaj"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Motoras macara geam",
+      "keywords": [
+        "motoras macara geam"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Motoras stergatoare",
+      "keywords": [
+        "motoras stergatoare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Panou sigurante",
+      "keywords": [
+        "panou sigurante"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Pedala acceleratie",
+      "keywords": [
+        "pedala acceleratie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Perii alternator",
+      "keywords": [
+        "perii alternator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Perii electromotor",
+      "keywords": [
+        "perii electromotor"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Pompita lichid parbriz",
+      "keywords": [
+        "pompita lichid parbriz"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Priza carlig",
+      "keywords": [
+        "priza carlig"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Relee",
+      "keywords": [
+        "relee"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Releu alternator",
+      "keywords": [
+        "releu alternator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Releu pompa combustibil",
+      "keywords": [
+        "releu pompa combustibil"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Releu semnalizare",
+      "keywords": [
+        "releu semnalizare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Releu ventilator",
+      "keywords": [
+        "releu ventilator"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Rezistenta aeroterma",
+      "keywords": [
+        "rezistenta aeroterma"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor ax came",
+      "keywords": [
+        "senzor ax came"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor batai",
+      "keywords": [
+        "senzor batai"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor ESP",
+      "keywords": [
+        "senzor esp"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor kilometraj",
+      "keywords": [
+        "senzor kilometraj"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor MAP",
+      "keywords": [
+        "senzor map"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor nivel ulei",
+      "keywords": [
+        "senzor nivel ulei"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor NOx",
+      "keywords": [
+        "senzor nox"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor pozitie clapeta acceleratie",
+      "keywords": [
+        "senzor pozitie clapeta acceleratie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor presiune combustibil",
+      "keywords": [
+        "senzor presiune combustibil"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor presiune gaze evacuare",
+      "keywords": [
+        "senzor presiune gaze evacuare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor temperatura aer admisie",
+      "keywords": [
+        "senzor temperatura aer admisie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor temperatura exterioara",
+      "keywords": [
+        "senzor temperatura exterioara"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor temperatura gaze evacuare",
+      "keywords": [
+        "senzor temperatura gaze evacuare"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor temperatura interioara",
+      "keywords": [
+        "senzor temperatura interioara"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor temperatura ulei",
+      "keywords": [
+        "senzor temperatura ulei"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor vibrochen",
+      "keywords": [
+        "senzor vibrochen"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzor viteza",
+      "keywords": [
+        "senzor viteza"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzori auto",
+      "keywords": [
+        "senzori auto"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzori lumina",
+      "keywords": [
+        "senzori lumina"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzori motor",
+      "keywords": [
+        "senzori motor"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzori ploaie",
+      "keywords": [
+        "senzori ploaie"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Senzori presiune roti",
+      "keywords": [
+        "senzori presiune roti"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Sigurante",
+      "keywords": [
+        "sigurante"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Sonda marsarier",
+      "keywords": [
+        "sonda marsarier"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Spirala airbag",
+      "keywords": [
+        "spirala airbag"
+      ]
+    },
+    {
+      "main_category": "Electrica & Electronica Auto",
+      "sub_category": "Switch frana",
+      "keywords": [
+        "switch frana"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Alte piese evacuare",
+      "keywords": [
+        "alte piese evacuare",
+        "esapament",
+        "uklad wydechowy"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Catalizator auto",
+      "keywords": [
+        "catalizator auto"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Colier esapament",
+      "keywords": [
+        "colier esapament"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Conector teava esapament",
+      "keywords": [
+        "conector teava esapament"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Filtru de particule",
+      "keywords": [
+        "dpf",
+        "fap",
+        "filtru de particule"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Galerie evacuare",
+      "keywords": [
+        "colector evacuare",
+        "exhaust manifold",
+        "galerie evacuare",
+        "kolektor wydechowy"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Garnitura evacuare",
+      "keywords": [
+        "garnitura evacuare"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Ornament toba",
+      "keywords": [
+        "ornament toba"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Racord flexibil",
+      "keywords": [
+        "racord flexibil"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Tampon esapament",
+      "keywords": [
+        "tampon esapament"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Teava esapament",
+      "keywords": [
+        "teava esapament"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Toba esapament",
+      "keywords": [
+        "tlumik",
+        "toba esapament",
+        "wydech"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Toba intermediara",
+      "keywords": [
+        "toba intermediara"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Toba sport",
+      "keywords": [
+        "toba sport"
+      ]
+    },
+    {
+      "main_category": "Evacuare",
+      "sub_category": "Traseu complet evacuare",
+      "keywords": [
+        "traseu complet evacuare"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Alte piese lumini auto",
+      "keywords": [
+        "alte piese lumini auto",
+        "lampa",
+        "swiatlo"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Angel eyes",
+      "keywords": [
+        "angel eyes"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Becuri",
+      "keywords": [
+        "becuri"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Becuri led",
+      "keywords": [
+        "becuri led"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Faruri",
+      "keywords": [
+        "faruri",
+        "headlight",
+        "lampa przednia",
+        "reflektor"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Lampi numar",
+      "keywords": [
+        "lampi numar"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Leduri",
+      "keywords": [
+        "leduri"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Lucas",
+      "keywords": [
+        "lucas"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Lumini de zi",
+      "keywords": [
+        "lumini de zi"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Lumini interior",
+      "keywords": [
+        "lumini interior"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Motoras far",
+      "keywords": [
+        "motoras far"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Proiectoare auto",
+      "keywords": [
+        "proiectoare auto"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Semnalizare oglinda",
+      "keywords": [
+        "semnalizare oglinda"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Semnalizatoare",
+      "keywords": [
+        "semnalizatoare"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Sticla far",
+      "keywords": [
+        "sticla far"
+      ]
+    },
+    {
+      "main_category": "Faruri stopuri lumini",
+      "sub_category": "Stopuri",
+      "keywords": [
+        "lampa",
+        "lampa tylna",
+        "stop",
+        "stopuri"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Alte filtre auto",
+      "keywords": [
+        "alte filtre auto"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Canistra carbon",
+      "keywords": [
+        "canistra carbon"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Carcasa filtru aer",
+      "keywords": [
+        "carcasa filtru aer"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Carcasa filtru motorina",
+      "keywords": [
+        "carcasa filtru motorina"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru aer",
+      "keywords": [
+        "filtr powietrza",
+        "filtru aer"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru benzina",
+      "keywords": [
+        "filtru benzina"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru combustibil",
+      "keywords": [
+        "filtru combustibil"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru cutie automata",
+      "keywords": [
+        "filtru cutie automata"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru epurator",
+      "keywords": [
+        "filtru epurator"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru motorina",
+      "keywords": [
+        "filtru motorina"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru polen",
+      "keywords": [
+        "filtr kabinowy",
+        "filtru polen"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Filtru ulei",
+      "keywords": [
+        "filtr oleju",
+        "filtru ulei"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Kit admisie",
+      "keywords": [
+        "kit admisie"
+      ]
+    },
+    {
+      "main_category": "Filtre auto",
+      "sub_category": "Tubulatura admisie",
+      "keywords": [
+        "tubulatura admisie"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Alte elemente frana",
+      "keywords": [
+        "alte elemente frana",
+        "frane",
+        "hamulce"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Arc etrier",
+      "keywords": [
+        "arc etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Cilindru frana",
+      "keywords": [
+        "cilindru frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Conducte frana",
+      "keywords": [
+        "conducte frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Discuri frana",
+      "keywords": [
+        "disc frana",
+        "discuri frana",
+        "tarcza",
+        "tarcze"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Etriere",
+      "keywords": [
+        "caliper",
+        "etrier",
+        "etriere",
+        "zacisk",
+        "zaciski"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Furtun frana",
+      "keywords": [
+        "furtun frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Inel senzor ABS",
+      "keywords": [
+        "inel senzor abs"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Kit frane",
+      "keywords": [
+        "kit frane"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Lichid frana",
+      "keywords": [
+        "lichid frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Motoras etrier",
+      "keywords": [
+        "motoras etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Piston etrier",
+      "keywords": [
+        "piston etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Pistonas frana",
+      "keywords": [
+        "pistonas frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Placute frana",
+      "keywords": [
+        "klocki",
+        "placute",
+        "placute frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Pompa ABS",
+      "keywords": [
+        "pompa abs"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Pompa centrala frana",
+      "keywords": [
+        "pompa centrala frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Pompa servofrana",
+      "keywords": [
+        "pompa servofrana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Protectie disc frana",
+      "keywords": [
+        "protectie disc frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Repartitor frana",
+      "keywords": [
+        "repartitor frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Saboti frana",
+      "keywords": [
+        "saboti frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Senzori ABS",
+      "keywords": [
+        "senzori abs"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Senzori uzura placute",
+      "keywords": [
+        "senzori uzura placute"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Set bucse ghidaj etrier",
+      "keywords": [
+        "set bucse ghidaj etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Set reparatie etrier",
+      "keywords": [
+        "set reparatie etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Suport etrier",
+      "keywords": [
+        "suport etrier"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Tamburi frana",
+      "keywords": [
+        "tamburi frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Tulumba frana",
+      "keywords": [
+        "tulumba frana"
+      ]
+    },
+    {
+      "main_category": "Frane",
+      "sub_category": "Vas lichid frana",
+      "keywords": [
+        "vas lichid frana"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Airbag",
+      "keywords": [
+        "airbag",
+        "airbag cortina",
+        "airbag lateral",
+        "airbag pasager",
+        "airbag volan",
+        "kit airbag",
+        "poduszka",
+        "poduszka powietrzna"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Alte butoane",
+      "keywords": [
+        "alte butoane"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Alte piese interior",
+      "keywords": [
+        "alte piese interior"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Bancheta",
+      "keywords": [
+        "bancheta",
+        "kanapa"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Bricheta",
+      "keywords": [
+        "bricheta"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Butoane geamuri electrice",
+      "keywords": [
+        "butoane geamuri electrice"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Buton avarie",
+      "keywords": [
+        "buton avarie"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Buton frana de mana",
+      "keywords": [
+        "buton frana de mana"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Buton reglaj faruri",
+      "keywords": [
+        "buton reglaj faruri"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Buton reglaj oglinzi",
+      "keywords": [
+        "buton reglaj oglinzi"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Buton Start Stop",
+      "keywords": [
+        "buton start stop"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Capac airbag",
+      "keywords": [
+        "capac airbag"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Ceasuri bord",
+      "keywords": [
+        "ceasuri bord",
+        "instrument cluster",
+        "zegary"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Centuri siguranta",
+      "keywords": [
+        "centura",
+        "centuri siguranta",
+        "pasy"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Comenzi volan",
+      "keywords": [
+        "comenzi volan"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Consola centrala",
+      "keywords": [
+        "consola centrala",
+        "konsola srodkowa"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Cotiera auto",
+      "keywords": [
+        "cotiera auto",
+        "podlokietnik"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Covorase",
+      "keywords": [
+        "covorase",
+        "dywaniki",
+        "mocheta podea"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Display",
+      "keywords": [
+        "comand",
+        "display",
+        "ecran",
+        "ekran",
+        "head unit",
+        "idrive",
+        "mmi",
+        "multimedia",
+        "navi",
+        "navigatie"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Fete usi",
+      "keywords": [
+        "fete usi",
+        "tapiterie",
+        "wykladzina drzwi"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Guri ventilatie",
+      "keywords": [
+        "guri ventilatie"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Interior complet",
+      "keywords": [
+        "interior complet"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Maner frana mana",
+      "keywords": [
+        "maner frana mana"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Maner plafon",
+      "keywords": [
+        "maner plafon"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Manere usi interior",
+      "keywords": [
+        "klamka wewnetrzna",
+        "manere usi interior"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Manson schimbator",
+      "keywords": [
+        "manson schimbator"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Mocheta podea interior",
+      "keywords": [
+        "mocheta podea interior",
+        "wykladzina podlogowa"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Mocheta portbagaj",
+      "keywords": [
+        "mocheta portbagaj",
+        "wykladzina bagaznika"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Mochete",
+      "keywords": [
+        "mochete"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Nuca schimbator",
+      "keywords": [
+        "gałka zmiany biegów",
+        "nuca schimbator"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Oglinda retrovizoare",
+      "keywords": [
+        "lusterko",
+        "mirror",
+        "oglinda retrovizoare"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Ornamente",
+      "keywords": [
+        "ornamente"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Parasolar",
+      "keywords": [
+        "osłona przeciwsłoneczna",
+        "parasolar"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Pedale",
+      "keywords": [
+        "pedale",
+        "pedaly"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Plafon",
+      "keywords": [
+        "acoperis",
+        "dach",
+        "headliner",
+        "pavilion",
+        "plafon",
+        "podsufitka",
+        "roof"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Plafoniera",
+      "keywords": [
+        "plafoniera"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Plansa bord",
+      "keywords": [
+        "bord",
+        "dashboard",
+        "deska rozdzielcza",
+        "konsola",
+        "plansa bord",
+        "plansza",
+        "tablica rozdzielcza",
+        "torpedo"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Polita portbagaj",
+      "keywords": [
+        "polita portbagaj"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Rulou portbagaj",
+      "keywords": [
+        "rulou portbagaj"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Scaune auto",
+      "keywords": [
+        "boczki",
+        "fotel",
+        "fotele",
+        "kanapa",
+        "scaun",
+        "scaune auto"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Scrumiera",
+      "keywords": [
+        "scrumiera"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Suport pahare",
+      "keywords": [
+        "suport pahare"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Tavita portbagaj",
+      "keywords": [
+        "tavita portbagaj"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Tetiere",
+      "keywords": [
+        "tetiere",
+        "zagłówek"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Torpedou",
+      "keywords": [
+        "kokpit",
+        "torpedou"
+      ]
+    },
+    {
+      "main_category": "Interioare auto",
+      "sub_category": "Volane",
+      "keywords": [
+        "kierownica",
+        "volan",
+        "volane"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Alte produse intretinere",
+      "keywords": [
+        "alte produse intretinere"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Bureti auto",
+      "keywords": [
+        "bureti auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Ceara auto",
+      "keywords": [
+        "ceara auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Cosmetice auto",
+      "keywords": [
+        "cosmetice auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Detergenti auto",
+      "keywords": [
+        "detergenti auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Lavete",
+      "keywords": [
+        "lavete"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Lichid parbriz",
+      "keywords": [
+        "lichid parbriz"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Odorizante auto",
+      "keywords": [
+        "odorizante auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Pasta curatat maini",
+      "keywords": [
+        "pasta curatat maini"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Polish auto",
+      "keywords": [
+        "polish auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Silicon auto",
+      "keywords": [
+        "silicon auto"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Silicon garnituri",
+      "keywords": [
+        "silicon garnituri"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Spray curatat tapiterie",
+      "keywords": [
+        "spray curatat tapiterie"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Spray degripant",
+      "keywords": [
+        "spray degripant"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Spray dezghetare",
+      "keywords": [
+        "spray dezghetare"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Spray frane",
+      "keywords": [
+        "spray frane"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Spray vopsea",
+      "keywords": [
+        "spray vopsea"
+      ]
+    },
+    {
+      "main_category": "Intretinere auto",
+      "sub_category": "Vaselina",
+      "keywords": [
+        "vaselina"
+      ]
+    },
+    {
+      "main_category": "Jante & Anvelope",
+      "sub_category": "Anvelope",
+      "keywords": [
+        "anvelope",
+        "cauciucuri",
+        "koła komplet",
+        "opony",
+        "set jante",
+        "set roti"
+      ]
+    },
+    {
+      "main_category": "Jante & Anvelope",
+      "sub_category": "Jante",
+      "keywords": [
+        "jante"
+      ]
+    },
+    {
+      "main_category": "Navigatie GPS",
+      "sub_category": "GPS auto",
+      "keywords": [
+        "gps auto"
+      ]
+    },
+    {
+      "main_category": "Navigatie GPS",
+      "sub_category": "Harti GPS CD DVD",
+      "keywords": [
+        "harti gps cd dvd"
+      ]
+    },
+    {
+      "main_category": "Navigatie GPS",
+      "sub_category": "Navigatie auto",
+      "keywords": [
+        "navigatie auto"
+      ]
+    },
+    {
+      "main_category": "Navigatie GPS",
+      "sub_category": "Navigatie dedicata",
+      "keywords": [
+        "navigatie dedicata"
+      ]
+    },
+    {
+      "main_category": "Navigatie GPS",
+      "sub_category": "Navigatie originala",
+      "keywords": [
+        "navigatie originala"
+      ]
+    },
+    {
+      "main_category": "Pachete revizie",
+      "sub_category": "Pachet revizie",
+      "keywords": [
+        "pachet revizie"
+      ]
+    },
+    {
+      "main_category": "Pachete revizie",
+      "sub_category": "Pachet revizie cutie automata",
+      "keywords": [
+        "pachet revizie cutie automata"
+      ]
+    },
+    {
+      "main_category": "Piese moto",
+      "sub_category": "Accesorii moto",
+      "keywords": [
+        "accesorii moto"
+      ]
+    },
+    {
+      "main_category": "Piese moto",
+      "sub_category": "Piese ATV",
+      "keywords": [
+        "piese atv"
+      ]
+    },
+    {
+      "main_category": "Piese moto",
+      "sub_category": "Piese motociclete",
+      "keywords": [
+        "piese motociclete"
+      ]
+    },
+    {
+      "main_category": "Piese moto",
+      "sub_category": "Piese scutere",
+      "keywords": [
+        "piese scutere"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Alte fulii",
+      "keywords": [
+        "alte fulii"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Alte piese motor",
+      "keywords": [
+        "alte piese motor",
+        "motor",
+        "silnik"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Alte pompe",
+      "keywords": [
+        "alte pompe"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Alte sonde",
+      "keywords": [
+        "alte sonde"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Axe came",
+      "keywords": [
+        "axe came"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Baie ulei",
+      "keywords": [
+        "baie ulei",
+        "carter ulei",
+        "misa olejowa",
+        "oil pan"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Biela",
+      "keywords": [
+        "biela",
+        "connecting rod",
+        "korbowod"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Bloc motor",
+      "keywords": [
+        "bloc motor",
+        "blok silnika",
+        "engine block"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Buson umplere ulei",
+      "keywords": [
+        "buson umplere ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Capac carcasa filtru ulei",
+      "keywords": [
+        "capac carcasa filtru ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Capac chiulasa",
+      "keywords": [
+        "capac chiulasa"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Capac distributie",
+      "keywords": [
+        "capac distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Capac motor",
+      "keywords": [
+        "capac motor"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Carcasa filtru ulei",
+      "keywords": [
+        "carcasa filtru ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Chiulasa",
+      "keywords": [
+        "chiulasa",
+        "cylinder head",
+        "glowica"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Clapeta acceleratie",
+      "keywords": [
+        "clapeta acceleratie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Conducta EGR",
+      "keywords": [
+        "conducta egr"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Conducte ulei",
+      "keywords": [
+        "conducte ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Curea accesorii",
+      "keywords": [
+        "curea accesorii"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Curea distributie",
+      "keywords": [
+        "curea distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Cuzineti",
+      "keywords": [
+        "bearing shell",
+        "cuzineti",
+        "panewka"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "EGR",
+      "keywords": [
+        "egr",
+        "recirculare gaze",
+        "supapa egr"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Electrovalva",
+      "keywords": [
+        "electrovalva"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Fulie alternator",
+      "keywords": [
+        "fulie alternator"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Fulie ax came",
+      "keywords": [
+        "fulie ax came"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Fulie pompa apa",
+      "keywords": [
+        "fulie pompa apa"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Fulie pompa servo",
+      "keywords": [
+        "fulie pompa servo"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Fulie vibrochen",
+      "keywords": [
+        "fulie",
+        "fulie vibrochen",
+        "koło pasowe"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Furtun admisie",
+      "keywords": [
+        "furtun admisie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Furtun EGR",
+      "keywords": [
+        "furtun egr"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Furtun vacuum",
+      "keywords": [
+        "furtun vacuum"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Galerie admisie",
+      "keywords": [
+        "colector admisie",
+        "galerie admisie",
+        "intake manifold",
+        "kolektor ssący"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Garnitura chiulasa",
+      "keywords": [
+        "garnitura chiulasa"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Garnituri",
+      "keywords": [
+        "garnituri"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Ghidaj lant distributie",
+      "keywords": [
+        "ghidaj lant distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Intinzator lant distributie",
+      "keywords": [
+        "intinzator lant distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Joja ulei",
+      "keywords": [
+        "joja ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Kit distributie",
+      "keywords": [
+        "distributie",
+        "kit distributie",
+        "rozrzad"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Kit lant distributie",
+      "keywords": [
+        "kit lant distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Lant distributie",
+      "keywords": [
+        "lant distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Litrometru",
+      "keywords": [
+        "litrometru"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Motor complet",
+      "keywords": [
+        "bloc motor complet",
+        "engine complete",
+        "motor complet",
+        "silnik kompletny"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Motoras pas cu pas",
+      "keywords": [
+        "motoras pas cu pas"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Oil catch tank",
+      "keywords": [
+        "oil catch tank"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pistoane",
+      "keywords": [
+        "pistoane",
+        "piston",
+        "tlok"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pompa aer secundara",
+      "keywords": [
+        "pompa aer secundara"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pompa apa",
+      "keywords": [
+        "pompa apa",
+        "pompa wody"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pompa tandem",
+      "keywords": [
+        "pompa tandem"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pompa ulei",
+      "keywords": [
+        "pompa oleju",
+        "pompa ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Pompa vacuum",
+      "keywords": [
+        "pompa vacuum"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Racitor gaze",
+      "keywords": [
+        "racitor gaze"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Rezervor vacuum",
+      "keywords": [
+        "rezervor vacuum"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Rola ghidaj accesorii",
+      "keywords": [
+        "rola ghidaj accesorii"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Rola ghidaj distributie",
+      "keywords": [
+        "rola ghidaj distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Rola intinzatoare accesorii",
+      "keywords": [
+        "rola intinzatoare accesorii"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Rola intinzatoare distributie",
+      "keywords": [
+        "rola intinzatoare distributie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Segmenti",
+      "keywords": [
+        "pierścienie",
+        "segment",
+        "segmenti"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Senzor temperatura apa",
+      "keywords": [
+        "senzor temperatura apa"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Set curea transmisie",
+      "keywords": [
+        "set curea transmisie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Set garnituri",
+      "keywords": [
+        "set garnituri"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Set motor",
+      "keywords": [
+        "set motor"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Simeringuri",
+      "keywords": [
+        "simeringuri"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Sonda Lambda",
+      "keywords": [
+        "lambda",
+        "sonda lambda"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Sonda presiune ulei",
+      "keywords": [
+        "sonda presiune ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Sorb pompa ulei",
+      "keywords": [
+        "sorb pompa ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Supapa admisie",
+      "keywords": [
+        "supapa admisie"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Supapa evacuare",
+      "keywords": [
+        "supapa evacuare"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suport alternator",
+      "keywords": [
+        "suport alternator"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suport compresor AC",
+      "keywords": [
+        "suport compresor ac"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suport electromotor",
+      "keywords": [
+        "suport electromotor"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suport filtru ulei",
+      "keywords": [
+        "suport filtru ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suport rola accesorii",
+      "keywords": [
+        "suport rola accesorii"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suporti motor",
+      "keywords": [
+        "suporti motor"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Surub golire baie ulei",
+      "keywords": [
+        "surub golire baie ulei"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Suruburi chiulasa",
+      "keywords": [
+        "suruburi chiulasa"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Tacheti",
+      "keywords": [
+        "tacheti"
+      ]
+    },
+    {
+      "main_category": "Piese Motoare",
+      "sub_category": "Vibrochen",
+      "keywords": [
+        "crankshaft",
+        "vibrochen",
+        "wal korbowy"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Alte piese alimentare",
+      "keywords": [
+        "alte piese alimentare",
+        "paliwo",
+        "zasilanie"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Carburator",
+      "keywords": [
+        "carburator"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Conducte alimentare",
+      "keywords": [
+        "conducte alimentare"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Incalzitor motorina",
+      "keywords": [
+        "incalzitor motorina"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Injectoare",
+      "keywords": [
+        "fuel rail",
+        "injectoare",
+        "injector",
+        "listwa wtryskowa",
+        "rampa combustibil",
+        "rampa injectoare",
+        "wtryskiwacz"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Kit reparatie injectoare",
+      "keywords": [
+        "kit reparatie injectoare"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa AdBlue",
+      "keywords": [
+        "pompa adblue"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa amorsare",
+      "keywords": [
+        "pompa amorsare"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa benzina",
+      "keywords": [
+        "pompa benzina"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa injectie",
+      "keywords": [
+        "pompa injectie"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa motorina din rezervor",
+      "keywords": [
+        "pompa motorina din rezervor"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Pompa rezervor",
+      "keywords": [
+        "pompa rezervor"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Racitor motorina",
+      "keywords": [
+        "racitor motorina"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Rampa injectoare",
+      "keywords": [
+        "rampa injectoare"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Rampa retur injectoare",
+      "keywords": [
+        "rampa retur injectoare"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Regulator presiune",
+      "keywords": [
+        "regulator presiune"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Rezervoare auto",
+      "keywords": [
+        "rezervoare auto"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Rezervor AdBlue",
+      "keywords": [
+        "rezervor adblue"
+      ]
+    },
+    {
+      "main_category": "Pompe si injectoare",
+      "sub_category": "Supape retur",
+      "keywords": [
+        "supape retur"
+      ]
+    },
+    {
+      "main_category": "Punte si rulmenti",
+      "sub_category": "Alte piese tren rulare",
+      "keywords": [
+        "alte piese tren rulare",
+        "punte",
+        "tren rulare"
+      ]
+    },
+    {
+      "main_category": "Punte si rulmenti",
+      "sub_category": "Butuc roata",
+      "keywords": [
+        "butuc roata",
+        "hub",
+        "piasta"
+      ]
+    },
+    {
+      "main_category": "Punte si rulmenti",
+      "sub_category": "Punte fata",
+      "keywords": [
+        "punte fata"
+      ]
+    },
+    {
+      "main_category": "Punte si rulmenti",
+      "sub_category": "Punte spate",
+      "keywords": [
+        "punte spate"
+      ]
+    },
+    {
+      "main_category": "Punte si rulmenti",
+      "sub_category": "Rulmenti",
+      "keywords": [
+        "lozysko",
+        "rulment",
+        "rulmenti"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Alte piese racire",
+      "keywords": [
+        "alte piese racire",
+        "chlodzenie",
+        "racire"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Antigel",
+      "keywords": [
+        "antigel",
+        "plyn chlodniczy"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Buson radiator",
+      "keywords": [
+        "buson radiator"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Buson vas expansiune",
+      "keywords": [
+        "buson vas expansiune"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Carcasa termostat",
+      "keywords": [
+        "carcasa termostat"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Electroventilator",
+      "keywords": [
+        "electroventilator",
+        "ventilator",
+        "wentylator"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Flansa lichid racire",
+      "keywords": [
+        "flansa lichid racire"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Furtun apa",
+      "keywords": [
+        "furtun apa"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Paleta ventilator",
+      "keywords": [
+        "paleta ventilator"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Radiator apa",
+      "keywords": [
+        "chlodnica wody",
+        "radiator apa"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Radiator cutie automata",
+      "keywords": [
+        "radiator cutie automata"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Radiator ulei termoflot",
+      "keywords": [
+        "radiator ulei termoflot"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Termocupla",
+      "keywords": [
+        "termocupla"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Termostat auto",
+      "keywords": [
+        "termostat",
+        "termostat auto"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Vas expansiune",
+      "keywords": [
+        "vas expansiune"
+      ]
+    },
+    {
+      "main_category": "Racire",
+      "sub_category": "Vascocuplaj",
+      "keywords": [
+        "vascocuplaj"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Alte scule auto",
+      "keywords": [
+        "alte scule auto"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Aparate de sablat",
+      "keywords": [
+        "aparate de sablat"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Aparate de sudura si accesorii",
+      "keywords": [
+        "aparate de sudura si accesorii"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Baie ultrasunete",
+      "keywords": [
+        "baie ultrasunete"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Burghie",
+      "keywords": [
+        "burghie"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Chei",
+      "keywords": [
+        "chei"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Chei dinamometrice",
+      "keywords": [
+        "chei dinamometrice"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Clesti si surubelnite",
+      "keywords": [
+        "clesti si surubelnite"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Clicheti",
+      "keywords": [
+        "clicheti"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Consumabile pentru atelier",
+      "keywords": [
+        "consumabile pentru atelier"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Consumabile pentru scule",
+      "keywords": [
+        "consumabile pentru scule"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Cricuri si prese hidraulice",
+      "keywords": [
+        "cricuri si prese hidraulice"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Echipamente de atelier",
+      "keywords": [
+        "echipamente de atelier"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Echipamente de protectie",
+      "keywords": [
+        "echipamente de protectie"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Elevator auto",
+      "keywords": [
+        "elevator auto"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Extractor bujii incandescente",
+      "keywords": [
+        "extractor bujii incandescente"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Imbusuri la bucata",
+      "keywords": [
+        "imbusuri la bucata"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Lampi portabile",
+      "keywords": [
+        "lampi portabile"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Macara girafa si suporti motor",
+      "keywords": [
+        "macara girafa si suporti motor"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Mobilier si dulapuri de scule",
+      "keywords": [
+        "mobilier si dulapuri de scule"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Prese si extractoare",
+      "keywords": [
+        "prese si extractoare"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Roboti de pornire",
+      "keywords": [
+        "roboti de pornire"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule aer",
+      "keywords": [
+        "scule aer"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule camioane",
+      "keywords": [
+        "scule camioane"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule electrice",
+      "keywords": [
+        "scule electrice"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule motociclete si ATV-uri",
+      "keywords": [
+        "scule motociclete si atv-uri"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule parbrize",
+      "keywords": [
+        "scule parbrize"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule pentru suspensii",
+      "keywords": [
+        "scule pentru suspensii"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule pneumatice",
+      "keywords": [
+        "scule pneumatice"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule service auto",
+      "keywords": [
+        "scule service auto"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule service ulei si gresare",
+      "keywords": [
+        "scule service ulei si gresare"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule servicii frana",
+      "keywords": [
+        "scule servicii frana"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule servicii motor",
+      "keywords": [
+        "scule servicii motor"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule speciale",
+      "keywords": [
+        "scule speciale"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule tinichigerie",
+      "keywords": [
+        "scule tinichigerie"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Scule vulcanizare",
+      "keywords": [
+        "scule vulcanizare"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Seturi de chei",
+      "keywords": [
+        "seturi de chei"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Tarozi si filiere",
+      "keywords": [
+        "tarozi si filiere"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Tester presiune Common Rail",
+      "keywords": [
+        "tester presiune common rail"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Testere si aparate diagnoza",
+      "keywords": [
+        "testere si aparate diagnoza"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Trusa torx",
+      "keywords": [
+        "trusa torx"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Truse blocaje distributie",
+      "keywords": [
+        "truse blocaje distributie"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Truse de imbusuri",
+      "keywords": [
+        "truse de imbusuri"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Truse de scule",
+      "keywords": [
+        "truse de scule"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Truse de tubulare",
+      "keywords": [
+        "truse de tubulare"
+      ]
+    },
+    {
+      "main_category": "Scule auto",
+      "sub_category": "Tubulare",
+      "keywords": [
+        "tubulare"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Alte piese suspensie",
+      "keywords": [
+        "alte piese suspensie",
+        "suspensie",
+        "wahacz",
+        "zawieszenie"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Amortizoare",
+      "keywords": [
+        "amortizoare",
+        "amortizor",
+        "amortyzator",
+        "shock"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Ansamblu amortizor arc",
+      "keywords": [
+        "amortizor",
+        "amortyzator",
+        "ansamblu amortizor arc",
+        "perna aer",
+        "shock absorber",
+        "suspensie pneumatica"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Arcuri auto",
+      "keywords": [
+        "arcuri auto"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Arcuri sport",
+      "keywords": [
+        "arcuri sport"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Bare rigidizare",
+      "keywords": [
+        "bare rigidizare"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Bare stabilizatoare",
+      "keywords": [
+        "bare stabilizatoare"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Brida arc",
+      "keywords": [
+        "brida arc"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Compresor perne aer",
+      "keywords": [
+        "compresor perne aer"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Flanse amortizor",
+      "keywords": [
+        "flanse amortizor"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Foi de arc",
+      "keywords": [
+        "foi de arc"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Kit Brate",
+      "keywords": [
+        "kit brate"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Kit suspensie auto",
+      "keywords": [
+        "kit suspensie auto"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Perne aer",
+      "keywords": [
+        "perne aer"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Protectie amortizor",
+      "keywords": [
+        "protectie amortizor"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Suspensie sport",
+      "keywords": [
+        "suspensie sport"
+      ]
+    },
+    {
+      "main_category": "Suspensie",
+      "sub_category": "Tampon cauciuc suspensie",
+      "keywords": [
+        "tampon cauciuc suspensie"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Alte piese transmisie",
+      "keywords": [
+        "alte piese transmisie",
+        "przekladnia",
+        "transmisie"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Baie ulei cutie automata",
+      "keywords": [
+        "baie ulei cutie automata"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Bloc valve cutie",
+      "keywords": [
+        "bloc valve cutie"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Burduf planetara",
+      "keywords": [
+        "burduf planetara"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cap planetara",
+      "keywords": [
+        "cap planetara"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cardan",
+      "keywords": [
+        "cardan"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cilindru ambreiaj",
+      "keywords": [
+        "cilindru ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Convertizor",
+      "keywords": [
+        "convertizor",
+        "konwerter",
+        "torque converter"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Coroana volant",
+      "keywords": [
+        "coroana volant"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cruce cardan",
+      "keywords": [
+        "cruce cardan"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cutie de transfer",
+      "keywords": [
+        "cutie de transfer"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cutie de viteze",
+      "keywords": [
+        "cutie de viteze"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Cutie viteze automata",
+      "keywords": [
+        "cutie automata",
+        "cutie viteze automata",
+        "dsg",
+        "skrzynia automat",
+        "skrzynia biegow"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Diferentiale",
+      "keywords": [
+        "diferentiale",
+        "differential",
+        "dyferencjal",
+        "most"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Disc ambreiaj",
+      "keywords": [
+        "disc ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Flansa cardan",
+      "keywords": [
+        "flansa cardan"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Furca ambreiaj",
+      "keywords": [
+        "furca ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Kit ambreiaj",
+      "keywords": [
+        "ambreiaj",
+        "kit ambreiaj",
+        "sprzeglo"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Placa presiune",
+      "keywords": [
+        "placa presiune"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Planetare",
+      "keywords": [
+        "planetara",
+        "planetare",
+        "polos",
+        "półoś"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Pompa ambreiaj",
+      "keywords": [
+        "pompa ambreiaj"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Rulment cardan",
+      "keywords": [
+        "rulment cardan"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Rulment presiune",
+      "keywords": [
+        "rulment presiune"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Schimbator viteze",
+      "keywords": [
+        "schimbator viteze"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Suport cutie viteze",
+      "keywords": [
+        "suport cutie viteze"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Suruburi volanta",
+      "keywords": [
+        "suruburi volanta"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Timonerie",
+      "keywords": [
+        "timonerie"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Tripoda planetara",
+      "keywords": [
+        "tripoda planetara"
+      ]
+    },
+    {
+      "main_category": "Transmisie",
+      "sub_category": "Volanta",
+      "keywords": [
+        "flywheel",
+        "kolo zamachowe",
+        "volanta"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Alte piese de tuning",
+      "keywords": [
+        "alte piese de tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Body kit",
+      "keywords": [
+        "body kit"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Butoane",
+      "keywords": [
+        "butoane"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Ceasuri plasma",
+      "keywords": [
+        "ceasuri plasma"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Ceasuri si indicatoare",
+      "keywords": [
+        "ceasuri si indicatoare"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Colantare auto",
+      "keywords": [
+        "colantare auto"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Eleron",
+      "keywords": [
+        "eleron"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Filtru aer sport",
+      "keywords": [
+        "filtru aer sport"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Folie auto",
+      "keywords": [
+        "folie auto"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Frana tuning",
+      "keywords": [
+        "frana tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Huse tuning",
+      "keywords": [
+        "huse tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Lambo doors",
+      "keywords": [
+        "lambo doors"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Manere auto",
+      "keywords": [
+        "manere auto"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Neoane",
+      "keywords": [
+        "neoane"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Oglinzi tuning",
+      "keywords": [
+        "oglinzi tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Pedale tuning",
+      "keywords": [
+        "pedale tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Pleoape",
+      "keywords": [
+        "pleoape"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Prelungire bara fata",
+      "keywords": [
+        "prelungire bara fata"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Prelungire bara spate",
+      "keywords": [
+        "prelungire bara spate"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Scaune sport",
+      "keywords": [
+        "scaune sport"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Schimbator tuning",
+      "keywords": [
+        "schimbator tuning"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Stickere auto",
+      "keywords": [
+        "stickere auto"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Tuning bara fata",
+      "keywords": [
+        "tuning bara fata"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Tuning bara spate",
+      "keywords": [
+        "tuning bara spate"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Tuning capota",
+      "keywords": [
+        "tuning capota"
+      ]
+    },
+    {
+      "main_category": "Tuning",
+      "sub_category": "Volane tuning",
+      "keywords": [
+        "volane tuning"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Actuator turbo",
+      "keywords": [
+        "actuator turbo"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Alte piese turbo",
+      "keywords": [
+        "alte piese turbo"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Blow off valve",
+      "keywords": [
+        "blow off valve"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Boost controller",
+      "keywords": [
+        "boost controller"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Compresor auto",
+      "keywords": [
+        "compresor auto"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Furtun intercooler turbo",
+      "keywords": [
+        "furtun intercooler turbo"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Intercooler",
+      "keywords": [
+        "chlodnica powietrza",
+        "chłodnica powietrza",
+        "intercooler",
+        "radiator intercooler"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Kit turbo",
+      "keywords": [
+        "kit turbo"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Reparatii turbosuflante",
+      "keywords": [
+        "reparatii turbosuflante"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Tubulatura intercooler",
+      "keywords": [
+        "tubulatura intercooler"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Turbine",
+      "keywords": [
+        "turbina",
+        "turbine",
+        "turbo"
+      ]
+    },
+    {
+      "main_category": "Turbo",
+      "sub_category": "Wastegate",
+      "keywords": [
+        "wastegate"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Aditiv curatare motor",
+      "keywords": [
+        "aditiv curatare motor"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Aditiv filtru particule",
+      "keywords": [
+        "aditiv filtru particule"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Aditiv ulei",
+      "keywords": [
+        "aditiv ulei"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Aditivi benzina",
+      "keywords": [
+        "aditivi benzina"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Aditivi motorina",
+      "keywords": [
+        "aditivi motorina"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Alte uleiuri auto",
+      "keywords": [
+        "alte uleiuri auto"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Tratament motor",
+      "keywords": [
+        "tratament motor"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei cutie automata",
+      "keywords": [
+        "ulei cutie automata"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei cutie de viteze",
+      "keywords": [
+        "ulei cutie de viteze"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei diferential",
+      "keywords": [
+        "ulei diferential"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei hidraulic",
+      "keywords": [
+        "ulei hidraulic"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei motor",
+      "keywords": [
+        "ulei motor"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei servodirectie",
+      "keywords": [
+        "ulei servodirectie"
+      ]
+    },
+    {
+      "main_category": "Ulei Auto",
+      "sub_category": "Ulei transmisie",
+      "keywords": [
+        "ulei transmisie"
+      ]
+    },
+    {
+      "main_category": "Xenon",
+      "sub_category": "Alte elemente Xenon",
+      "keywords": [
+        "alte elemente xenon"
+      ]
+    },
+    {
+      "main_category": "Xenon",
+      "sub_category": "Balast Xenon",
+      "keywords": [
+        "balast xenon"
+      ]
+    },
+    {
+      "main_category": "Xenon",
+      "sub_category": "Becuri Xenon",
+      "keywords": [
+        "becuri xenon"
+      ]
+    },
+    {
+      "main_category": "Xenon",
+      "sub_category": "Kit Xenon",
+      "keywords": [
+        "kit xenon"
+      ]
+    }
+  ]
+}

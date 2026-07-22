@@ -1,0 +1,39 @@
+DirectoryIndex index.php
+Options -Indexes
+
+# ── Protectie fisiere sensibile ──
+<FilesMatch "^\.(env|htaccess|htpasswd|git)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# JSON-uri cu date interne din radacina (leads, config, utilizatori)
+<FilesMatch "^(leads|company|baza_date|products)\.json$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Blocheaza accesul web la folderele interne (date, robot, lib, terminale)
+# Exceptie: data/uploads (imagini produse incarcate din admin)
+RewriteCond %{REQUEST_URI} !^/data/uploads/
+RewriteRule ^(data|robot|lib|logs)(/|$) - [F,L]
+
+# Admin la /admin/
+RewriteRule ^admin/?$ admin/index.php [L,QSA]
+
+# Redirect vechi monitor robot
+RewriteRule ^robot-monitor\.php$ admin/?page=robot-monitor [R=302,L]
+</IfModule>

@@ -1,0 +1,44 @@
+# Secrets / local env
+.env
+.env.local
+.env.*.local
+
+# Logs & runtime locks
+*.log
+*.lock
+robot/*_err.txt
+robot/*_out.txt
+robot/robot_boot_*.txt
+robot/robot_state.json
+robot/catalog_auto.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+robot/stealth-browser-mcp/venv/
+
+# Browser profiles & temp (foarte mari)
+robot/profil_*/
+robot/test_chrome_tmp/
+robot/debug_snapshots/
+robot/*.png
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node (dacă apare)
+node_modules/
+
+# Local dumps / caches
+*.sqlite
+*.db
+*.sql.gz

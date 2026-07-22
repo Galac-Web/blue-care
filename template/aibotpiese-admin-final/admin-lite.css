@@ -1,0 +1,125 @@
+.blue-logo {
+    align-items: center;
+    color: #ffffff;
+    display: inline-flex;
+    font-size: 26px;
+    font-weight: 850;
+    letter-spacing: 0;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.blue-logo:hover {
+    color: #ffffff;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active {
+    background-color: rgba(48, 142, 135, .14);
+    color: var(--theme-default);
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active .stroke-icon {
+    stroke: var(--theme-default);
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active h6 {
+    color: var(--theme-default);
+}
+
+.user-img {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    font-weight: 800;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.user-wrap {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.user-wrap span {
+    display: block;
+    font-weight: 700;
+}
+
+.user-wrap p {
+    color: #8b8e9c;
+    font-size: 12px;
+}
+
+.mvp-stat h3 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.mvp-stat p,
+.tool-link p {
+    color: #8b8e9c;
+    margin: 0;
+}
+
+.stat-icon {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 46px;
+    height: 46px;
+    justify-content: center;
+    width: 46px;
+}
+
+.table-actions {
+    display: flex;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.table-actions form {
+    display: inline;
+}
+
+.mvp-search {
+    max-width: 260px;
+    width: 100%;
+}
+
+.tool-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.tool-link:hover {
+    color: inherit;
+    transform: translateY(-1px);
+}
+
+.tool-link h5 {
+    margin-bottom: 4px;
+}
+
+.code-area {
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 13px;
+}
+
+.login-main .alert {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .table-actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .mvp-search {
+        max-width: none;
+    }
+}

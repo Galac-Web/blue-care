@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admiro admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Admiro admin template, best javascript admin, dashboard template, bootstrap admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Admiro - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&amp;display=swap" rel="stylesheet">
+    <!-- Flag icon css -->
+    <link rel="stylesheet" href="../assets/css/vendors/flag-icon.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/iconly-icon.css">
+    <link rel="stylesheet" href="../assets/css/bulk-style.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/themify.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="../assets/css/fontawesome-min.css">
+    <!-- Whether Icon css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/weather-icons/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick-theme.css">
+    <!-- App css -->
+    <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <!-- page-wrapper Start-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i class="iconly-Arrow-Up icli"></i></div>
+    <!-- tap on tap ends-->
+    <!-- loader-->
+    <div class="loader-wrapper">
+      <div class="loader"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <header class="page-header row">
+        <div class="logo-wrapper d-flex align-items-center col-auto"><a href="index.html"><img class="light-logo img-fluid" src="../assets/images/logo/logo1.png" alt="logo"><img class="dark-logo img-fluid" src="../assets/images/logo/logo-dark.png" alt="logo"></a><a class="close-btn toggle-sidebar" href="javascript:void(0)">
+            <svg class="svg-color">
+              <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+            </svg></a></div>
+        <div class="page-main-header col">
+          <div class="header-left">
+            <form class="form-inline search-full col" action="tab-bootstrap.html#" method="get">
+              <div class="form-group w-100">
+                <div class="Typeahead Typeahead--twitterUsers">
+                  <div class="u-posRelative">
+                    <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Admiro .." name="q" title="" autofocus>
+                    <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><i class="close-search" data-feather="x"></i>
+                  </div>
+                  <div class="Typeahead-menu"></div>
+                </div>
+              </div>
+            </form>
+            <div class="form-group-header d-lg-block d-none">
+              <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative d-flex align-items-center"> 
+                  <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Type to Search..." name="q" title=""><i class="search-bg iconly-Search icli"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-right">
+            <ul class="header-right"> 
+              <li class="custom-dropdown">
+                <div class="translate_wrapper">
+                  <div class="current_lang"><a class="lang" href="javascript:void(0)"><i class="flag-icon flag-icon-us"></i>
+                      <h6 class="lang-txt f-w-700">ENG</h6></a></div>
+                  <ul class="custom-menu profile-menu language-menu py-0 more_lang">
+                                  <li class="d-block"><a class="lang" href="tab-bootstrap.html#" data-value="English"><i class="flag-icon flag-icon-us"></i>
+                                      <div class="lang-txt">English</div></a></li>
+                                  <li class="d-block"><a class="lang" href="tab-bootstrap.html#" data-value="fr"><i class="flag-icon flag-icon-fr"></i>
+                                      <div class="lang-txt">Français</div></a></li>
+                                  <li class="d-block"><a class="lang" href="tab-bootstrap.html#" data-value="es"><i class="flag-icon flag-icon-es"></i>
+                                      <div class="lang-txt">Español</div></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="search d-lg-none d-flex"> <a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                  </svg></a></li>
+              <li>  <a class="dark-mode" href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#moondark"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#cart-icon"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">2</span>
+                <div class="custom-menu cart-dropdown py-0 overflow-hidden">
+                  <h3 class="title dropdown-title">Cart</h3>
+                  <ul class="pb-0">
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/1.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Watch multicolor</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="tab-bootstrap.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/2.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Airpods</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500.00</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="tab-bootstrap.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li class="total">
+                      <h6 class="mb-0">Order Total : <span class="f-w-600">$1000.00</span></h6>
+                    </li>
+                    <li class="text-center"><a class="d-block mb-3 view-cart f-w-700 text-primary" href="cart.html">Go to your cart</a><a class="btn btn-primary view-checkout text-white" href="checkout.html">Checkout</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#notification"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">4</span>
+                <div class="custom-menu notification-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Notification <span class="font-primary">View all</span></h3>
+                  <ul class="activity-timeline">
+                    <li class="d-flex align-items-start">
+                      <div class="activity-line"></div>
+                      <div class="activity-dot-primary"></div>
+                      <div class="flex-grow-1">
+                        <h6 class="f-w-600 font-primary">30-04-2024<span>Today</span><span class="circle-dot-primary float-end">
+                            <svg class="circle-color">
+                              <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                            </svg></span></h6>
+                        <h5>Alice Goodwin</h5>
+                        <p class="mb-0">Fashion should be fun. It shouldn't be labelled intellectual.</p>
+                      </div>
+                    </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">28-06-2024<span>1 hour ago</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Herry Venter</h5>
+                                      <p>I am convinced that there can be luxury in simplicity.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-primary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-primary">04-08-2024<span>Today</span><span class="float-end circle-dot-primary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Loain Deo</h5>
+                                      <p>I feel that things happen for open new opportunities.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">12-11-2024<span>Yesterday</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Fenter Jessy</h5>
+                                      <p>Sometimes the simplest things are the most profound.</p>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="full-screen" href="javascript:void(0)"> 
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#scanfull"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#bookmark"></use>
+                  </svg></a>
+                <div class="custom-menu bookmark-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Bookmark</h3>
+                  <ul> 
+                    <li> 
+                      <form class="mb-0">
+                        <div class="input-group">
+                          <input class="form-control" type="text" placeholder="Search Bookmark..."><span class="input-group-text">
+                            <svg class="svg-color">
+                              <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                            </svg></span>
+                        </div>
+                      </form>
+                    </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-primary"><a href="index.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#cube"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="index.html">Dashboard</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-secondary"><a href="to-do.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#check"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="to-do.html">To-do</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-danger"><a href="apex_chart.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#pie"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="apex_chart.html">Chart</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="cloud-design"><a class="cloud-mode">
+                  <svg class="climacon climacon_cloudDrizzle" id="cloudDrizzle" version="1.1" viewBox="15 15 70 70">
+                    <g class="climacon_iconWrap climacon_iconWrap-cloudDrizzle">
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-drizzle">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-left" d="M42.001,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2.001-0.895-2.001-2v-3.998C40,54.538,40.896,53.644,42.001,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-middle" d="M49.999,53.644c1.104,0,2,0.896,2,2v4c0,1.104-0.896,2-2,2s-1.998-0.896-1.998-2v-4C48.001,54.54,48.896,53.644,49.999,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-right" d="M57.999,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2-0.895-2-2v-3.998C55.999,54.538,56.894,53.644,57.999,53.644z"></path>
+                      </g>
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-cloud">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud" d="M63.999,64.944v-4.381c2.387-1.386,3.998-3.961,3.998-6.92c0-4.418-3.58-8-7.998-8c-1.603,0-3.084,0.481-4.334,1.291c-1.232-5.316-5.973-9.29-11.664-9.29c-6.628,0-11.999,5.372-11.999,12c0,3.549,1.55,6.729,3.998,8.926v4.914c-4.776-2.769-7.998-7.922-7.998-13.84c0-8.836,7.162-15.999,15.999-15.999c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.336-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12C71.997,58.864,68.655,63.296,63.999,64.944z"></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <h3>15</h3></a></li>
+              <li class="profile-nav custom-dropdown">
+                <div class="user-wrap">
+                  <div class="user-img"><img src="../assets/images/profile.png" alt="user"></div>
+                  <div class="user-content">
+                    <h6>Ava Davis</h6>
+                    <p class="mb-0">Admin<i class="fa-solid fa-chevron-down"></i></p>
+                  </div>
+                </div>
+                <div class="custom-menu overflow-hidden">
+                  <ul class="profile-body">
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                      </svg><a class="ms-2" href="user-profile.html">Account</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                      </svg><a class="ms-2" href="letter-box.html">Inbox</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                      </svg><a class="ms-2" href="to-do.html">Task</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Login"></use>
+                      </svg><a class="ms-2" href="login.html">Log Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar"> 
+          <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+          <div class="main-sidebar" id="main-sidebar">
+            <ul class="sidebar-menu" id="simple-bar">
+              <li class="pin-title sidebar-main-title">  
+                <div> 
+                  <h5 class="sidebar-title f-w-700">Pinned</h5>
+                </div>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="lan-1 f-w-700 sidebar-title">General</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Home-dashboard"></use>
+                  </svg>
+                  <h6>Dashboards</h6><span class="badge">3</span><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="dashboard-02.html">Ecommerce </a></li>
+                  <li> <a href="dashboard-03.html">Education</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Pie"></use>
+                  </svg>
+                  <h6 class="lan-2">Widgets </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="general-widget.html">General</a></li>
+                  <li><a href="chart-widget.html">Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                  </svg>
+                  <h6 class="lan-3">Page layout</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="box-layout.html">Box Layout</a></li>
+                  <li><a href="layout-rtl.html">RTL</a></li>
+                  <li> <a href="layout-dark.html">Dark</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Application</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Info-circle"></use>
+                  </svg>
+                  <h6 class="f-w-600">Project</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="project-list.html">Project list </a></li>
+                  <li> <a href="projectcreate.html">Project create </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="file-manager.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper"></use>
+                  </svg>
+                  <h6 class="f-w-600">File Manager </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="kanban-board.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Kanban board</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bag"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ecommerce</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="add-products.html">Add Products</a></li>
+                  <li> <a href="product.html">Product</a></li>
+                  <li> <a href="product-page.html">Product Page</a></li>
+                  <li> <a href="category.html">Category page</a></li>
+                  <li> <a href="list-products.html">Product list</a></li>
+                  <li> <a href="payment-details.html">Payment Details</a></li>
+                  <li> <a href="order-history.html">Order History</a></li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Invoices<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="invoices-1.html">Invoices 1</a></li>
+                      <li> <a href="invoices-2.html">Invoices 2</a></li>
+                      <li> <a href="invoices-3.html">Invoices 3</a></li>
+                      <li> <a href="invoices-4.html">Invoices 4</a></li>
+                      <li> <a href="invoices-5.html">Invoices 5</a></li>
+                      <li> <a href="invoices-6.html">Invoices 6</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="cart.html">Cart</a></li>
+                  <li> <a href="list-wish.html">Wishlist</a></li>
+                  <li> <a href="checkout.html">Checkout</a></li>
+                  <li> <a href="pricing.html">Pricing </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="letter-box.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                  </svg>
+                  <h6 class="f-w-600">Letter Box</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chat"></use>
+                  </svg>
+                  <h6 class="f-w-600">Chat</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="private-chat.html">Private Chat</a></li>
+                  <li> <a href="group-chat.html">Group Chat</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                  </svg>
+                  <h6 class="f-w-600">Users</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="user-profile.html">Users Profile</a></li>
+                  <li> <a href="edit-profile.html">Users Edit</a></li>
+                  <li> <a href="user-cards.html">Users Cards      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="bookmark.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bookmark"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bookmarks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="contacts.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Contacts"></use>
+                  </svg>
+                  <h6 class="f-w-600">Contacts   </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="task.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Tick-square"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tasks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="calendar-basic.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Calendar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Calendar  </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="social-app.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Camera"></use>
+                  </svg>
+                  <h6 class="f-w-600">Social App</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="to-do.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit"></use>
+                  </svg>
+                  <h6 class="f-w-600">To-Do </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="search.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Search-sidebar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Search Result                                                </h6></a></li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Components</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="buttons.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#More-box"></use>
+                  </svg>
+                  <h6 class="f-w-600">buttons </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Folder"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ui Kits</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li> <a href="alert.html">Alert</a></li>
+                  <li> <a href="helper-classes.html">Helper classes</a></li>
+                  <li> <a href="grid.html">Grid</a></li>
+                  <li> <a href="accordion.html">Accordion</a></li>
+                  <li> <a href="tag-pills.html">Tag pills</a></li>
+                  <li> <a href="modal.html">Modal </a></li>
+                  <li> <a href="popover.html">Popover </a></li>
+                  <li> <a href="progress-bar.html">Progress bar</a></li>
+                  <li> <a href="tab-bootstrap.html">Tab bootstrap</a></li>
+                  <li> <a href="tooltip.html">Tooltip</a></li>
+                  <li> <a href="dropdown.html"> Dropdown</a></li>
+                  <li> <a href="list.html">List</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket-star"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bonus Ui</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="scrollable.html">Scrollable</a></li>
+                  <li> <a href="tree.html">Tree view </a></li>
+                  <li><a href="toasts.html">Toasts </a></li>
+                  <li> <a href="rating.html">Rating</a></li>
+                  <li> <a href="dropzone.html">Dropzone</a></li>
+                  <li> <a href="tour.html">Tour</a></li>
+                  <li> <a href="sweetalert2.html">Sweetalert2 </a></li>
+                  <li> <a href="modal-animated.html">Animated Modal</a></li>
+                  <li> <a href="slider.html">Slider</a></li>
+                  <li> <a href="ribbons.html">Ribbons</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li> <a href="breadcrumb.html">Breadcrumb</a></li>
+                  <li> <a href="range-slider.html">Range slider</a></li>
+                  <li> <a href="image-cropper.html">Image cropper</a></li>
+                  <li> <a href="basic-card.html">Basic Card</a></li>
+                  <li> <a href="creative-card.html">Creative Card</a></li>
+                  <li> <a href="dragable-card.html">Dragable Card </a></li>
+                  <li> <a href="timeline.html">Timeline</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+                  </svg>
+                  <h6 class="f-w-600">Animation </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li>  <a href="AOS.html">aos</a></li>
+                  <li>  <a href="WOW.html">wow</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Activity"></use>
+                  </svg>
+                  <h6 class="f-w-600">Icon</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="font-awesome.html">Fontawesome icon</a></li>
+                  <li><a href="feather_icon.html">Feather icon</a></li>
+                  <li> <a href="iconly-icon.html">Iconly icon </a></li>
+                  <li> <a href="themify-icon.html">Themify Icon</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chart"></use>
+                  </svg>
+                  <h6 class="f-w-600">Charts</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li><a href="echarts.html">Echarts</a></li>
+                  <li> <a href="apex_chart.html">Apex Chart</a></li>
+                  <li> <a href="chart-google.html">Google Chart</a></li>
+                  <li> <a href="chart-sparkline.html">Sparkline chart</a></li>
+                  <li> <a href="chart-flot.html">Flot Chart</a></li>
+                  <li> <a href="chart-knob.html">Knob Chart</a></li>
+                  <li> <a href="chart-morris.html">Morris Chart</a></li>
+                  <li> <a href="chartjs.html">Chatjs Chart</a></li>
+                  <li> <a href="chartist_chart.html">Chartist Chart</a></li>
+                  <li><a href="chart-peity.html">Peity Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Tables & Forms</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter"></use>
+                  </svg>
+                  <h6 class="f-w-600">Forms</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">form-control<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="base-input.html">Base input</a></li>
+                      <li> <a href="form-validation.html">Form validation</a></li>
+                      <li> <a href="radio-checkbox-control.html">Checkbox & Radio </a></li>
+                      <li> <a href="input-group.html">Input group</a></li>
+                      <li> <a href="input-mask.html">Input mask</a></li>
+                      <li> <a href="megaoptions.html">Mega Options                                                    </a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datepicker.html">Datepicker</a></li>
+                      <li> <a href="touchspin.html">Touchspin</a></li>
+                      <li> <a href="select2.html">Select2 </a></li>
+                      <li> <a href="switch.html">Switch </a></li>
+                      <li> <a href="typehead.html">Typehead </a></li>
+                      <li> <a href="clipboard.html">Clipboard</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Layout<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="form-wizard.html">Form wizard 1</a></li>
+                      <li> <a href="form-wizard-two.html">Form wizard 2</a></li>
+                      <li> <a href="form-wizard-three.html">Two factor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit-line"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tables</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-table.html">Basic Tables</a></li>
+                      <li> <a href="table-components.html">Table components</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Data Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datatable-basic-init.html">Basic Init</a></li>
+                      <li> <a href="datatable-advance.html">Advance Init</a></li>
+                      <li> <a href="datatable-API.html">API</a></li>
+                      <li><a href="datatable-data-source.html">Data Sources</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="datatable-ext-autofill.html">Ex. Data Tables</a></li>
+                  <li> <a href="jsgrid-table.html">Js Grid Table         </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Pages</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="landing-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Landing page</h6></a></li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="sample-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper-plus"></use>
+                  </svg>
+                  <h6 class="f-w-600">Sample page</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="internationalization.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Play"></use>
+                  </svg>
+                  <h6 class="f-w-600">Internationalization</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="../starter-kit/index.html" target="_blank">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Star-kit"></use>
+                  </svg>
+                  <h6 class="f-w-600">Starter kit</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Password"></use>
+                  </svg>
+                  <h6 class="f-w-600">Others</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Error Page<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="error-page1.html">Error page 1</a></li>
+                      <li> <a href="error-page2.html">Error page 2</a></li>
+                      <li> <a href="error-page3.html">Error page 3</a></li>
+                      <li> <a href="error-page4.html">Error page 4</a></li>
+                      <li> <a href="error-page5.html">Error page 5</a></li>
+                      <li> <a href="error-page6.html">Error page 6</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)"> Authentication<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="login.html" target="_blank">Login Simple</a></li>
+                      <li> <a href="login_one.html" target="_blank">Login with bg image</a></li>
+                      <li> <a href="login_two.html" target="_blank">Login with image two</a></li>
+                      <li> <a href="login-bs-validation.html" target="_blank">Login With validation</a></li>
+                      <li> <a href="login-bs-tt-validation.html" target="_blank">Login with tooltip</a></li>
+                      <li> <a href="login-sa-validation.html" target="_blank">Login with sweetalert</a></li>
+                      <li> <a href="sign-up.html" target="_blank">Register Simple</a></li>
+                      <li> <a href="sign-up-one.html" target="_blank">Register with Bg Image</a></li>
+                      <li> <a href="sign-up-two.html" target="_blank">Register with image two</a></li>
+                      <li> <a href="sign-up-wizard.html" target="_blank">Register wizard</a></li>
+                      <li> <a href="unlock.html">Unlock User</a></li>
+                      <li> <a href="forget-password.html">Forget Password</a></li>
+                      <li> <a href="reset-password.html">Reset Password</a></li>
+                      <li> <a href="maintenance.html">Maintenance</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Coming Soon<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="comingsoon.html">Coming Simple</a></li>
+                      <li> <a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
+                      <li> <a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Email templates<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-template.html">Basic Email</a></li>
+                      <li> <a href="email-header.html">Basic With Header</a></li>
+                      <li> <a href="template-email.html">Ecomerce Template</a></li>
+                      <li> <a href="template-email-2.html">Email Template 2</a></li>
+                      <li> <a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                      <li> <a href="email-order-success.html">Order Success</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Miscellaneous</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Gallery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Gallery  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="gallery.html">Gallery Grid</a></li>
+                  <li> <a href="gallery-with-description.html">Gallery Grid Desc</a></li>
+                  <li> <a href="masonary.html">Masonary Gallery</a></li>
+                  <li> <a href="masonary_with_disc.html">Masonary With Desc</a></li>
+                  <li> <a href="gallery-hover.html">Hover Effects</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Game"></use>
+                  </svg>
+                  <h6 class="f-w-600">Blog  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="blog.html">Blog Details</a></li>
+                  <li> <a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="add_post.html">Add Post</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link" href="faq.html"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Danger"></use>
+                  </svg>
+                  <h6 class="f-w-600">FAQ</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter-2"></use>
+                  </svg>
+                  <h6 class="f-w-600">Job Search  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="job-cards-view.html">Card view</a></li>
+                  <li> <a href="job-list-view.html">List view</a></li>
+                  <li><a href="job-details.html">Job details   </a></li>
+                  <li><a href="job-apply.html">Apply</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Work"></use>
+                  </svg>
+                  <h6 class="f-w-600">Learning</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="learning_list_visit.html">Learning List</a></li>
+                  <li> <a href="learning_detailed.html">Learning Detailed</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Discovery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Maps</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="data-map.html">Data Map</a></li>
+                  <li> <a href="vector-map.html">Vector Maps</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Shield"></use>
+                  </svg>
+                  <h6 class="f-w-600">Editors</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="quilleditor.html">Quill editor</a></li>
+                  <li> <a href="ace-code-editor.html">ACE Code Editor</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="knowledgebase.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Setting"></use>
+                  </svg>
+                  <h6 class="f-w-600">Knowledgebase</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="support-ticket.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket"></use>
+                  </svg>
+                  <h6 class="f-w-600">Support Ticket</h6></a></li>
+            </ul>
+          </div>
+          <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+        </aside>
+        <!-- Page sidebar end-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-sm-6 col-12">
+                  <h2>Tab bootstrap</h2>
+                </div>
+                <div class="col-sm-6 col-12">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"> <i class="fa-solid fa-house svg-color"></i></a></li>
+                    <li class="breadcrumb-item">Ui Kits</li>
+                    <li class="breadcrumb-item active">Tab bootstrap</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid tab-bootstrap-page">
+            <div class="row">
+              <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Simple tabs</h3>
+                    <p class="mt-1 mb-0">Use the  <code>.nav-link</code> with <code>.active  </code>class to jump particular tabs.</p>
+                  </div>
+                  <div class="card-body">
+                    <ul class="simple-wrapper nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item"><a class="nav-link text-primary" id="home-tab" data-bs-toggle="tab" href="tab-bootstrap.html#home" role="tab" aria-controls="home" aria-selected="true">Home</a></li>
+                      <li class="nav-item"><a class="nav-link active text-primary" id="profile-tabs" data-bs-toggle="tab" href="tab-bootstrap.html#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a></li>
+                      <li class="nav-item"><a class="nav-link text-primary" id="contact-tab" data-bs-toggle="tab" href="tab-bootstrap.html#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a></li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <p class="pt-3">Tabs have long been used to show alternative views of the same group of information tabs in software. Known as<em class="text-danger"> “module tabs”</em>, these are still used today in web sites. For instance, airline companies such as Ryanair, easyJet and AirMalta use module tabs to enable the user to switch between bookings for flights, hotels and car hire.</p>
+                      </div>
+                      <div class="tab-pane fade active show mt-4" id="profile" role="tabpanel" aria-labelledby="profile-tabs">
+                        <div class="flex-space flex-wrap align-items-center"><img class="tab-image" src="../assets/images/avtar/3.jpg" alt="profile">
+                          <ul class="d-flex flex-column gap-1">
+                            <li><strong>Visit Us:</strong> 2600 Hollywood Blvd, Florida, United States-33020</li>
+                            <li><strong>Mail Us:</strong> contact@us@gmail.com</li>
+                            <li><strong>Contact Number:</strong> (954) 357-7760</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <ul class="pt-3 d-flex flex-column gap-1">
+                          <li>Us Technology offers web & mobile development solutions for all industry verticals.Include a short form using fields that'll help your business understand who's contacting them.</li>
+                          <li><strong>Visit Us: </strong>	2600 Hollywood Blvd,Florida, United States-	33020</li>
+                          <li> <strong>Mail Us:  </strong>contact@us@gmail.com</li>
+                          <li><strong>Contact Number:  </strong>(954) 357-7760</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Icons With Tabs</h3>
+                    <p class="mt-1 mb-0">Add icons with tabs using  <code>.nav-link  </code>class.</p>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs" id="icon-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link active text-secondary" id="icon-home-tab" data-bs-toggle="tab" href="tab-bootstrap.html#icon-home" role="tab" aria-controls="icon-home" aria-selected="true"><i class="fa-solid fa-house"></i>Home</a></li>
+                      <li class="nav-item"><a class="nav-link text-secondary" id="profile-icon-tabs" data-bs-toggle="tab" href="tab-bootstrap.html#profile-icon" role="tab" aria-controls="profile-icon" aria-selected="false"><i class="fa-solid fa-user"></i>Profile</a></li>
+                      <li class="nav-item"><a class="nav-link text-secondary" id="contact-icon-tab" data-bs-toggle="tab" href="tab-bootstrap.html#contact-icon" role="tab" aria-controls="contact-icon" aria-selected="false"><i class="fa-solid fa-phone"></i>Contact</a></li>
+                    </ul>
+                    <div class="tab-content" id="icon-tabContent">
+                      <div class="tab-pane fade show active" id="icon-home" role="tabpanel" aria-labelledby="icon-home-tab">
+                        <p class="pt-3"> Not limited to any states, boundaries. All over India providing cutting-edge design and website development services for over 12 years. We provide end to end digital solutions, right from designing your website/application development: Domain, Web Hosting, Email Hosting Registration, Search Engine Optimization and other Internet Marketing, Renewal of Services timely and effectively.</p>
+                      </div>
+                      <div class="tab-pane fade" id="profile-icon" role="tabpanel" aria-labelledby="profile-icon-tabs">
+                        <div class="flex-space flex-wrap align-items-center"><img class="tab-image" src="../assets/images/avtar/7.jpg" alt="profile">
+                          <ul class="d-flex flex-column gap-1">
+                            <li><strong>Visit Us:</strong> 278 Green Avenue Oakland, CA 94612</li>
+                            <li><strong>Mail Us:</strong> MichaelMMcGowan@teleworm.us</li>
+                            <li><strong>Contact Number:</strong> 510-767-002</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="contact-icon" role="tabpanel" aria-labelledby="contact-icon-tab">
+                        <p class="pt-3 mb-0">
+                           Us Technology offers web & mobile development solutions for all industry verticals.Include a short form using fields that'll help your business understand who's contacting them. </p>
+                        <div class="pt-3">
+                          <label class="form-label" for="exampleFormControlone">Email address</label>
+                          <input class="form-control" id="exampleFormControlone" type="email" placeholder="youremail@gmail.com">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xxl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Vertical Tabs</h3>
+                    <p class="mt-1 mb-0">Set the vertical tab with help of <code>flex-column  </code>class.</p>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-4 col-xs-12">
+                        <div class="nav flex-column nav-pills nav-success" id="ver-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link" id="ver-pills-home-tab" data-bs-toggle="pill" href="tab-bootstrap.html#ver-pills-home" role="tab" aria-controls="ver-pills-home" aria-selected="true">Home</a><a class="nav-link active" id="ver-pills-components-tab" data-bs-toggle="pill" href="tab-bootstrap.html#ver-pills-components" role="tab" aria-controls="ver-pills-components" aria-selected="false">Components</a><a class="nav-link" id="ver-pills-pages-tab" data-bs-toggle="pill" href="tab-bootstrap.html#ver-pills-pages" role="tab" aria-controls="ver-pills-pages" aria-selected="false">Pages</a><a class="nav-link" id="ver-pills-settings-tab" data-bs-toggle="pill" href="tab-bootstrap.html#ver-pills-settings" role="tab" aria-controls="ver-pills-settings" aria-selected="false">Settings</a></div>
+                      </div>
+                      <div class="col-md-8 col-xs-12">
+                        <div class="tab-content" id="ver-pills-tabContent">
+                          <div class="tab-pane fade" id="ver-pills-home" role="tabpanel" aria-labelledby="ver-pills-home-tab">
+                            <p>It was an easy decision.an affordable expense! Absolutely! we got peace of mind. Now, my time is spent on the<em class="text-danger">“Sale”</em> and not on technology. Create product Builder tool is also pre-bundled in this template so that you can let the audience configure the product by themselves before placing the order.We are a small yet highly-skilled group of creative brains with a vast experience. Our team of web designers, online marketing experts, content writers, graphic professionals have completed numerous projects.</p>
+                          </div>
+                          <div class="tab-pane fade show active" id="ver-pills-components" role="tabpanel" aria-labelledby="ver-pills-components-tab">
+                            <ul class="d-flex flex-column gap-1">
+                              <li>If you are a business owner, your website is absolutely one of the most important tools you have in your arsenal to get more - and better - clients and customers or a good one from a great one? Here are 10 qualities that a great website will need. Whether or not you end up retaining makespace based web designers, you should find them helpful:</li>
+                              <li>--> Navigation</li>
+                              <li>--> Visual Design</li>
+                              <li>--> Web Friendly</li>
+                              <li>--> Conversion</li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane fade" id="ver-pills-pages" role="tabpanel" aria-labelledby="ver-pills-pages-tab">
+                            <ul class="d-flex flex-column gap-1">
+                              <li>
+                                 Available pages in Theme:</li>
+                              <li><strong> Typography:</strong>Typography is the art of arranging letters and text in a way that makes the copy legible, clear, and visually appealing to the reader.</li>
+                              <li><strong> Tooltip:</strong>A tooltip is a brief, informative message that appears when a user interacts with an element in a graphical user interface (GUI). </li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane fade" id="ver-pills-settings" role="tabpanel" aria-labelledby="ver-pills-settings-tab">
+                            <ul class="d-flex flex-column gap-1 p-sm-0 pt-2">
+                              <li><strong> Site purpose</strong>Like a mission statement, a website's purpose gives the primary reason for the site's existence in the world. Whether for education, advocacy, service provision, community organizing, etc.</li>
+                              <li><strong> Features</strong>It's important to figure out as many of these in advance as you can for the sake of a more coherent design. </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xxl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Pills tabs</h3>
+                    <p class="mt-1 mb-0">To set pills-tabs, use the   <code>nav & nav-pills </code> class.</p>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-pills nav-primary" id="pills-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link" id="pills-aboutus-tab" data-bs-toggle="pill" href="tab-bootstrap.html#pills-aboutus" role="tab" aria-controls="pills-aboutus" aria-selected="true">About us</a></li>
+                      <li class="nav-item"><a class="nav-link" id="pills-contactus-tab" data-bs-toggle="pill" href="tab-bootstrap.html#pills-contactus" role="tab" aria-controls="pills-contactus" aria-selected="false">Contact us</a></li>
+                      <li class="nav-item"><a class="nav-link active" id="pills-blog-tab" data-bs-toggle="pill" href="tab-bootstrap.html#pills-blog" role="tab" aria-controls="pills-blog" aria-selected="false">Blog </a></li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade" id="pills-aboutus" role="tabpanel" aria-labelledby="pills-aboutus-tab">
+                        <p class="pt-3">The ultimate goal of every web design is to create a site that will reach its audience and be useful to them. In order to achieve that, it is necessary to befriend Google's mechanisms and algorithms. There is no use of a pretty website, if it's displayed on a 10th page of search results, because this way no one will ever find it. That brings us to the topic of Google's Website Ranking.Generally speaking, it's a list of pages and their keywords, sorted in the order of search results. The higher your place in the ranking is, the more people are likely to see your page.</p>
+                      </div>
+                      <div class="tab-pane fade" id="pills-contactus" role="tabpanel" aria-labelledby="pills-contactus-tab">
+                        <ul class="d-flex flex-column gap-1 pt-3">
+                          <li class="mb-2">Create professional web page design. Responsive, fully customizable with easy Drag-n-Drop Nicepage editor. Adjust colors, fonts, header and footer, layout and other design elements, as well as content and images.</li>
+                          <li><strong>Visit Us:  </strong>4 Marigold Close, Glenmore Park, New South Wales, 2745 Australia- 2745</li>
+                          <li><strong>Mail Us:  </strong>SamuelMario@armyspy.com</li>
+                          <li> <strong>Contact Number:  </strong>(02) 4733 6337</li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade show active" id="pills-blog" role="tabpanel" aria-labelledby="pills-blog-tab">
+                        <div class="pt-3 d-flex align-items-center gap-3 pills-blogger"> 
+                          <div class="blog-wrapper"><img class="blog-img" src="../assets/images/dashboard-2/3.png" alt="headphone"></div>
+                          <div class="blog-content">
+                            <p><em class="text-danger fw-bold">Smart headphones</em>  — also called smart earbuds or hearable — are high-tech in-ear devices that do more than transmit audio. These headphones are usually wireless, and they can sync up with your phone, tablet, computer or other Bluetooth-enabled device. The main appeal of hearables is convenience, as they allow you to complete common tasks without directly accessing your phone or computer. Smart wireless headphones sync up to other devices using Bluetooth technology, and many of their features rely on data from your smartphone or computer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-6">
+                <div class="card"> 
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Justify Tabs</h3>
+                    <p class="mt-1 mb-0">To set the justify-tabs use the <code>justify-content-* </code> class.</p>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-header card-no-border pb-0 d-flex justify-content-between align-items-center flex-wrap gap-2 pb-2 p-0">
+                      <p class="mb-0"><em class="text-danger">ADMIRO Profiles For New Employees:</em></p>
+                      <ul class="nav nav-pills nav-warning" id="j-pills-tab" role="tablist">
+                        <li class="nav-item"><a class="nav-link" id="j-pills-web-designer-tab" data-bs-toggle="pill" href="tab-bootstrap.html#j-pills-web-designer" role="tab" aria-controls="j-pills-web-designer" aria-selected="true"> Web designer</a></li>
+                        <li class="nav-item"><a class="nav-link active" id="j-pills-UX-designer-tab" data-bs-toggle="pill" href="tab-bootstrap.html#j-pills-UX-designer" role="tab" aria-controls="j-pills-UX-designer" aria-selected="false">UX designer</a></li>
+                        <li class="nav-item"><a class="nav-link" id="j-pills-IOT-developer-tab" data-bs-toggle="pill" href="tab-bootstrap.html#j-pills-IOT-developer" role="tab" aria-controls="j-pills-IOT-developer" aria-selected="false">IOT developer</a></li>
+                      </ul>
+                    </div>
+                    <div class="card-body px-0 pb-0"> 
+                      <div class="tab-content" id="j-pills-tabContent">
+                        <div class="tab-pane fade" id="j-pills-web-designer" role="tabpanel" aria-labelledby="j-pills-web-designer-tab">
+                          <div class="designer-details">
+                            <div class="designer-profile">
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/3.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Kathy M. Anderson</h6>
+                                  <p> 440-494-0729</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/4.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Lillian J. Goodfellow</h6>
+                                  <p>239-664-7751</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/11.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Mary O. Miller</h6>
+                                  <p>720-744-0921</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile">
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/16.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Patricia H. Hummel</h6>
+                                  <p>314-445-1451</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile">
+                              <div class="designer-wrap"> <img class="designer-img" src="../assets/images/user/4.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Minnie F. Evans</h6>
+                                  <p>718-740-8438</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/7.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Carolyn A. Sutton</h6>
+                                  <p>218-793-6609</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="j-pills-UX-designer" role="tabpanel" aria-labelledby="j-pills-UX-designer-tab">
+                          <div class="designer-details">
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/9.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Thomas A. Leroy</h6>
+                                  <p>305-539-6871</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/12.png" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Mark S. Ward</h6>
+                                  <p>303-561-8880</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile">
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/14.png" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Emily T. Hooper</h6>
+                                  <p>301-553-1836</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile">
+                              <div class="designer-wrap"> <img class="designer-img" src="../assets/images/user/9.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Jennifer A. Camacho   </h6>
+                                  <p>770-527-7554</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/10.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Natasha W. Watson</h6>
+                                  <p>267-605-4499</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile">
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/3.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Ann J. Strickland</h6>
+                                  <p>469-218-4678</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="j-pills-IOT-developer" role="tabpanel" aria-labelledby="j-pills-IOT-developer-tab">
+                          <div class="designer-details">
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/11.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Jaclyn T. Duncan</h6>
+                                  <p>413-618-9222</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/7.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Christine H. Lin</h6>
+                                  <p>909-219-0342</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/avtar/3.jpg" alt="profile">
+                                <div class="designer-content">
+                                  <h6>Ronnie S. Mountain</h6>
+                                  <p>978-426-9732.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/12.png" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Louise A. Hilliard</h6>
+                                  <p>502-262-5600</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/10.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Kayla Hutt</h6>
+                                  <p>312-456-8275</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="designer-profile"> 
+                              <div class="designer-wrap"><img class="designer-img" src="../assets/images/user/4.jpg" alt="profile">
+                                <div class="designer-content"> 
+                                  <h6>Amber Cecil</h6>
+                                  <p>802-662-2407 </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-6"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Material Style Left Tabs</h3>
+                    <p class="mt-1 mb-0">To set the  <code>.nav-effect </code>class.                    </p>
+                  </div>
+                  <div class="card-body">
+                    <div class="tabs-responsive-side">
+                      <div class="material-wrapper">
+                        <div class="d-flex">
+                          <div class="nav flex-column nav-secondary border-tab nav-left" id="sideline-tab" role="tablist" aria-orientation="vertical"><a class="nav-link nav-effect" id="sideline-home-tab" data-bs-toggle="pill" href="tab-bootstrap.html#sideline-home" role="tab" aria-controls="sideline-home" aria-selected="false">Home</a><a class="nav-link nav-effect" id="sideline-profile-tab" data-bs-toggle="pill" href="tab-bootstrap.html#sideline-profile" role="tab" aria-controls="sideline-profile" aria-selected="false">Profile</a><a class="nav-link nav-effect active" id="sideline-messages-tab" data-bs-toggle="pill" href="tab-bootstrap.html#sideline-messages" role="tab" aria-controls="sideline-messages" aria-selected="true">Inbox</a><a class="nav-link nav-effect pb-0" id="sideline-settings-tab" data-bs-toggle="pill" href="tab-bootstrap.html#sideline-settings" role="tab" aria-controls="sideline-settings" aria-selected="false">Settings</a></div>
+                        </div>
+                        <div class="material-content">
+                          <div class="tab-content" id="sideline-tabContent">
+                            <div class="tab-pane fade" id="sideline-home" role="tabpanel" aria-labelledby="sideline-home-tab">
+                              <p>This product is meant for educational purposes only. Any resemblance to real persons, living or dead is purely coincidental. Void where prohibited. Some assembly required. List each check separately by bank number. Batteries not included.Google Web Designer gives you the power to create beautiful and compelling videos, images and HTML5 ads. Use animation and interactive elements to build out your creative vision, then scale your content for different sizes or audiences with responsive and dynamic workflows.</p>
+                            </div>
+                            <div class="tab-pane fade" id="sideline-profile" role="tabpanel" aria-labelledby="sideline-profile-tab">
+                              <p class="mb-0"></p>
+                              <div class="flex-space flex-wrap align-items-center"><img class="tab-image" src="../assets/images/user/12.png" alt="profile">
+                                <ul class="d-flex flex-column gap-1">
+                                  <li> <strong> Name:  </strong>Jully Catlin</li>
+                                  <li><strong>Visit Us:   </strong>50006 Ehrenberg/Parker,Arkansas-85334</li>
+                                  <li><strong>Mail Us:  </strong>hello.@gmail.com</li>
+                                  <li><strong>Contact Number:   </strong>(928) 923-7940</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade show active" id="sideline-messages" role="tabpanel" aria-labelledby="sideline-messages-tab">
+                              <div class="card-body p-0">
+                                <div class="main-inbox"> 
+                                  <div class="header-inbox justify-content-start gap-2">
+                                    <div class="header-left-inbox">
+                                      <div class="inbox-img"><img src="../assets/images/user/10.jpg" alt="profile"></div>
+                                      <div class="inbox-content"> 
+                                        <h6>Dalbult Caslin </h6>
+                                        <p class="text-muted">stroman.rogers@gmail.com</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="body-inbox mt-2">
+                                    <div class="body-h-wrapper"><i class="me-2 tab-space iconly-Star icbo"></i><em>Compare Prices Find the Best Computer Assessors Fronted Issue.</em></div>
+                                    <p class="pt-2">Site speed and design are two of the most important ranking factors Google takes into consideration, as they have the biggest effect of customer staying on site as the website respond faster.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="sideline-settings" role="tabpanel" aria-labelledby="sideline-settings-tab">
+                              <p><strong> In this situation, you would probably do two things:</strong> exit the page, or look for the trusty search bar. If you decide to stick around, a proper search function should take your query and send you to your destination. Problem solved. It's not a perfect experience, but it's a hard one to avoid on larger websites that simply can't link to every piece of content from the homepage.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-6 mb-lg-3"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Material Style Tabs</h3>
+                    <p class="mt-1 mb-0">To set color use the  <code>nav-color </code>class with <code>nav-border  </code>class.</p>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs border-tab border-0 mb-0 nav-danger" id="topline-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link active nav-border pt-0 text-danger nav-danger" id="topline-top-user-tab" data-bs-toggle="tab" href="tab-bootstrap.html#topline-top-user" role="tab" aria-controls="topline-top-user" aria-selected="true">    <i class="fa-solid fa-user">  </i>User</a></li>
+                      <li class="nav-item"><a class="nav-link nav-border text-danger nav-danger" id="topline-top-description-tab" data-bs-toggle="tab" href="tab-bootstrap.html#topline-top-description" role="tab" aria-controls="topline-top-description" aria-selected="false"><i class="fa-solid fa-file"> </i>Description        </a></li>
+                      <li class="nav-item"><a class="nav-link nav-border text-danger nav-danger" id="topline-top-review-tab" data-bs-toggle="tab" href="tab-bootstrap.html#topline-top-review" role="tab" aria-controls="topline-top-review" aria-selected="false"><i class="fa-solid fa-star"> </i>Review       </a></li>
+                    </ul>
+                    <div class="tab-content" id="topline-tabContent">
+                      <div class="tab-pane fade show active" id="topline-top-user" role="tabpanel" aria-labelledby="topline-top-user-tab">
+                        <div class="card-body px-0 pb-0"> 
+                          <div class="user-header pb-2"> 
+                            <h6 class="fw-bold">User Details:</h6>
+                          </div>
+                          <div class="user-content">  
+                            <div class="table-responsive">
+                              <table class="table mb-0">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Contact No</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr> 
+                                    <th scope="row">1</th>
+                                    <td>Neha</td>
+                                    <td>India </td>
+                                    <td>5698741236   </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacklin</td>
+                                    <td>Thailand</td>
+                                    <td>7800030320</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="topline-top-description" role="tabpanel" aria-labelledby="topline-top-description-tab">
+                        <div class="card-body px-0 pb-0">
+                          <div class="user-header pb-2"> 
+                            <h6 class="fw-bold">Description:</h6>
+                          </div>
+                          <div class="user-content"> 
+                            <div class="table-responsive">
+                              <table class="table mb-0">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Technology</th>
+                                    <th scope="col">Interest</th>
+                                    <th scope="col">Salary Expected </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Web Designer</td>
+                                    <td>HTML,CSS,JS,SCSS</td>
+                                    <td>45000</td>
+                                  </tr>
+                                  <tr>
+                                    <td>UX Designer</td>
+                                    <td>Figma,Photoshop,craft</td>
+                                    <td>20000</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="topline-top-review" role="tabpanel" aria-labelledby="topline-top-review-tab">
+                        <div class="card-body px-0 pb-0">
+                          <div class="user-header pb-2">
+                            <h6 class="fw-bold">Review</h6>
+                          </div>
+                          <div class="user-content">
+                            <div class="table-responsive">  
+                              <table class="table mb-0">
+                                <thead>
+                                  <tr> 
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Rating</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Neha</td>
+                                    <td>India</td>
+                                    <td><i class="iconly-Star icbo"></i><i class="iconly-Star icbo"> </i><i class="iconly-Star icbo"> </i><i class="iconly-Star icbo"> </i><i class="iconly-Star icbo"> </i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Irfan</td>
+                                    <td>India</td>
+                                    <td>            <i class="iconly-Star icbo"></i><i class="iconly-Star icbo"></i><i class="iconly-Star icbo"></i></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Border Tabs </h3>
+                    <p class="mt-1 mb-0">To set <code>icon </code>& <code>.nav-border </code>class.</p>
+                  </div>
+                  <div class="card-body">
+                    <ul class="nav nav-tabs border-tab mb-0" id="bottom-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link nav-border text-info tab-info pt-0" id="bottom-home-tab" data-bs-toggle="tab" href="tab-bootstrap.html#bottom-home" role="tab" aria-controls="bottom-home" aria-selected="true"><i class="fa-solid fa-house">     </i>Home</a></li>
+                      <li class="nav-item"><a class="nav-link nav-border text-info tab-info active" id="bottom-inbox-tab" data-bs-toggle="tab" href="tab-bootstrap.html#bottom-inbox" role="tab" aria-controls="bottom-inbox" aria-selected="false"><i class="fa-solid fa-inbox">  </i>Inbox</a></li>
+                      <li class="nav-item"><a class="nav-link nav-border text-info tab-info" id="bottom-contact-tab" data-bs-toggle="tab" href="tab-bootstrap.html#bottom-contact" role="tab" aria-controls="bottom-contact" aria-selected="false"><i class="fa-solid fa-phone"></i>Contact</a></li>
+                    </ul>
+                    <div class="tab-content" id="bottom-tabContent">
+                      <div class="tab-pane fade" id="bottom-home" role="tabpanel" aria-labelledby="bottom-home-tab">
+                        <p class="pt-3">A navigation bar is a particularly important feature because it allows visitors to quickly and easily find <em class="text-danger">important pages on your website,</em> like your blog, product pages, pricing, contact info, and documentation. This improves the chances of visitors browsing your site longer, which can boost your page views and reduce your bounce rate.Create product Builder tool is also pre-bundled in this template so that you can let the audience configure the product by themselves before placing the order.</p>
+                      </div>
+                      <div class="tab-pane fade show active" id="bottom-inbox" role="tabpanel" aria-labelledby="bottom-inbox-tab">
+                        <div class="card-body pb-0">
+                          <div class="main-inbox">
+                            <div class="header-inbox">
+                              <div class="header-left-inbox">
+                                <div class="inbox-img"><img src="../assets/images/user/6.jpg" alt="profile"></div>
+                                <div class="inbox-content">
+                                  <h6>Dalbult Caslin</h6>
+                                  <p class="text-muted">stroman.rogers@gmail.com</p>
+                                </div>
+                              </div>
+                              <ul class="header-right-inbox">
+                                <li>
+                                  <p>8 JAN 11:30PM</p>
+                                </li>
+                                <li class="text-danger"><i class="iconly-Delete icli"></i></li>
+                              </ul>
+                            </div>
+                            <div class="body-inbox mt-2">
+                              <div class="body-h-wrapper"><i class="iconly-Star icbo"></i><em>Compare Prices Find the Best Computer Assessors Fronted Issue.</em></div>
+                              <p class="pt-2">Site speed and design are two of the most important ranking factors Google takes into consideration, as they have the biggest effect of customer staying on site as the website respond faster.                                          </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="bottom-contact" role="tabpanel" aria-labelledby="bottom-contact-tab">
+                        <div class="card-body px-0 pb-0">
+                          <div class="form">  
+                            <div class="mb-3">
+                              <label class="form-label" for="exampleFormControltwo">Email address</label>
+                              <input class="form-control" id="exampleFormControltwo" type="email" placeholder="youremail@gmail.com">
+                            </div>
+                            <div class="mb-0">
+                              <label class="form-label" for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer"> 
+          <div class="container-fluid">
+            <div class="row"> 
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2024 © Admiro theme by pixelstrap.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="float-end mb-0">Hand crafted &amp; made with
+                  <svg class="svg-color footer-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#heart"></use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- jquery-->
+    <script src="../assets/js/vendors/jquery/jquery.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" defer=""></script>
+    <script src="../assets/js/vendors/bootstrap/dist/js/popper.min.js" defer=""></script>
+    <!--fontawesome-->
+    <script src="../assets/js/vendors/font-awesome/fontawesome-min.js"></script>
+    <!-- sidebar -->
+    <script src="../assets/js/sidebar.js"></script>
+    <!-- scrollbar-->
+    <script src="../assets/js/scrollbar/simplebar.js"></script>
+    <script src="../assets/js/scrollbar/custom.js"></script>
+    <!-- slick-->
+    <script src="../assets/js/slick/slick.min.js"></script>
+    <script src="../assets/js/slick/slick.js"></script>
+    <!-- theme_customizer-->
+    <script src="../assets/js/theme-customizer/customizer.js"></script>
+    <!-- custom script -->
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

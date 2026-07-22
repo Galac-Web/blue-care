@@ -1,0 +1,611 @@
+{
+    "version": 1,
+    "brands": [
+        {
+            "id": "000",
+            "name": "ALFA ROMEO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/834.jpg"
+        },
+        {
+            "id": "001",
+            "name": "AUDI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/835.jpg"
+        },
+        {
+            "id": "002",
+            "name": "AUTOBIANCHI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/836.jpg"
+        },
+        {
+            "id": "003",
+            "name": "BMW",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/837.jpg"
+        },
+        {
+            "id": "004",
+            "name": "BYD",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/880.jpg"
+        },
+        {
+            "id": "005",
+            "name": "CHANGAN",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/886.jpg"
+        },
+        {
+            "id": "006",
+            "name": "CHERY",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/996.jpg"
+        },
+        {
+            "id": "007",
+            "name": "CHRYSLER",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/838.jpg"
+        },
+        {
+            "id": "008",
+            "name": "CITROEN",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/839.jpg"
+        },
+        {
+            "id": "009",
+            "name": "CUPRA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/830.jpg"
+        },
+        {
+            "id": "010",
+            "name": "DACIA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/367.jpg"
+        },
+        {
+            "id": "011",
+            "name": "DAEWOO - CHEVROLET",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/872.jpg"
+        },
+        {
+            "id": "012",
+            "name": "DAIHATSU",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/841.jpg"
+        },
+        {
+            "id": "013",
+            "name": "DODGE",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/842.jpg"
+        },
+        {
+            "id": "014",
+            "name": "DR",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/887.jpg"
+        },
+        {
+            "id": "015",
+            "name": "DS",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/832.jpg"
+        },
+        {
+            "id": "016",
+            "name": "FIAT",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/843.jpg"
+        },
+        {
+            "id": "017",
+            "name": "FORD",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/844.jpg"
+        },
+        {
+            "id": "018",
+            "name": "GAC",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/885.jpg"
+        },
+        {
+            "id": "019",
+            "name": "GEELY",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/995.jpg"
+        },
+        {
+            "id": "020",
+            "name": "HONDA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/845.jpg"
+        },
+        {
+            "id": "021",
+            "name": "HYUNDAI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/846.jpg"
+        },
+        {
+            "id": "022",
+            "name": "INFINITI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/408.jpg"
+        },
+        {
+            "id": "023",
+            "name": "ISUZU",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/847.jpg"
+        },
+        {
+            "id": "024",
+            "name": "IVECO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/874.jpg"
+        },
+        {
+            "id": "025",
+            "name": "JAECOO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/997.jpg"
+        },
+        {
+            "id": "026",
+            "name": "JAGUAR",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/410.jpg"
+        },
+        {
+            "id": "027",
+            "name": "JEEP",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/840.jpg"
+        },
+        {
+            "id": "028",
+            "name": "KGM",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/881.jpg"
+        },
+        {
+            "id": "029",
+            "name": "KIA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/848.jpg"
+        },
+        {
+            "id": "030",
+            "name": "LADA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/849.jpg"
+        },
+        {
+            "id": "031",
+            "name": "LANCIA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/850.jpg"
+        },
+        {
+            "id": "032",
+            "name": "LAND ROVER",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/879.jpg"
+        },
+        {
+            "id": "033",
+            "name": "LEAPMOTOR",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/993.jpg"
+        },
+        {
+            "id": "034",
+            "name": "LEXUS",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/877.jpg"
+        },
+        {
+            "id": "035",
+            "name": "LOTUS",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/412.jpg"
+        },
+        {
+            "id": "036",
+            "name": "LYNK&CO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/994.jpg"
+        },
+        {
+            "id": "037",
+            "name": "MAN",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/888.jpg"
+        },
+        {
+            "id": "038",
+            "name": "MASERATI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/414.jpg"
+        },
+        {
+            "id": "039",
+            "name": "MAZDA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/852.jpg"
+        },
+        {
+            "id": "040",
+            "name": "MERCEDES",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/853.jpg"
+        },
+        {
+            "id": "041",
+            "name": "MG",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/878.jpg"
+        },
+        {
+            "id": "042",
+            "name": "MINI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/833.jpg"
+        },
+        {
+            "id": "043",
+            "name": "MITSUBISHI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/854.jpg"
+        },
+        {
+            "id": "044",
+            "name": "NISSAN",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/855.jpg"
+        },
+        {
+            "id": "045",
+            "name": "OMODA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/998.jpg"
+        },
+        {
+            "id": "046",
+            "name": "OPEL",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/856.jpg"
+        },
+        {
+            "id": "047",
+            "name": "PEUGEOT",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/857.jpg"
+        },
+        {
+            "id": "048",
+            "name": "PIAGGIO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/416.jpg"
+        },
+        {
+            "id": "049",
+            "name": "PORSCHE",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/873.jpg"
+        },
+        {
+            "id": "050",
+            "name": "RENAULT",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/858.jpg"
+        },
+        {
+            "id": "051",
+            "name": "ROVER",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/851.jpg"
+        },
+        {
+            "id": "052",
+            "name": "SAAB",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/859.jpg"
+        },
+        {
+            "id": "053",
+            "name": "SEAT",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/860.jpg"
+        },
+        {
+            "id": "054",
+            "name": "SKODA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/862.jpg"
+        },
+        {
+            "id": "055",
+            "name": "SMART",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/861.jpg"
+        },
+        {
+            "id": "056",
+            "name": "SSANGYONG",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/420.jpg"
+        },
+        {
+            "id": "057",
+            "name": "SUBARU",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/863.jpg"
+        },
+        {
+            "id": "058",
+            "name": "SUZUKI",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/864.jpg"
+        },
+        {
+            "id": "059",
+            "name": "TESLA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/422.jpg"
+        },
+        {
+            "id": "060",
+            "name": "TOYOTA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/865.jpg"
+        },
+        {
+            "id": "061",
+            "name": "VOYAH",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/883.jpg"
+        },
+        {
+            "id": "062",
+            "name": "VOLVO",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/866.jpg"
+        },
+        {
+            "id": "063",
+            "name": "VW",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/867.jpg"
+        },
+        {
+            "id": "064",
+            "name": "XEV",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/999.jpg"
+        },
+        {
+            "id": "065",
+            "name": "XPENG",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/884.jpg"
+        },
+        {
+            "id": "066",
+            "name": "ZASTAVA",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/868.jpg"
+        },
+        {
+            "id": "067",
+            "name": "ZEEKR",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/882.jpg"
+        },
+        {
+            "id": "068",
+            "name": "UNIVERSAL ITEMS",
+            "logo_src": "http:\/\/gbg-eshop.gr\/images\/870.jpg"
+        }
+    ],
+    "special_categories": [
+        {
+            "id": "300",
+            "label_gbg": "ΣΥΣΤΗΜΑΤΑ ΨΥΞΗΣ"
+        },
+        {
+            "id": "600",
+            "label_gbg": "TUNING"
+        },
+        {
+            "id": "400",
+            "label_gbg": "ΑΜΟΡΤΙΣΕΡ"
+        },
+        {
+            "id": "700",
+            "label_gbg": "ΔΟΧΕΙΑ ΝΕΡΟΥ"
+        },
+        {
+            "id": "800",
+            "label_gbg": "ΔΙΑΚΟΠΤΕΣ"
+        },
+        {
+            "id": "900",
+            "label_gbg": "ΚΙΤ ΜΟΝΤΑΡΙΣΜΑΤΟΣ"
+        },
+        {
+            "id": "910",
+            "label_gbg": "ΚΟΥΤΙΑ ΦΙΛΤΡΟΥ ΑΕΡΑ"
+        },
+        {
+            "id": "920",
+            "label_gbg": "ΣΤΟΠ ΠΟΡΤΑΣ"
+        },
+        {
+            "id": "930",
+            "label_gbg": "ΟΔΗΓΟΙ\/ΡΑΟΥΛΑ ΣΥΡΟΜΕΝΗΣ ΠΟΡΤΑΣ"
+        }
+    ],
+    "model_groups": {
+        "ALFA ROMEO": [
+            {
+                "group": "ALFA ROMEO ALFA 33",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO ALFA 33 1983-1990 (905\/907)",
+                        "label": "ALFA ROMEO ALFA 33 1983-1990 (905\/907)",
+                        "years": "1983–1990"
+                    },
+                    {
+                        "id": "ALFA ROMEO ALFA 33 1990-1995 (905\/907)",
+                        "label": "ALFA ROMEO ALFA 33 1990-1995 (905\/907)",
+                        "years": "1990–1995"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO ALFA 75",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO ALFA 75 1985-1992 (162)",
+                        "label": "ALFA ROMEO ALFA 75 1985-1992 (162)",
+                        "years": "1985–1992"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 145",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 145 1994-1999 (930)",
+                        "label": "ALFA ROMEO 145 1994-1999 (930)",
+                        "years": "1994–1999"
+                    },
+                    {
+                        "id": "ALFA ROMEO 145 1999-2001 (930)",
+                        "label": "ALFA ROMEO 145 1999-2001 (930)",
+                        "years": "1999–2001"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 146",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 146 1994-1999 (930)",
+                        "label": "ALFA ROMEO 146 1994-1999 (930)",
+                        "years": "1994–1999"
+                    },
+                    {
+                        "id": "ALFA ROMEO 146 1999-2001 (930)",
+                        "label": "ALFA ROMEO 146 1999-2001 (930)",
+                        "years": "1999–2001"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 147",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 147 2000-2010 (937)",
+                        "label": "ALFA ROMEO 147 2000-2010 (937)",
+                        "years": "2000–2010"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 155",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 155 1992-1997 (167)",
+                        "label": "ALFA ROMEO 155 1992-1997 (167)",
+                        "years": "1992–1997"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 156",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 156 1997-2003 (932)",
+                        "label": "ALFA ROMEO 156 1997-2003 (932)",
+                        "years": "1997–2003"
+                    },
+                    {
+                        "id": "ALFA ROMEO 156 2003-2005 (932)",
+                        "label": "ALFA ROMEO 156 2003-2005 (932)",
+                        "years": "2003–2005"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 159",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 159 2005-2011 (939)",
+                        "label": "ALFA ROMEO 159 2005-2011 (939)",
+                        "years": "2005–2011"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 164",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 164 1987-1998 (164)",
+                        "label": "ALFA ROMEO 164 1987-1998 (164)",
+                        "years": "1987–1998"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO 166",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO 166 1998-2007 (936)",
+                        "label": "ALFA ROMEO 166 1998-2007 (936)",
+                        "years": "1998–2007"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO SPIDER",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO SPIDER\/GTV 1994-2006 (916)",
+                        "label": "ALFA ROMEO SPIDER\/GTV 1994-2006 (916)",
+                        "years": "1994–2006"
+                    },
+                    {
+                        "id": "ALFA ROMEO SPIDER 2006-2011 (939)",
+                        "label": "ALFA ROMEO SPIDER 2006-2011 (939)",
+                        "years": "2006–2011"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO BRERA",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO BRERA 2006-2010 (939)",
+                        "label": "ALFA ROMEO BRERA 2006-2010 (939)",
+                        "years": "2006–2010"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO GT",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO GT 2003-2010 (937)",
+                        "label": "ALFA ROMEO GT 2003-2010 (937)",
+                        "years": "2003–2010"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO MITO",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO MITO 2008-2018 (955)",
+                        "label": "ALFA ROMEO MITO 2008-2018 (955)",
+                        "years": "2008–2018"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO GIULIETTA",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO GIULIETTA 2010-2020 (940)",
+                        "label": "ALFA ROMEO GIULIETTA 2010-2020 (940)",
+                        "years": "2010–2020"
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO GIULIA",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO GIULIA 2015- (952)",
+                        "label": "ALFA ROMEO GIULIA 2015- (952)",
+                        "years": ""
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO STELVIO",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO STELVIO 2016- (949)",
+                        "label": "ALFA ROMEO STELVIO 2016- (949)",
+                        "years": ""
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO TONALE",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO TONALE 2022- (965)",
+                        "label": "ALFA ROMEO TONALE 2022- (965)",
+                        "years": ""
+                    }
+                ]
+            },
+            {
+                "group": "ALFA ROMEO JUNIOR",
+                "models": [
+                    {
+                        "id": "ALFA ROMEO JUNIOR 2024- (626\/627)",
+                        "label": "ALFA ROMEO JUNIOR 2024- (626\/627)",
+                        "years": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "main_categories_by_model": [],
+    "source": "chrome_cache_seed",
+    "last_cont_id": "gbg_user_01",
+    "updated_at": "2026-07-10T15:33:53+00:00"
+}

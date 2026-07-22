@@ -1,0 +1,12 @@
+﻿{
+    "mode":  "local",
+    "site_api_url":  "https://blu-car.ro/api/robot-oem.php",
+    "site_api_urls":  [
+                          "https://blu-car.ro/api/robot-oem.php",
+                          "http://blu-car.ro.test/api/robot-oem.php",
+                          "http://blu-car.ro.test/robot-oem.php"
+                      ],
+    "monitor_url":  "https://blu-car.ro/admin/?page=robot-monitor",
+    "robot_api_key":  "19921705",
+    "snapshots_dir":  ""
+}

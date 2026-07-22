@@ -1,0 +1,10 @@
+{
+    "mode": "remote",
+    "site_api_url": "https://blu-car.ro/robot-oem.php",
+    "site_api_urls": [
+        "https://blu-car.ro/robot-oem.php",
+        "https://blu-car.ro/api/robot-oem.php"
+    ],
+    "monitor_url": "https://blu-car.ro/robot-monitor.php",
+    "robot_api_key": "19921705"
+}

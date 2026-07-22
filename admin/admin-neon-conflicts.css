@@ -1,0 +1,395 @@
+/**
+ * Blue-Car admin — temă Woo 2026 aliniată la assets/shop/shop.css (homepage).
+ * Încărcat ultimul; suprascrie Rubick/Bootstrap + tokeni neon vechi.
+ */
+html.blu-admin-root,
+html.blu-admin-shell,
+html.blu-admin-root:root,
+html.blu-admin-shell:root {
+    --blu-bg: #f8fafc;
+    --blu-bg-deep: #0f172a;
+    --blu-surface: #ffffff;
+    --blu-surface-2: #f1f5f9;
+    --blu-primary: #2563eb;
+    --blu-primary-dim: #1d4ed8;
+    --blu-primary-glow: rgba(37, 99, 235, 0.28);
+    --blu-accent: #16a34a;
+    --blu-dark: #0f172a;
+    --blu-text: #0f172a;
+    --blu-muted: #64748b;
+    --blu-line: #e2e8f0;
+    --blu-neon-tint: #eff6ff;
+    --blu-neon-tint-2: #dbeafe;
+    --blu-radius: 16px;
+    --blu-radius-sm: 10px;
+    --blu-shadow: 0 2px 12px rgba(10, 22, 40, 0.06);
+    --blu-shadow-lg: 0 12px 40px rgba(10, 22, 40, 0.1);
+    --theme-default: #2563eb !important;
+    --primary-color: #2563eb !important;
+    --dropdown-toggle: #2563eb !important;
+    --body-color: #f8fafc !important;
+    --light-border: #e2e8f0 !important;
+    --active-bg-color: rgba(37, 99, 235, 0.12) !important;
+    --body-font-color: #0f172a !important;
+    --theme-body-font-color: #0f172a !important;
+}
+
+body.blu-admin-neon {
+    background-color: var(--blu-bg) !important;
+    color: var(--blu-text) !important;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+}
+
+body.blu-admin-neon::before {
+    display: block;
+    background:
+        radial-gradient(ellipse 80% 50% at 10% -10%, rgba(37, 99, 235, 0.12), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 90% 0%, rgba(29, 78, 216, 0.08), transparent 50%);
+}
+
+body.blu-admin-neon .page-wrapper,
+body.blu-admin-neon .page-wrapper .page-body-wrapper,
+body.blu-admin-neon .page-wrapper .page-body-wrapper .page-body {
+    position: relative;
+    z-index: 1;
+}
+
+body.blu-admin-neon .page-wrapper .page-body-wrapper {
+    background: linear-gradient(180deg, var(--blu-bg) 0%, #ffffff 100%) !important;
+    background-color: var(--blu-bg) !important;
+}
+
+/* — Login (shop-auth) — paritate homepage ─ */
+body.blu-admin-neon.shop-auth-body .shop-auth-visual-bg {
+    background:
+        radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.45), transparent 45%),
+        radial-gradient(circle at 80% 70%, rgba(29, 78, 216, 0.35), transparent 40%),
+        linear-gradient(180deg, #0f172a, #1e3a8a) !important;
+}
+
+body.blu-admin-neon.shop-auth-body .shop-auth-visual .shop-logo-accent {
+    color: #93c5fd !important;
+}
+
+body.blu-admin-neon.shop-auth-body .shop-auth-card {
+    border: 1px solid var(--blu-line);
+    box-shadow: var(--blu-shadow-lg);
+    border-radius: var(--blu-radius);
+}
+
+body.blu-admin-neon.shop-auth-body .shop-auth-card h1 {
+    color: var(--blu-dark);
+    font-weight: 800;
+}
+
+body.blu-admin-neon.shop-auth-body .shop-btn-accent {
+    background: linear-gradient(135deg, var(--blu-primary), var(--blu-primary-dim)) !important;
+    color: #fff !important;
+    box-shadow: 0 8px 24px var(--blu-primary-glow) !important;
+    border: 0 !important;
+}
+
+body.blu-admin-neon.shop-auth-body .shop-btn-accent:hover {
+    box-shadow: 0 12px 32px var(--blu-primary-glow) !important;
+    transform: translateY(-1px);
+}
+
+/* — Sidebar — text lizibil, activ albastru + alb ─ */
+body.blu-admin-neon .page-sidebar,
+body.blu-admin-neon.dark-sidebar .page-sidebar,
+body.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar {
+    background: linear-gradient(180deg, var(--blu-dark) 0%, #1e293b 100%) !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.15);
+    pointer-events: auto;
+    z-index: 4;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-link,
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-link h6 {
+    color: rgba(226, 232, 240, 0.88) !important;
+    line-height: 1.25;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-link:hover {
+    background: rgba(37, 99, 235, 0.18) !important;
+    color: #fff !important;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active,
+body.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active {
+    background: var(--blu-primary) !important;
+    box-shadow: 0 4px 16px var(--blu-primary-glow);
+    color: #fff !important;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active .stroke-icon,
+body.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active .stroke-icon {
+    stroke: #fff !important;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active h6,
+body.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active h6 {
+    color: #fff !important;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-submenu a {
+    color: rgba(203, 213, 225, 0.9) !important;
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-submenu a.active {
+    background: rgba(37, 99, 235, 0.25) !important;
+    color: #fff !important;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+/* — Header ─ */
+body.blu-admin-neon .page-header {
+    pointer-events: auto;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.94) !important;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--blu-line);
+    box-shadow: 0 4px 24px rgba(37, 99, 235, 0.06);
+}
+
+body.blu-admin-neon .page-header .logo-wrapper {
+    background: linear-gradient(135deg, var(--blu-dark) 0%, #1e3a8a 100%) !important;
+    border-right: 1px solid rgba(37, 99, 235, 0.25);
+}
+
+body.blu-admin-neon .page-header .logo-wrapper .shop-logo-text {
+    color: #fff !important;
+}
+
+body.blu-admin-neon .page-header .logo-wrapper .shop-logo-accent {
+    color: #93c5fd !important;
+}
+
+body.blu-admin-neon .page-header .logo-wrapper .shop-logo-mark svg {
+    filter: drop-shadow(0 4px 12px var(--blu-primary-glow));
+}
+
+body.blu-admin-neon .blue-logo:not(.shop-logo) {
+    color: #fff !important;
+    background: none !important;
+    filter: none !important;
+}
+
+/* — Butoane & badge-uri ─ */
+body.blu-admin-neon .btn-primary,
+body.blu-admin-neon .login-main .btn-primary {
+    background: linear-gradient(135deg, var(--blu-primary), var(--blu-primary-dim)) !important;
+    border-color: transparent !important;
+    box-shadow: 0 8px 24px var(--blu-primary-glow) !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+body.blu-admin-neon .btn-primary:hover,
+body.blu-admin-neon .btn-primary:focus {
+    background: linear-gradient(135deg, #3b82f6, var(--blu-primary)) !important;
+    color: #fff !important;
+}
+
+body.blu-admin-neon .bg-primary,
+body.blu-admin-neon .user-img.bg-primary {
+    background: linear-gradient(135deg, var(--blu-primary), var(--blu-primary-dim)) !important;
+    color: #fff !important;
+}
+
+body.blu-admin-neon .btn-outline-primary {
+    border-color: var(--blu-primary-dim) !important;
+    color: var(--blu-primary-dim) !important;
+}
+
+body.blu-admin-neon .btn-outline-primary:hover {
+    background: var(--blu-neon-tint) !important;
+    border-color: var(--blu-primary) !important;
+    color: var(--blu-primary-dim) !important;
+}
+
+body.blu-admin-neon .badge-light-primary,
+body.blu-admin-neon .badge-primary {
+    background-color: var(--blu-neon-tint) !important;
+    color: var(--blu-primary-dim) !important;
+}
+
+/* — Carduri & formulare ─ */
+body.blu-admin-neon .card {
+    background: var(--blu-surface) !important;
+    border-color: var(--blu-line) !important;
+    border-radius: var(--blu-radius);
+    box-shadow: var(--blu-shadow);
+}
+
+body.blu-admin-neon .card:hover {
+    border-color: rgba(37, 99, 235, 0.35);
+    box-shadow: var(--blu-shadow-lg);
+}
+
+body.blu-admin-neon .form-control,
+body.blu-admin-neon .form-select {
+    border-color: var(--blu-line) !important;
+    border-radius: var(--blu-radius-sm);
+}
+
+body.blu-admin-neon .form-control:focus,
+body.blu-admin-neon .form-select:focus {
+    border-color: var(--blu-primary) !important;
+    box-shadow: 0 0 0 3px var(--blu-primary-glow) !important;
+}
+
+/* — Tab-uri admin (Bootstrap + furnizori hub) — ca shop-woo-tab ─ */
+body.blu-admin-neon .nav-tabs {
+    border-bottom-color: var(--blu-line);
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+body.blu-admin-neon .nav-tabs .nav-link {
+    border-radius: 999px;
+    color: var(--blu-muted);
+    white-space: normal;
+    word-break: break-word;
+    padding: 0.55rem 1rem;
+}
+
+body.blu-admin-neon .nav-tabs .nav-link.active,
+body.blu-admin-neon .nav-tabs .nav-item.show .nav-link {
+    background: var(--blu-primary) !important;
+    border-color: var(--blu-primary) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 14px var(--blu-primary-glow);
+}
+
+body.blu-admin-neon .fz-hub-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+body.blu-admin-neon .fz-hub-tab {
+    padding: 0.6rem 1.1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-decoration: none !important;
+    color: var(--blu-muted) !important;
+    background: var(--blu-surface-2) !important;
+    border: 1px solid var(--blu-line) !important;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.35;
+}
+
+body.blu-admin-neon .fz-hub-tab:hover {
+    background: var(--blu-neon-tint) !important;
+    color: var(--blu-text) !important;
+    border-color: rgba(37, 99, 235, 0.35) !important;
+}
+
+body.blu-admin-neon .fz-hub-tab.active {
+    background: var(--blu-primary) !important;
+    color: #fff !important;
+    border-color: var(--blu-primary) !important;
+    box-shadow: 0 4px 14px var(--blu-primary-glow);
+}
+
+body.blu-admin-neon .page-link.active {
+    background-color: var(--blu-neon-tint) !important;
+    border-color: var(--blu-primary-dim) !important;
+    color: var(--blu-dark) !important;
+}
+
+/* — Tabele ─ */
+body.blu-admin-neon .table thead th {
+    background: linear-gradient(180deg, var(--blu-neon-tint), var(--blu-neon-tint-2)) !important;
+    border-bottom-color: var(--blu-line) !important;
+    color: var(--blu-dark) !important;
+}
+
+body.blu-admin-neon .text-muted {
+    color: var(--blu-muted) !important;
+}
+
+body.blu-admin-neon .mvp-stat h3 {
+    color: var(--blu-primary-dim);
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+}
+
+body.blu-admin-neon .stat-icon.bg-light-primary {
+    background: var(--blu-neon-tint) !important;
+    color: var(--blu-primary-dim) !important;
+}
+
+body.blu-admin-neon .blu-pcard--selected {
+    border-color: var(--blu-primary) !important;
+    box-shadow: 0 0 0 2px var(--blu-primary-glow);
+}
+
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-main-title.blu-nav-section + .sidebar-list .sidebar-link h6,
+body.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-main-title:not(.blu-nav-section) + .sidebar-list .sidebar-link h6 {
+    font-weight: 600;
+}
+
+body.blu-admin-neon.dark-only {
+    --body-color: #1e293b !important;
+    --theme-default: #3b82f6 !important;
+}
+
+body.blu-admin-neon.dark-only .page-wrapper .page-body-wrapper {
+    background: #1e293b !important;
+}
+
+@media (max-width: 767px) {
+    body.blu-admin-neon .page-sidebar {
+        z-index: 10;
+    }
+
+    body.blu-admin-neon.shop-auth-body .shop-auth-scene {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Layout + tab-uri produse → admin-shell.css (ultimul) */
+
+/* 2026 theme preia controlul — fără sidebar întunecat */
+body.blu-admin-2026.blu-admin-neon .page-sidebar,
+body.blu-admin-2026.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar {
+    background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%) !important;
+    border-right-color: rgba(99, 130, 180, 0.22) !important;
+    top: 0 !important;
+    height: 100vh !important;
+    z-index: 1050 !important;
+}
+
+body.blu-admin-2026.blu-admin-neon .page-sidebar .main-sidebar {
+    margin-top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+body.blu-admin-2026.blu-admin-neon .page-header.blu-admin-topbar {
+    margin: 0 0 0 var(--blu-sidebar-w, 292px) !important;
+    width: calc(100% - var(--blu-sidebar-w, 292px)) !important;
+    z-index: 1100 !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+body.blu-admin-2026.blu-admin-neon .page-header .logo-wrapper {
+    display: none !important;
+}
+
+body.blu-admin-2026.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-link,
+body.blu-admin-2026.blu-admin-neon .page-sidebar .sidebar-menu .sidebar-link h6 {
+    color: #0c1222 !important;
+}
+
+body.blu-admin-2026.blu-admin-neon .page-header .logo-wrapper {
+    background: transparent !important;
+}

@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admiro admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Admiro admin template, best javascript admin, dashboard template, bootstrap admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Admiro - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&amp;display=swap" rel="stylesheet">
+    <!-- Flag icon css -->
+    <link rel="stylesheet" href="../assets/css/vendors/flag-icon.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/iconly-icon.css">
+    <link rel="stylesheet" href="../assets/css/bulk-style.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/themify.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="../assets/css/fontawesome-min.css">
+    <!-- Whether Icon css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/weather-icons/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick-theme.css">
+    <!-- App css -->
+    <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <!-- page-wrapper Start-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i class="iconly-Arrow-Up icli"></i></div>
+    <!-- tap on tap ends-->
+    <!-- loader-->
+    <div class="loader-wrapper">
+      <div class="loader"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <header class="page-header row">
+        <div class="logo-wrapper d-flex align-items-center col-auto"><a href="index.html"><img class="light-logo img-fluid" src="../assets/images/logo/logo1.png" alt="logo"><img class="dark-logo img-fluid" src="../assets/images/logo/logo-dark.png" alt="logo"></a><a class="close-btn toggle-sidebar" href="javascript:void(0)">
+            <svg class="svg-color">
+              <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+            </svg></a></div>
+        <div class="page-main-header col">
+          <div class="header-left">
+            <form class="form-inline search-full col" action="modal.html#" method="get">
+              <div class="form-group w-100">
+                <div class="Typeahead Typeahead--twitterUsers">
+                  <div class="u-posRelative">
+                    <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Admiro .." name="q" title="" autofocus>
+                    <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><i class="close-search" data-feather="x"></i>
+                  </div>
+                  <div class="Typeahead-menu"></div>
+                </div>
+              </div>
+            </form>
+            <div class="form-group-header d-lg-block d-none">
+              <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative d-flex align-items-center"> 
+                  <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Type to Search..." name="q" title=""><i class="search-bg iconly-Search icli"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-right">
+            <ul class="header-right"> 
+              <li class="custom-dropdown">
+                <div class="translate_wrapper">
+                  <div class="current_lang"><a class="lang" href="javascript:void(0)"><i class="flag-icon flag-icon-us"></i>
+                      <h6 class="lang-txt f-w-700">ENG</h6></a></div>
+                  <ul class="custom-menu profile-menu language-menu py-0 more_lang">
+                                  <li class="d-block"><a class="lang" href="modal.html#" data-value="English"><i class="flag-icon flag-icon-us"></i>
+                                      <div class="lang-txt">English</div></a></li>
+                                  <li class="d-block"><a class="lang" href="modal.html#" data-value="fr"><i class="flag-icon flag-icon-fr"></i>
+                                      <div class="lang-txt">Français</div></a></li>
+                                  <li class="d-block"><a class="lang" href="modal.html#" data-value="es"><i class="flag-icon flag-icon-es"></i>
+                                      <div class="lang-txt">Español</div></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="search d-lg-none d-flex"> <a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                  </svg></a></li>
+              <li>  <a class="dark-mode" href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#moondark"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#cart-icon"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">2</span>
+                <div class="custom-menu cart-dropdown py-0 overflow-hidden">
+                  <h3 class="title dropdown-title">Cart</h3>
+                  <ul class="pb-0">
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/1.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Watch multicolor</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="modal.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/2.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Airpods</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500.00</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="modal.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li class="total">
+                      <h6 class="mb-0">Order Total : <span class="f-w-600">$1000.00</span></h6>
+                    </li>
+                    <li class="text-center"><a class="d-block mb-3 view-cart f-w-700 text-primary" href="cart.html">Go to your cart</a><a class="btn btn-primary view-checkout text-white" href="checkout.html">Checkout</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#notification"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">4</span>
+                <div class="custom-menu notification-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Notification <span class="font-primary">View all</span></h3>
+                  <ul class="activity-timeline">
+                    <li class="d-flex align-items-start">
+                      <div class="activity-line"></div>
+                      <div class="activity-dot-primary"></div>
+                      <div class="flex-grow-1">
+                        <h6 class="f-w-600 font-primary">30-04-2024<span>Today</span><span class="circle-dot-primary float-end">
+                            <svg class="circle-color">
+                              <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                            </svg></span></h6>
+                        <h5>Alice Goodwin</h5>
+                        <p class="mb-0">Fashion should be fun. It shouldn't be labelled intellectual.</p>
+                      </div>
+                    </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">28-06-2024<span>1 hour ago</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Herry Venter</h5>
+                                      <p>I am convinced that there can be luxury in simplicity.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-primary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-primary">04-08-2024<span>Today</span><span class="float-end circle-dot-primary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Loain Deo</h5>
+                                      <p>I feel that things happen for open new opportunities.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">12-11-2024<span>Yesterday</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Fenter Jessy</h5>
+                                      <p>Sometimes the simplest things are the most profound.</p>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="full-screen" href="javascript:void(0)"> 
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#scanfull"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#bookmark"></use>
+                  </svg></a>
+                <div class="custom-menu bookmark-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Bookmark</h3>
+                  <ul> 
+                    <li> 
+                      <form class="mb-0">
+                        <div class="input-group">
+                          <input class="form-control" type="text" placeholder="Search Bookmark..."><span class="input-group-text">
+                            <svg class="svg-color">
+                              <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                            </svg></span>
+                        </div>
+                      </form>
+                    </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-primary"><a href="index.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#cube"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="index.html">Dashboard</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-secondary"><a href="to-do.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#check"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="to-do.html">To-do</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-danger"><a href="apex_chart.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#pie"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="apex_chart.html">Chart</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="cloud-design"><a class="cloud-mode">
+                  <svg class="climacon climacon_cloudDrizzle" id="cloudDrizzle" version="1.1" viewBox="15 15 70 70">
+                    <g class="climacon_iconWrap climacon_iconWrap-cloudDrizzle">
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-drizzle">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-left" d="M42.001,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2.001-0.895-2.001-2v-3.998C40,54.538,40.896,53.644,42.001,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-middle" d="M49.999,53.644c1.104,0,2,0.896,2,2v4c0,1.104-0.896,2-2,2s-1.998-0.896-1.998-2v-4C48.001,54.54,48.896,53.644,49.999,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-right" d="M57.999,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2-0.895-2-2v-3.998C55.999,54.538,56.894,53.644,57.999,53.644z"></path>
+                      </g>
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-cloud">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud" d="M63.999,64.944v-4.381c2.387-1.386,3.998-3.961,3.998-6.92c0-4.418-3.58-8-7.998-8c-1.603,0-3.084,0.481-4.334,1.291c-1.232-5.316-5.973-9.29-11.664-9.29c-6.628,0-11.999,5.372-11.999,12c0,3.549,1.55,6.729,3.998,8.926v4.914c-4.776-2.769-7.998-7.922-7.998-13.84c0-8.836,7.162-15.999,15.999-15.999c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.336-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12C71.997,58.864,68.655,63.296,63.999,64.944z"></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <h3>15</h3></a></li>
+              <li class="profile-nav custom-dropdown">
+                <div class="user-wrap">
+                  <div class="user-img"><img src="../assets/images/profile.png" alt="user"></div>
+                  <div class="user-content">
+                    <h6>Ava Davis</h6>
+                    <p class="mb-0">Admin<i class="fa-solid fa-chevron-down"></i></p>
+                  </div>
+                </div>
+                <div class="custom-menu overflow-hidden">
+                  <ul class="profile-body">
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                      </svg><a class="ms-2" href="user-profile.html">Account</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                      </svg><a class="ms-2" href="letter-box.html">Inbox</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                      </svg><a class="ms-2" href="to-do.html">Task</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Login"></use>
+                      </svg><a class="ms-2" href="login.html">Log Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar"> 
+          <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+          <div class="main-sidebar" id="main-sidebar">
+            <ul class="sidebar-menu" id="simple-bar">
+              <li class="pin-title sidebar-main-title">  
+                <div> 
+                  <h5 class="sidebar-title f-w-700">Pinned</h5>
+                </div>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="lan-1 f-w-700 sidebar-title">General</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Home-dashboard"></use>
+                  </svg>
+                  <h6>Dashboards</h6><span class="badge">3</span><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="dashboard-02.html">Ecommerce </a></li>
+                  <li> <a href="dashboard-03.html">Education</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Pie"></use>
+                  </svg>
+                  <h6 class="lan-2">Widgets </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="general-widget.html">General</a></li>
+                  <li><a href="chart-widget.html">Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                  </svg>
+                  <h6 class="lan-3">Page layout</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="box-layout.html">Box Layout</a></li>
+                  <li><a href="layout-rtl.html">RTL</a></li>
+                  <li> <a href="layout-dark.html">Dark</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Application</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Info-circle"></use>
+                  </svg>
+                  <h6 class="f-w-600">Project</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="project-list.html">Project list </a></li>
+                  <li> <a href="projectcreate.html">Project create </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="file-manager.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper"></use>
+                  </svg>
+                  <h6 class="f-w-600">File Manager </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="kanban-board.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Kanban board</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bag"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ecommerce</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="add-products.html">Add Products</a></li>
+                  <li> <a href="product.html">Product</a></li>
+                  <li> <a href="product-page.html">Product Page</a></li>
+                  <li> <a href="category.html">Category page</a></li>
+                  <li> <a href="list-products.html">Product list</a></li>
+                  <li> <a href="payment-details.html">Payment Details</a></li>
+                  <li> <a href="order-history.html">Order History</a></li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Invoices<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="invoices-1.html">Invoices 1</a></li>
+                      <li> <a href="invoices-2.html">Invoices 2</a></li>
+                      <li> <a href="invoices-3.html">Invoices 3</a></li>
+                      <li> <a href="invoices-4.html">Invoices 4</a></li>
+                      <li> <a href="invoices-5.html">Invoices 5</a></li>
+                      <li> <a href="invoices-6.html">Invoices 6</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="cart.html">Cart</a></li>
+                  <li> <a href="list-wish.html">Wishlist</a></li>
+                  <li> <a href="checkout.html">Checkout</a></li>
+                  <li> <a href="pricing.html">Pricing </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="letter-box.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                  </svg>
+                  <h6 class="f-w-600">Letter Box</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chat"></use>
+                  </svg>
+                  <h6 class="f-w-600">Chat</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="private-chat.html">Private Chat</a></li>
+                  <li> <a href="group-chat.html">Group Chat</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                  </svg>
+                  <h6 class="f-w-600">Users</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="user-profile.html">Users Profile</a></li>
+                  <li> <a href="edit-profile.html">Users Edit</a></li>
+                  <li> <a href="user-cards.html">Users Cards      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="bookmark.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bookmark"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bookmarks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="contacts.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Contacts"></use>
+                  </svg>
+                  <h6 class="f-w-600">Contacts   </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="task.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Tick-square"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tasks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="calendar-basic.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Calendar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Calendar  </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="social-app.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Camera"></use>
+                  </svg>
+                  <h6 class="f-w-600">Social App</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="to-do.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit"></use>
+                  </svg>
+                  <h6 class="f-w-600">To-Do </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="search.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Search-sidebar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Search Result                                                </h6></a></li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Components</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="buttons.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#More-box"></use>
+                  </svg>
+                  <h6 class="f-w-600">buttons </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Folder"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ui Kits</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li> <a href="alert.html">Alert</a></li>
+                  <li> <a href="helper-classes.html">Helper classes</a></li>
+                  <li> <a href="grid.html">Grid</a></li>
+                  <li> <a href="accordion.html">Accordion</a></li>
+                  <li> <a href="tag-pills.html">Tag pills</a></li>
+                  <li> <a href="modal.html">Modal </a></li>
+                  <li> <a href="popover.html">Popover </a></li>
+                  <li> <a href="progress-bar.html">Progress bar</a></li>
+                  <li> <a href="tab-bootstrap.html">Tab bootstrap</a></li>
+                  <li> <a href="tooltip.html">Tooltip</a></li>
+                  <li> <a href="dropdown.html"> Dropdown</a></li>
+                  <li> <a href="list.html">List</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket-star"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bonus Ui</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="scrollable.html">Scrollable</a></li>
+                  <li> <a href="tree.html">Tree view </a></li>
+                  <li><a href="toasts.html">Toasts </a></li>
+                  <li> <a href="rating.html">Rating</a></li>
+                  <li> <a href="dropzone.html">Dropzone</a></li>
+                  <li> <a href="tour.html">Tour</a></li>
+                  <li> <a href="sweetalert2.html">Sweetalert2 </a></li>
+                  <li> <a href="modal-animated.html">Animated Modal</a></li>
+                  <li> <a href="slider.html">Slider</a></li>
+                  <li> <a href="ribbons.html">Ribbons</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li> <a href="breadcrumb.html">Breadcrumb</a></li>
+                  <li> <a href="range-slider.html">Range slider</a></li>
+                  <li> <a href="image-cropper.html">Image cropper</a></li>
+                  <li> <a href="basic-card.html">Basic Card</a></li>
+                  <li> <a href="creative-card.html">Creative Card</a></li>
+                  <li> <a href="dragable-card.html">Dragable Card </a></li>
+                  <li> <a href="timeline.html">Timeline</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+                  </svg>
+                  <h6 class="f-w-600">Animation </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li>  <a href="AOS.html">aos</a></li>
+                  <li>  <a href="WOW.html">wow</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Activity"></use>
+                  </svg>
+                  <h6 class="f-w-600">Icon</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="font-awesome.html">Fontawesome icon</a></li>
+                  <li><a href="feather_icon.html">Feather icon</a></li>
+                  <li> <a href="iconly-icon.html">Iconly icon </a></li>
+                  <li> <a href="themify-icon.html">Themify Icon</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chart"></use>
+                  </svg>
+                  <h6 class="f-w-600">Charts</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li><a href="echarts.html">Echarts</a></li>
+                  <li> <a href="apex_chart.html">Apex Chart</a></li>
+                  <li> <a href="chart-google.html">Google Chart</a></li>
+                  <li> <a href="chart-sparkline.html">Sparkline chart</a></li>
+                  <li> <a href="chart-flot.html">Flot Chart</a></li>
+                  <li> <a href="chart-knob.html">Knob Chart</a></li>
+                  <li> <a href="chart-morris.html">Morris Chart</a></li>
+                  <li> <a href="chartjs.html">Chatjs Chart</a></li>
+                  <li> <a href="chartist_chart.html">Chartist Chart</a></li>
+                  <li><a href="chart-peity.html">Peity Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Tables & Forms</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter"></use>
+                  </svg>
+                  <h6 class="f-w-600">Forms</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">form-control<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="base-input.html">Base input</a></li>
+                      <li> <a href="form-validation.html">Form validation</a></li>
+                      <li> <a href="radio-checkbox-control.html">Checkbox & Radio </a></li>
+                      <li> <a href="input-group.html">Input group</a></li>
+                      <li> <a href="input-mask.html">Input mask</a></li>
+                      <li> <a href="megaoptions.html">Mega Options                                                    </a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datepicker.html">Datepicker</a></li>
+                      <li> <a href="touchspin.html">Touchspin</a></li>
+                      <li> <a href="select2.html">Select2 </a></li>
+                      <li> <a href="switch.html">Switch </a></li>
+                      <li> <a href="typehead.html">Typehead </a></li>
+                      <li> <a href="clipboard.html">Clipboard</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Layout<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="form-wizard.html">Form wizard 1</a></li>
+                      <li> <a href="form-wizard-two.html">Form wizard 2</a></li>
+                      <li> <a href="form-wizard-three.html">Two factor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit-line"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tables</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-table.html">Basic Tables</a></li>
+                      <li> <a href="table-components.html">Table components</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Data Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datatable-basic-init.html">Basic Init</a></li>
+                      <li> <a href="datatable-advance.html">Advance Init</a></li>
+                      <li> <a href="datatable-API.html">API</a></li>
+                      <li><a href="datatable-data-source.html">Data Sources</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="datatable-ext-autofill.html">Ex. Data Tables</a></li>
+                  <li> <a href="jsgrid-table.html">Js Grid Table         </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Pages</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="landing-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Landing page</h6></a></li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="sample-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper-plus"></use>
+                  </svg>
+                  <h6 class="f-w-600">Sample page</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="internationalization.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Play"></use>
+                  </svg>
+                  <h6 class="f-w-600">Internationalization</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="../starter-kit/index.html" target="_blank">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Star-kit"></use>
+                  </svg>
+                  <h6 class="f-w-600">Starter kit</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Password"></use>
+                  </svg>
+                  <h6 class="f-w-600">Others</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Error Page<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="error-page1.html">Error page 1</a></li>
+                      <li> <a href="error-page2.html">Error page 2</a></li>
+                      <li> <a href="error-page3.html">Error page 3</a></li>
+                      <li> <a href="error-page4.html">Error page 4</a></li>
+                      <li> <a href="error-page5.html">Error page 5</a></li>
+                      <li> <a href="error-page6.html">Error page 6</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)"> Authentication<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="login.html" target="_blank">Login Simple</a></li>
+                      <li> <a href="login_one.html" target="_blank">Login with bg image</a></li>
+                      <li> <a href="login_two.html" target="_blank">Login with image two</a></li>
+                      <li> <a href="login-bs-validation.html" target="_blank">Login With validation</a></li>
+                      <li> <a href="login-bs-tt-validation.html" target="_blank">Login with tooltip</a></li>
+                      <li> <a href="login-sa-validation.html" target="_blank">Login with sweetalert</a></li>
+                      <li> <a href="sign-up.html" target="_blank">Register Simple</a></li>
+                      <li> <a href="sign-up-one.html" target="_blank">Register with Bg Image</a></li>
+                      <li> <a href="sign-up-two.html" target="_blank">Register with image two</a></li>
+                      <li> <a href="sign-up-wizard.html" target="_blank">Register wizard</a></li>
+                      <li> <a href="unlock.html">Unlock User</a></li>
+                      <li> <a href="forget-password.html">Forget Password</a></li>
+                      <li> <a href="reset-password.html">Reset Password</a></li>
+                      <li> <a href="maintenance.html">Maintenance</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Coming Soon<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="comingsoon.html">Coming Simple</a></li>
+                      <li> <a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
+                      <li> <a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Email templates<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-template.html">Basic Email</a></li>
+                      <li> <a href="email-header.html">Basic With Header</a></li>
+                      <li> <a href="template-email.html">Ecomerce Template</a></li>
+                      <li> <a href="template-email-2.html">Email Template 2</a></li>
+                      <li> <a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                      <li> <a href="email-order-success.html">Order Success</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Miscellaneous</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Gallery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Gallery  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="gallery.html">Gallery Grid</a></li>
+                  <li> <a href="gallery-with-description.html">Gallery Grid Desc</a></li>
+                  <li> <a href="masonary.html">Masonary Gallery</a></li>
+                  <li> <a href="masonary_with_disc.html">Masonary With Desc</a></li>
+                  <li> <a href="gallery-hover.html">Hover Effects</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Game"></use>
+                  </svg>
+                  <h6 class="f-w-600">Blog  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="blog.html">Blog Details</a></li>
+                  <li> <a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="add_post.html">Add Post</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link" href="faq.html"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Danger"></use>
+                  </svg>
+                  <h6 class="f-w-600">FAQ</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter-2"></use>
+                  </svg>
+                  <h6 class="f-w-600">Job Search  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="job-cards-view.html">Card view</a></li>
+                  <li> <a href="job-list-view.html">List view</a></li>
+                  <li><a href="job-details.html">Job details   </a></li>
+                  <li><a href="job-apply.html">Apply</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Work"></use>
+                  </svg>
+                  <h6 class="f-w-600">Learning</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="learning_list_visit.html">Learning List</a></li>
+                  <li> <a href="learning_detailed.html">Learning Detailed</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Discovery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Maps</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="data-map.html">Data Map</a></li>
+                  <li> <a href="vector-map.html">Vector Maps</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Shield"></use>
+                  </svg>
+                  <h6 class="f-w-600">Editors</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="quilleditor.html">Quill editor</a></li>
+                  <li> <a href="ace-code-editor.html">ACE Code Editor</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="knowledgebase.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Setting"></use>
+                  </svg>
+                  <h6 class="f-w-600">Knowledgebase</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="support-ticket.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket"></use>
+                  </svg>
+                  <h6 class="f-w-600">Support Ticket</h6></a></li>
+            </ul>
+          </div>
+          <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+        </aside>
+        <!-- Page sidebar end-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-sm-6 col-12">
+                  <h2>Modal</h2>
+                </div>
+                <div class="col-sm-6 col-12">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="iconly-Home icli svg-color"></i></a></li>
+                    <li class="breadcrumb-item">Ui Kits</li>
+                    <li class="breadcrumb-item active">Modal</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row g-lg-3">
+              <div class="col-lg-6">
+                <!-- Basic modal-->
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Basic Modal</h3>
+                    <p class="mt-1 mb-0">Add different types of modal with the help of  <code>data-bs-target  </code>attribute.</p>
+                  </div>
+                  <div class="card-body badge-spacing">
+                    <!-- Simple demo-->
+                    <button class="btn btn-secondary px-xl-2 px-xxl-3" type="button" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModal">Simple</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <div class="modal-toggle-wrapper"> 
+                              <h4>Up to <strong class="font-danger">85% OFF</strong>, Hurry Up Online Shopping</h4>
+                              <div class="modal-img"> <img src="../assets/images/gif/online-shopping.gif" alt="online-shopping"></div>
+                              <p class="text-sm-center">Our difficulty in finding regular clothes that was of great quality, comfortable, and didn't impact the environment given way to Creatures of Habit.</p>
+                              <button class="btn bg-primary d-flex align-items-center gap-2 text-light ms-auto" type="button" data-bs-dismiss="modal">Explore More<i class="fa-solid fa-angles-right"> </i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Scrolling long content-->
+                    <button class="btn btn-success px-xl-2 px-xxl-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalLong">Scrolling content</button>
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="exampleModalLongTitle">Scrolling modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h4>Wed designer</h4>
+                            <div class="d-flex mt-3">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>As a web designer, you either prefer to work freelance for several different businesses at once or you may choose to work for just one. In either case, you'll need good time management skills to keep several projects moving forward.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>Although a designer doesn't write the code that makes a site work, it doesn't hurt to have a basic understanding of HTML or CSS to make minor adjustments to a site. You'll find it simpler to edit templates, improve typefaces, or change item placements if you have a basic understanding of how things work.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex my-2">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p class="pb-4">Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                              </div>
+                            </div>
+                            <h4>UX designer </h4>
+                            <div class="d-flex mt-3">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"> </i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>Create solutions that will be helpful for the issues and situations that exist right now, not for those that will. With the right materials, assist people in organizing their time, completing things more quickly, and optimizing it.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"> </i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>Based on the data received from users, improve them. Adapt existing solutions to the requirements, hopes, difficulties, and expectations of users.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                              <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"> </i></div>
+                              <div class="flex-grow-1 ms-2">
+                                <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tooltips and popovers modal-->
+                    <button class="btn btn-info px-xl-2 px-xxl-3" type="button" data-bs-toggle="modal" data-bs-target="#tooltipmodal">Tooltips and popovers</button>
+                    <div class="modal fade" id="tooltipmodal" tabindex="-1" role="dialog" aria-labelledby="tooltipmodal" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5">Tooltip and popover modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Popover in a modal</h5>
+                            <p class="mt-2">This <a class="btn btn-success popover-test btn-sm" href="modal.html#" role="button" title="this is amazing content" data-bs-toggle="popover" data-bs-content="This is the content of the popover">button</a> triggers a popover on click.</p>
+                            <hr>
+                            <h5>Tooltips in a modal</h5>
+                            <p class="mt-2"><a class="tooltip-test font-primary" href="modal.html#" title="Tooltip" data-bs-toggle="tooltip">This link</a> and <a class="tooltip-test font-primary" href="modal.html#" title="Tooltip" data-bs-toggle="tooltip">that link</a> have tooltips on hover.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--varying modal content-->
+                    <button class="btn btn-primary px-xl-2 px-xxl-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap">Open modal for Admiro</button>
+                    <div class="modal fade" id="exampleModalgetbootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalgetbootstrap" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-toggle-wrapper social-profile text-start dark-sign-up">
+                            <h3 class="modal-header justify-content-center border-0">Admiro SIGN-UP</h3>
+                            <div class="modal-body">
+                              <form class="row g-3 needs-validation" novalidate="">
+                                <div class="col-md-6">
+                                  <label class="form-label" for="validationCustom01">First name</label>
+                                  <input class="form-control" id="validationCustom01" type="text" placeholder="Enter your name" required="">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-md-6">
+                                  <label class="form-label" for="validationCustom02">Last name</label>
+                                  <input class="form-control" id="validationCustom02" type="text" placeholder="Enter your surname" required="">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Email address</label>
+                                    <input class="form-control" id="exampleFormControlInput1" type="email" placeholder="Admirotheme@gmail.com">
+                                  </div>
+                                </div>
+                                <div class="col-md-12"> 
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" id="flexCheckDefault" type="checkbox" value="">
+                                    <label class="form-check-label d-block mb-0" for="flexCheckDefault">You accept our Terms and Privacy Policy by clicking Submit below.</label>
+                                  </div>
+                                  <button class="btn btn-primary" type="submit">Sign Up</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Sizes Modal</h3>
+                    <p class="mt-1 mb-0">Set the different size of modal using <code>.bs-example-modal-(xl,lg,sm,fullscreen).</code></p>
+                  </div>
+                  <div class="card-body badge-spacing">
+                    <!--full screen modal-->
+                    <div class="btn btn-secondary" data-bs-toggle="modal" data-bs-target=".bd-example-modal-fullscreen">Full Screen Modal</div>
+                    <div class="modal fade bd-example-modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="myFullLargeModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="myFullLargeModalLabel">Extra large modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"> </i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Content marketing </h6>
+                            </div>
+                            <p class="modal-padding-space">Through better opportunities and knowledgeable marketing strategies, we aid business funnel. We won't only hit the target; instead, we'll aim higher and surpass the objectives.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>PPC </h6>
+                            </div>
+                            <p class="modal-padding-space">Customized advertising to increase visitors and improve conversion. To increase retention, identify the correct audience and remarket to them.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>UX designer </h6>
+                            </div>
+                            <p class="modal-padding-space">The capacity to comprehend and experience other people's feelings is known as empathy. A positive consumer experience is prioritised by UX. The finest UX designers spend time studying individuals and their tendencies because of this. Designers may produce goods that genuinely engage and excite customers by having a thorough understanding of the end consumers.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Extra large modal-->
+                    <div class="btn btn-info" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">Extra large Modal</div>
+                    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="myLargeModalLabel">Extra large modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Content marketing </h6>
+                            </div>
+                            <p class="modal-padding-space">Through better opportunities and knowledgeable marketing strategies, we aid business funnel. We won't only hit the target; instead, we'll aim higher and surpass the objectives.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>PPC </h6>
+                            </div>
+                            <p class="modal-padding-space">Customized advertising to increase visitors and improve conversion. To increase retention, identify the correct audience and remarket to them.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>UX designer </h6>
+                            </div>
+                            <p class="modal-padding-space">The capacity to comprehend and experience other people's feelings is known as empathy. A positive consumer experience is prioritised by UX. The finest UX designers spend time studying individuals and their tendencies because of this. Designers may produce goods that genuinely engage and excite customers by having a thorough understanding of the end consumers.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Large modal-->
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Large Modal</button>
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModal" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="myExtraLargeModal">Large modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Start with your goals </h6>
+                            </div>
+                            <p class="modal-padding-space mb-0">No matter how talented you are as a content writer or creator, you will always fail if you don't have a clear set of goals.</p>
+                            <p class="modal-padding-space mb-0">First of all, without goals, there is no way to determine your success. Additionally, you lack direction.</p>
+                            <p class="modal-padding-space mb-0">Together with your team, respond to the following questions to make sure they are:</p>
+                            <div class="large-modal-body"><i class="fa-solid fa-share"></i>
+                              <p class="ps-1">What must you achieve, and by when?</p>
+                            </div>
+                            <div class="large-modal-body"><i class="fa-solid fa-share"></i>
+                              <p class="ps-1">How will you evaluate your level of success?</p>
+                            </div>
+                            <div class="large-modal-body"><i class="fa-solid fa-share"></i>
+                              <p class="ps-1">Can you accomplish it with the available resources?</p>
+                            </div>
+                            <div class="large-modal-body"><i class="fa-solid fa-share"></i>
+                              <p class="ps-1">Does it advance your core business aims?                          </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Small modal-->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">Small Modal</button>
+                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="mySmallModalLabel">Small modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>Content marketing </h6>
+                            </div>
+                            <p class="modal-padding-space">Through better opportunities and knowledgeable marketing strategies, we aid business funnel. We won't only hit the target; instead, we'll aim higher and surpass the objectives.</p>
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right"></i>
+                              <h6>PPC </h6>
+                            </div>
+                            <p class="modal-padding-space">Customized advertising to increase visitors and improve conversion. To increase retention, identify the correct audience and remarket to them.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <div class="card"> 
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Fullscreen Modal</h3>
+                    <p class="mt-1 mb-0">Another override is the option to pop up a modal that covers the user viewport, available via modifier classes that are placed on a<code> .modal-dialog</code>.</p>
+                  </div>
+                  <div class="card-body badge-spacing">
+                    <button class="btn btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreen">Fullscreen modal</button>
+                    <!-- Full Screen Modal-->
+                    <div class="modal fade" id="exampleModalfullscreen" tabindex="-1" aria-labelledby="fullScreenModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="fullScreenModalLabel">Full screen modal</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Web designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>As a web designer, you either prefer to work freelance for several different businesses at once or you may choose to work for just one. In either case, you'll need good time management skills to keep several projects moving forward.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Although a designer doesn't write the code that makes a site work, it doesn't hurt to have a basic understanding of HTML or CSS to make minor adjustments to a site. You'll find it simpler to edit templates, improve typefaces, or change item placements if you have a basic understanding of how things work.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>
+                                       Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Create solutions that will be helpful for the issues and situations that exist right now, not for those that will. With the right materials, assist people in organizing their time, completing things more quickly, and optimizing it.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Based on the data received from users, improve them. Adapt existing solutions to the requirements, hopes, difficulties, and expectations of users.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-info" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreensm">Fullscreen below sm</button>
+                    <!-- Full screen below sm-->
+                    <div class="modal fade" id="exampleModalfullscreensm" tabindex="-1" aria-labelledby="smModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen-sm-down">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="smModalLabel">Full screen below sm</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Wed designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes              </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreen-md">Fullscreen below md</button>
+                    <!-- Full screen below md-->
+                    <div class="modal fade" id="exampleModalfullscreen-md" tabindex="-1" aria-labelledby="mdModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen-md-down">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="mdModalLabel">Full screen below md</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Wed designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes              </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreen-lg">Fullscreen below lg</button>
+                    <!-- Full screen below lg-->
+                    <div class="modal fade" id="exampleModalfullscreen-lg" tabindex="-1" aria-labelledby="lgModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen-lg-down">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="lgModalLabel">Full screen below lg</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Wed designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX Designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreen-xl">Fullscreen below xl</button>
+                    <!-- Full screen below xl-->
+                    <div class="modal fade" id="exampleModalfullscreen-xl" tabindex="-1" aria-labelledby="xlModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen-xl-down">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="xlModalLabel">Full screen below xl</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Wed designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes        </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalfullscreen-xxl">Fullscreen below xxl</button>
+                    <!-- Full screen below xxl-->
+                    <div class="modal fade" id="exampleModalfullscreen-xxl" tabindex="-1" aria-labelledby="xxlModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-fullscreen-xxl-down">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="xxlModalLabel">Full screen below xxl</h3>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body dark-modal">
+                            <div class="large-modal-header"><i class="fa-solid fa-angles-right text-primary"></i>
+                              <h6>Web design </h6>
+                            </div>
+                            <p class="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
+                            <div class="modal-details">
+                              <div class="web-content">
+                                <h6>Wed designer</h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>For a site to be successful, a designer must be able to communicate their ideas, chat with a firm about what they want, and inquire about the target audience.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Most businesses employ a certain font or typography so that clients can quickly distinguish them from their rivals. Since designers now have access to a wider variety of fonts, firms may more easily and precisely communicate their brands through typography.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="web-content">
+                                <h6>UX designer </h6>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>User research, persona creation, building wireframes and interactive prototypes, and testing ideas are among the common tasks of a UX designer. These duties can differ greatly between organizations.</p>
+                                  </div>
+                                </div>
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="fa-solid fa-circle-arrow-right text-primary"></i></div>
+                                  <div class="flex-grow-1 ms-2">
+                                    <p>Keep in mind that you are creating solutions to particular challenges for a particular population living in a particular habitat. Always remember to correctly contextualise your thoughts and determine whether they are actually appropriate for the situation. It's sometimes necessary to concede that a digital solution is not the most appropriate choice in a certain circumstance.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Save changes </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-3 col-xl-4">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Centered Modal </h3>
+                    <p class="mt-1 mb-0">Use <code>.modal-dialog-centered </code>to set the centered modal. </p>
+                  </div>
+                  <div class="card-body"> 
+                    <!--Centered modal-->
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter1">Vertically centered</button>
+                    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter1" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body"> 
+                            <div class="modal-toggle-wrapper">  
+                              <ul class="modal-img">
+                                <li> <img src="../assets/images/gif/danger.gif" alt="error"></li>
+                              </ul>
+                              <h4 class="text-center pb-2">Ohh! Something went wrong!</h4>
+                              <p class="text-center">Attackers on malicious activity may trick you into doing something dangrous like installing software or revealing your personal informations.</p>
+                              <button class="btn btn-secondary d-flex m-auto" type="button" data-bs-dismiss="modal">Close                                </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Nested Modal </h3>
+                    <p class="mt-1 mb-0">To set the nested modal use the    <code>exampleTogglelabel.</code></p>
+                  </div>
+                  <div class="card-body"> 
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggle" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <div class="modal-toggle-wrapper">
+                              <ul class="modal-img"> 
+                                <li><img src="../assets/images/gif/whatapp.gif" alt="whatsapp"></li>
+                                <li> <img src="../assets/images/gif/instagram.gif" alt="instagram"></li>
+                                <li> <img src="../assets/images/gif/facebook.gif" alt="facebook"></li>
+                              </ul>
+                              <h6>Remove your complete account from your phone or tablet to sign out of the Gmail app.</h6>
+                              <button class="btn btn-dark rounded-pill w-100 mt-4" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Connect new account</button>
+                              <button class="btn rounded-pill w-100 pb-0 dark-toggle-btn" type="button" data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggle2" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <div class="modal-toggle-wrapper">
+                              <ul class="modal-img"> 
+                                <li> <img src="../assets/images/gif/logout.gif" alt="logout"></li>
+                              </ul>
+                              <h4 class="pt-3 text-center">Already leaving??</h4>
+                              <p class="text-center">Are you sure want to logout this dashboard?</p><span class="d-block text-center mb-4"> Not a member?<a class="ms-1" href="dashboard-02.html">Register</a></span>
+                              <button class="btn btn-dark d-flex m-auto" type="button" data-bs-dismiss="modal">Yes, Log out</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><a class="btn btn-dark" data-bs-toggle="modal" href="modal.html#exampleModalToggle" role="button">Open first modal                               </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-5 col-xl-4">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Static Backdrop Modal</h3>
+                    <p class="mt-1 mb-0">
+                       To set static backdrop , use <code>staticBackdrop </code>attributes.</p>
+                  </div>
+                  <div class="card-body"> 
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Static backdrop modal</button>
+                    <!-- Modal-->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content dark-sign-up">
+                          <div class="modal-body social-profile text-start">
+                            <div class="modal-toggle-wrapper">
+                              <h4>Admiro Login</h4>
+                              <p>
+                                 Fill in your information below to continue.</p>
+                              <form class="row g-3">
+                                <div class="col-md-12">
+                                  <label class="form-label" for="inputEmail4">Email</label>
+                                  <input class="form-control" id="inputEmail4" type="email" placeholder="Enter Your Email">
+                                </div>
+                                <div class="col-md-12">
+                                  <label class="form-label" for="inputPassword4">Password</label>
+                                  <input class="form-control" id="inputPassword4" type="password" placeholder="Enter Your Password">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" id="gridCheck" type="checkbox">
+                                    <label class="form-check-label d-block mb-0" for="gridCheck">Check me out</label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button class="btn btn-primary" type="submit" data-bs-dismiss="modal">Sign in                                 </button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12"> 
+                <div class="card"> 
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Admiro custom modals</h3>
+                    <p class="mt-1 mb-0">
+                       Custom Modal make by Admiro.</p>
+                  </div>
+                  <div class="card-body">
+                    <div class="row g-3">
+                      <div class="col-xl-4 col-md-6 custom-alert text-center">
+                        <div class="card-wrapper border rounded-3 h-100">
+                          <div class="demo-img">
+                            <ul class="dot-group pb-3 pt-0">
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
+                            <div class="title-wrapper pb-3 modal-heading">
+                              <h4 class="theme-name mb-0"><span>Modal 1 -</span>Profile Modal</h4>
+                              <p>Example of Admiro dashboard profile card.</p>
+                            </div>
+                            <div class="overflow-hidden"><img class="img-fluid" src="../assets/images/alert/social.png" alt="social">
+                              <button class="btn btn-primary mx-auto mt-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModallaptop1">Click Out</button>
+                            </div>
+                            <div class="modal fade" id="exampleModallaptop1" tabindex="-1" role="dialog" aria-labelledby="exampleModallaptop1" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                  <div class="col-xl-12">
+                                    <div class="card social-profile mb-0">
+                                      <div class="card-body">
+                                        <div class="social-img-wrap"> 
+                                          <div class="social-img"><img src="../assets/images/avtar/3.jpg" alt="profile"></div>
+                                          <div class="edit-icon">
+                                            <div class="icon"><i class="stroke-primary" data-feather="check-circle"></i></div>
+                                          </div>
+                                        </div>
+                                        <div class="social-details">
+                                          <h4 class="mb-1"><a class="fs-20" href="social-app.html">Brooklyn Simmons</a></h4><span class="font-dark">@brookly.simmons</span>
+                                          <ul class="social-follow">
+                                            <li>
+                                              <h4 class="mb-0">1,908</h4><span class="font-dark">Posts</span>
+                                            </li>
+                                            <li>
+                                              <h4 class="mb-0">34.0k</h4><span class="font-dark">Followers</span>
+                                            </li>
+                                            <li>
+                                              <h4 class="mb-0">897</h4><span class="font-dark">Following</span>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-md-6 custom-alert text-center">
+                        <div class="card-wrapper border rounded-3 h-100">
+                          <div class="demo-img">
+                            <ul class="dot-group pb-3 pt-0">
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
+                            <div class="title-wrapper pb-3 modal-heading">
+                              <h4 class="theme-name mb-0"><span>Modal 2 - </span>Result Modal</h4>
+                              <p>Example of Admiro login form.</p>
+                            </div>
+                            <div class="overflow-hidden"><img class="img-fluid" src="../assets/images/alert/learning.png" alt="learning">
+                              <button class="btn btn-primary mx-auto mt-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModallogin">Click Out</button>
+                            </div>
+                            <div class="modal fade" id="exampleModallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModallogin" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content dark-sign-up">
+                                  <div class="modal-body social-profile text-start">
+                                    <div class="modal-toggle-wrapper">
+                                      <h4>Admiro Login</h4>
+                                      <p class="mb-3">
+                                         Fill in your information below to continue.</p>
+                                      <form class="row g-3">
+                                        <div class="col-md-12">
+                                          <label class="form-label mb-1" for="inputEmailEnter">Email</label>
+                                          <input class="form-control" id="inputEmailEnter" type="email" placeholder="Enter Your Email">
+                                        </div>
+                                        <div class="col-md-12">
+                                          <label class="form-label mb-1" for="inputPasswordEnter">Password</label>
+                                          <input class="form-control" id="inputPasswordEnter" type="password" placeholder="Enter Your Password">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check ps-0">
+                                            <input class="checkbox-primary" id="checkout" type="checkbox">
+                                            <label class="form-check-label" for="checkout">Check me out</label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button class="btn btn-primary" type="submit" data-bs-dismiss="modal">Sign in </button>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-md-12 custom-alert text-center">
+                        <div class="card-wrapper border rounded-3 h-100">
+                          <div class="demo-img">
+                            <ul class="dot-group pb-3 pt-0">
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
+                            <div class="title-wrapper pb-3 modal-heading">
+                              <h4 class="theme-name mb-0"><span>Modal 3 - </span>Balance Modal</h4>
+                              <p>Example of Admiro dashboard balance card.</p>
+                            </div>
+                            <div class="overflow-hidden balance-modal"><img class="img-fluid" src="../assets/images/alert/balance.png" alt="balance">
+                              <button class="btn btn-primary mx-auto mt-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalbalancebox">Click Out</button>
+                            </div>
+                            <div class="modal fade" id="exampleModalbalancebox" tabindex="-1" role="dialog" aria-labelledby="exampleModalbalancebox" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                  <div class="col-xl-12">
+                                    <div class="card balance-box mb-0">
+                                      <div class="card-body">
+                                        <div class="balance-profile">
+                                          <div class="balance-img"><img src="../assets/images/avtar/4.jpg" alt="user vector"><a class="edit-icon" href="user-profile.html">
+                                              <div class="icon"><i class="stroke-primary" data-feather="edit-2"></i></div></a></div><span class="font-dark d-block">Your Balance </span>
+                                          <h4 class="mt-1">$768,987.90</h4>
+                                          <ul> 
+                                            <li>
+                                              <div class="balance-item">
+                                                <div class="balance-icon-wrap bg-light-danger">
+                                                  <div class="balance-icon bg-danger">
+                                                    <div class="icon"><i data-feather="arrow-down-right"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div> <span class="fs-12 font-dark">Investment  </span>
+                                                  <h4>78.8K</h4><span class="badge badge-light-danger rounded-pill">-11.67%</span>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="balance-item">
+                                                <div class="balance-icon-wrap bg-light-success"> 
+                                                  <div class="balance-icon bg-success">
+                                                    <div class="icon"><i data-feather="arrow-up-right"></i></div>
+                                                  </div>
+                                                </div>
+                                                <div> <span class="fs-12 font-dark">Cash Back</span>
+                                                  <h4>19.7K</h4><span class="badge badge-light-success rounded-pill">+10.67%</span>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid end-->
+        </div>
+        <footer class="footer"> 
+          <div class="container-fluid">
+            <div class="row"> 
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2024 © Admiro theme by pixelstrap.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="float-end mb-0">Hand crafted &amp; made with
+                  <svg class="svg-color footer-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#heart"></use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- jquery-->
+    <script src="../assets/js/vendors/jquery/jquery.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" defer=""></script>
+    <script src="../assets/js/vendors/bootstrap/dist/js/popper.min.js" defer=""></script>
+    <!--fontawesome-->
+    <script src="../assets/js/vendors/font-awesome/fontawesome-min.js"></script>
+    <!-- feather-->
+    <script src="../assets/js/vendors/feather-icon/feather.min.js"></script>
+    <script src="../assets/js/vendors/feather-icon/custom-script.js"></script>
+    <!-- sidebar -->
+    <script src="../assets/js/sidebar.js"></script>
+    <!-- popover -->
+    <script src="../assets/js/popover.js"></script>
+    <!-- scrollbar-->
+    <script src="../assets/js/scrollbar/simplebar.js"></script>
+    <script src="../assets/js/scrollbar/custom.js"></script>
+    <!-- slick-->
+    <script src="../assets/js/slick/slick.min.js"></script>
+    <script src="../assets/js/slick/slick.js"></script>
+    <!-- theme_customizer-->
+    <script src="../assets/js/theme-customizer/customizer.js"></script>
+    <!-- custom script -->
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

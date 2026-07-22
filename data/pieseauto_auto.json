@@ -1,0 +1,10 @@
+﻿{
+  "enabled": true,
+  "cont_id": "bluecar",
+  "default_price": 100,
+  "min_title_len": 15,
+  "stare_produs": "Second",
+  "wait_until_done": true,
+  "max_wait_sec": 420,
+  "auto_open_browser": true
+}

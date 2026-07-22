@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Administrator",
+        "email": "admin@local.test",
+        "password": "$2y$10$wvAwBylHz5IbXXtrE6T07OHRygY3P6OvcdvQ0VerwohsN/yvNi0Hm",
+        "role": "admin",
+        "permissions": [
+            "dashboard",
+            "furnizori",
+            "produse",
+            "comenzi",
+            "clienti",
+            "automatizare",
+            "website",
+            "sistem",
+            "utilizatori"
+        ],
+        "status": "active",
+        "created_at": "2026-05-20 17:13:40"
+    }
+]

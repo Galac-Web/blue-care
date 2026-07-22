@@ -1,0 +1,1150 @@
+/**
+ * Blue-Car Admin 2026 — portal premium (gradient, glass, FA).
+ * Prioritate maximă peste Rubick / admin-neon-conflicts.
+ */
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) {
+    --blu-sidebar-w: 292px;
+    --blu-header-h: 72px;
+    --adm-bg: #eef4ff;
+    --adm-surface: #ffffff;
+    --adm-text: #0c1222;
+    --adm-muted: #5b6b84;
+    --adm-line: rgba(99, 130, 180, 0.22);
+    --adm-blue: #2563eb;
+    --adm-blue-d: #1d4ed8;
+    --adm-cyan: #06b6d4;
+    --adm-teal: #14b8a6;
+    --adm-green: #10b981;
+    --adm-violet: #8b5cf6;
+    --adm-amber: #f59e0b;
+    --adm-rose: #f43f5e;
+    --adm-grad: linear-gradient(135deg, #06b6d4 0%, #2563eb 45%, #8b5cf6 100%);
+    --adm-grad-soft: linear-gradient(135deg, rgba(6, 182, 212, 0.12), rgba(37, 99, 235, 0.1), rgba(139, 92, 246, 0.08));
+    --adm-shadow-sm: 0 6px 24px rgba(15, 35, 80, 0.07);
+    --adm-shadow: 0 16px 48px rgba(15, 35, 80, 0.11);
+    --adm-shadow-lg: 0 28px 70px rgba(37, 99, 235, 0.18);
+    --adm-radius: 22px;
+    --adm-radius-sm: 16px;
+    --adm-sidebar-w: 292px;
+    font-family: "Inter", system-ui, sans-serif !important;
+    color: var(--adm-text) !important;
+    background: var(--adm-bg) !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body)::before {
+    display: none !important;
+}
+
+/* ── Cosmos fundal ── */
+body.blu-admin-2026 .blu-admin-cosmos {
+    position: fixed;
+    inset: 0;
+    left: var(--adm-sidebar-w);
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+body.blu-admin-2026 .blu-admin-cosmos__mesh {
+    position: absolute;
+    inset: -20%;
+    background:
+        radial-gradient(ellipse 65% 45% at 8% 0%, rgba(6, 182, 212, 0.22), transparent 55%),
+        radial-gradient(ellipse 50% 40% at 95% 10%, rgba(139, 92, 246, 0.16), transparent 50%),
+        radial-gradient(ellipse 55% 45% at 60% 100%, rgba(37, 99, 235, 0.14), transparent 55%),
+        linear-gradient(180deg, #f0f9ff 0%, #eef4ff 35%, #f8fafc 100%);
+}
+
+body.blu-admin-2026 .blu-admin-cosmos__grid {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(37, 99, 235, 0.09) 1px, transparent 1px);
+    background-size: 26px 26px;
+    mask-image: radial-gradient(ellipse 75% 65% at 45% 35%, #000 10%, transparent 78%);
+}
+
+body.blu-admin-2026 .blu-admin-cosmos__watermark {
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    font-family: "Syne", "Inter", sans-serif;
+    font-size: clamp(3.5rem, 11vw, 8rem);
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    background: var(--adm-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0.07;
+    user-select: none;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-wrapper .page-body-wrapper {
+    background: transparent !important;
+    position: relative;
+}
+
+body.blu-admin-2026 .page-body,
+body.blu-admin-2026 .page-header {
+    position: relative;
+    z-index: 2;
+}
+
+/* Header doar deasupra conținutului (fără logo duplicat) — prins sus */
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) header.page-header.blu-admin-topbar,
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header.blu-admin-topbar {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: auto !important;
+    z-index: 1100 !important;
+    margin: 0 0 0 var(--adm-sidebar-w) !important;
+    width: calc(100% - var(--adm-sidebar-w)) !important;
+    max-width: calc(100% - var(--adm-sidebar-w)) !important;
+    border-radius: 0 !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-wrapper.compact-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-body-wrapper {
+    padding-top: var(--blu-header-h) !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header .logo-wrapper {
+    display: none !important;
+    width: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header .page-main-header {
+    width: 100% !important;
+    flex: 1 1 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem;
+}
+
+body.blu-admin-2026 .blu-mobile-menu {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--adm-line);
+    background: #fff;
+    color: var(--adm-blue);
+    box-shadow: var(--adm-shadow-sm);
+    flex-shrink: 0;
+}
+
+/* ── Header ── */
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header {
+    background: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(18px) saturate(1.35);
+    border-bottom: 1px solid var(--adm-line) !important;
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.08) !important;
+    min-height: 72px;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header .page-main-header {
+    background: rgba(255, 255, 255, 0.96) !important;
+}
+
+@media (max-width: 1199px) {
+    body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) header.page-header.blu-admin-topbar,
+    body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-header.blu-admin-topbar {
+        margin-left: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+body.blu-admin-2026 .page-header .shop-logo-text {
+    font-family: "Syne", "Inter", sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 1.35rem !important;
+    color: var(--adm-text) !important;
+    letter-spacing: -0.03em;
+}
+
+body.blu-admin-2026 .page-header .shop-logo-accent {
+    background: var(--adm-grad) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+body.blu-admin-2026 .demo-input,
+body.blu-admin-2026 .Typeahead-input {
+    background: #fff !important;
+    border: 1px solid var(--adm-line) !important;
+    border-radius: 999px !important;
+    box-shadow: var(--adm-shadow-sm) !important;
+    color: var(--adm-text) !important;
+}
+
+/* Search bar header */
+body.blu-admin-2026 .blu-admin-search {
+    margin: 0;
+    min-width: 0;
+}
+
+body.blu-admin-2026 .blu-admin-search__wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: min(420px, 36vw);
+}
+
+body.blu-admin-2026 .blu-admin-search__icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+    font-size: 0.9rem;
+    pointer-events: none;
+    z-index: 2;
+    line-height: 1;
+}
+
+body.blu-admin-2026 .blu-admin-search__input {
+    width: 100%;
+    height: 44px;
+    padding: 0 1.1rem 0 2.65rem;
+    border: 1px solid var(--adm-line);
+    border-radius: 999px;
+    background: #fff;
+    box-shadow: var(--adm-shadow-sm);
+    color: var(--adm-text);
+    font-size: 0.92rem;
+}
+
+body.blu-admin-2026 .blu-admin-search__input::placeholder {
+    color: #94a3b8;
+}
+
+body.blu-admin-2026 .blu-admin-search__input:focus {
+    outline: none;
+    border-color: rgba(37, 99, 235, 0.45);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+body.blu-admin-2026 .user-wrap {
+    background: #fff;
+    border: 1px solid var(--adm-line);
+    border-radius: 999px;
+    padding: 0.35rem 1rem 0.35rem 0.35rem;
+    box-shadow: var(--adm-shadow-sm);
+}
+
+body.blu-admin-2026 .user-wrap span {
+    font-weight: 700;
+    color: var(--adm-text);
+}
+
+body.blu-admin-2026 .user-wrap p {
+    color: var(--adm-muted) !important;
+    font-size: 0.75rem;
+}
+
+body.blu-admin-2026 .user-img.bg-primary {
+    background: var(--adm-grad) !important;
+    color: #fff !important;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    font-weight: 800;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+
+body.blu-admin-2026 .header-right li > a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 14px;
+    display: inline-grid;
+    place-items: center;
+    color: var(--adm-blue);
+    background: #fff;
+    border: 1px solid var(--adm-line);
+    box-shadow: var(--adm-shadow-sm);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+body.blu-admin-2026 .header-right li > a:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #eff6ff, #ecfeff);
+    box-shadow: var(--adm-shadow);
+    color: var(--adm-blue-d);
+}
+
+/* ── Sidebar full height — scroll doar pe navigare ── */
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-sidebar,
+body.blu-admin-2026.blu-admin-neon.dark-sidebar .page-sidebar,
+body.blu-admin-2026.blu-admin-neon .page-wrapper.compact-wrapper .page-body-wrapper .page-sidebar {
+    top: 0 !important;
+    height: 100vh !important;
+    z-index: 1050 !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 55%, #f0f9ff 100%) !important;
+    border-right: 1px solid var(--adm-line) !important;
+    box-shadow: 12px 0 48px rgba(37, 99, 235, 0.1) !important;
+}
+
+body.blu-admin-2026.blu-admin-neon:not(.shop-auth-body) .page-sidebar .main-sidebar {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    overflow: hidden !important;
+}
+
+body.blu-admin-2026 .blu-sidebar-nav-scroll {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(37, 99, 235, 0.45) transparent;
+    padding-bottom: 1.25rem;
+}
+
+body.blu-admin-2026 .blu-sidebar-nav-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+body.blu-admin-2026 .blu-sidebar-nav-scroll::-webkit-scrollbar-thumb {
+    background: rgba(37, 99, 235, 0.35);
+    border-radius: 999px;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand {
+    flex-shrink: 0;
+    padding: 1.1rem 1rem 0.85rem;
+    margin: 0 0.65rem 0.5rem;
+    border-radius: var(--adm-radius-sm);
+    background: var(--adm-grad-soft);
+    border: 1px solid rgba(37, 99, 235, 0.15);
+    box-shadow: var(--adm-shadow-sm);
+    text-align: center;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__link {
+    display: block;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__link:hover .blu-sidebar-brand__title {
+    opacity: 0.9;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__emblem {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto 0.55rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    color: var(--adm-blue);
+    background: #fff;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__title {
+    margin: 0;
+    font-family: "Syne", "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: -0.02em;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__title span {
+    background: var(--adm-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.blu-admin-2026 .blu-sidebar-brand__sub {
+    margin: 0.2rem 0 0;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--adm-muted);
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-main-title.blu-nav-section .sidebar-title {
+    font-size: 0.65rem !important;
+    letter-spacing: 0.16em !important;
+    text-transform: uppercase;
+    color: var(--adm-blue) !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
+    padding: 0.85rem 0.75rem 0.25rem !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu {
+    padding: 0 0.65rem 1.5rem !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-link {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.7rem !important;
+    color: var(--adm-text) !important;
+    border: 1px solid transparent;
+    border-radius: 14px !important;
+    padding: 0.65rem 0.75rem !important;
+    margin-bottom: 0.2rem;
+    transition: all 0.22s ease;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-link h6 {
+    color: inherit !important;
+    font-weight: 600 !important;
+    font-size: 0.92rem !important;
+    flex: 1 1 auto;
+    margin: 0 !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-link:hover {
+    background: #fff !important;
+    border-color: rgba(37, 99, 235, 0.2) !important;
+    box-shadow: var(--adm-shadow-sm) !important;
+    color: var(--adm-blue-d) !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active {
+    background: var(--adm-grad) !important;
+    border-color: transparent !important;
+    box-shadow: 0 10px 28px rgba(37, 99, 235, 0.35) !important;
+    color: #fff !important;
+    transform: none;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-list .sidebar-link.active h6 {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-submenu {
+    padding: 0.15rem 0 0.35rem 0.5rem !important;
+    margin: 0 0 0.35rem 0.75rem !important;
+    border-left: 2px solid rgba(37, 99, 235, 0.15);
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-submenu a {
+    color: var(--adm-muted) !important;
+    border-radius: 10px !important;
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.86rem !important;
+    font-weight: 500 !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-submenu a:hover {
+    color: var(--adm-blue) !important;
+    background: rgba(37, 99, 235, 0.06) !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-submenu a.active {
+    color: var(--adm-blue-d) !important;
+    background: rgba(37, 99, 235, 0.1) !important;
+    font-weight: 700 !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-list > .fa-thumbtack,
+body.blu-admin-2026 .page-sidebar .stroke-icon,
+body.blu-admin-2026 .page-sidebar .iconly-Arrow-Right-2 {
+    display: none !important;
+}
+
+body.blu-admin-2026 .blu-nav-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 12px;
+    display: inline-grid;
+    place-items: center;
+    flex-shrink: 0;
+    font-size: 0.95rem;
+    color: var(--adm-blue);
+    background: linear-gradient(145deg, #fff, #eff6ff);
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-link.active .blu-nav-icon {
+    background: rgba(255, 255, 255, 0.22) !important;
+    border-color: rgba(255, 255, 255, 0.45) !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+body.blu-admin-2026 .blu-nav-chevron {
+    margin-left: auto;
+    font-size: 0.65rem;
+    opacity: 0.4;
+    transition: transform 0.2s;
+}
+
+body.blu-admin-2026 .blu-nav-details {
+    display: block;
+}
+
+body.blu-admin-2026 .blu-nav-summary {
+    list-style: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+body.blu-admin-2026 .blu-nav-summary::-webkit-details-marker {
+    display: none;
+}
+
+body.blu-admin-2026 .blu-nav-summary::marker {
+    content: '';
+}
+
+body.blu-admin-2026 .blu-nav-details[open] > .blu-nav-summary {
+    background: var(--adm-grad) !important;
+    border-color: transparent !important;
+    box-shadow: 0 8px 22px rgba(37, 99, 235, 0.28) !important;
+    color: #fff !important;
+}
+
+body.blu-admin-2026 .blu-nav-details[open] > .blu-nav-summary h6 {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+body.blu-admin-2026 .blu-nav-details[open] > .blu-nav-summary .blu-nav-icon {
+    background: rgba(255, 255, 255, 0.22) !important;
+    border-color: rgba(255, 255, 255, 0.45) !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
+body.blu-admin-2026 .blu-nav-details[open] > .blu-nav-summary .blu-nav-chevron,
+body.blu-admin-2026 .sidebar-list.active > .blu-nav-details > .blu-nav-summary .blu-nav-chevron {
+    transform: rotate(180deg);
+    opacity: 0.95;
+    color: #fff;
+}
+
+body.blu-admin-2026 .blu-nav-details > .sidebar-submenu {
+    display: none !important;
+}
+
+body.blu-admin-2026 .blu-nav-details[open] > .sidebar-submenu {
+    display: block !important;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-list > .sidebar-submenu {
+    display: none;
+}
+
+body.blu-admin-2026 .page-sidebar .sidebar-menu .sidebar-list.active > .sidebar-submenu {
+    display: block !important;
+}
+
+/* ── Page hero (portal ring) ── */
+body.blu-admin-2026 .blu-page-hero-wrap {
+    margin-bottom: 1.5rem;
+    padding: 1px;
+    border-radius: calc(var(--adm-radius) + 2px);
+    background: var(--adm-grad);
+    box-shadow: var(--adm-shadow-lg);
+}
+
+body.blu-admin-2026 .blu-page-hero {
+    margin: 0;
+    padding: 1.35rem 1.6rem;
+    background: #fff;
+    border-radius: var(--adm-radius);
+    border: none;
+    box-shadow: none;
+}
+
+body.blu-admin-2026 .blu-page-hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 0 0.55rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--adm-blue-d);
+    background: linear-gradient(135deg, #eff6ff, #ecfeff);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    border-radius: 999px;
+}
+
+body.blu-admin-2026 .blu-page-hero__pulse {
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    background: var(--adm-green);
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+    animation: blu-adm-pulse 2s ease-in-out infinite;
+}
+
+@keyframes blu-adm-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.65; transform: scale(0.92); }
+}
+
+body.blu-admin-2026 .blu-page-hero h2 {
+    margin: 0;
+    font-family: "Syne", "Inter", sans-serif;
+    font-size: clamp(1.55rem, 3vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #0c1222 30%, #2563eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.blu-admin-2026 .blu-page-hero__sub {
+    margin: 0.4rem 0 0;
+    color: var(--adm-muted);
+    font-size: 0.95rem;
+    max-width: 52ch;
+}
+
+body.blu-admin-2026 .blu-page-hero .breadcrumb-item a {
+    color: var(--adm-blue);
+    font-weight: 600;
+}
+
+body.blu-admin-2026 .blu-page-hero .breadcrumb-item.active {
+    color: var(--adm-muted);
+}
+
+/* ── KPI gradient cards ── */
+body.blu-admin-2026 .blu-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    body.blu-admin-2026 .blu-kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 576px) {
+    body.blu-admin-2026 .blu-kpi-grid { grid-template-columns: 1fr; }
+}
+
+body.blu-admin-2026 .blu-kpi {
+    position: relative;
+    padding: 1.25rem 1.3rem;
+    border-radius: var(--adm-radius-sm);
+    border: none;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none !important;
+    box-shadow: var(--adm-shadow);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+body.blu-admin-2026 .blu-kpi::before {
+    content: "";
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    pointer-events: none;
+}
+
+body.blu-admin-2026 .blu-kpi:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: var(--adm-shadow-lg);
+    color: #fff;
+}
+
+body.blu-admin-2026 .blu-kpi--blue {
+    background: linear-gradient(135deg, #2563eb 0%, #0891b2 100%);
+    box-shadow: 0 16px 40px rgba(37, 99, 235, 0.35);
+}
+
+body.blu-admin-2026 .blu-kpi--green {
+    background: linear-gradient(135deg, #059669 0%, #06b6d4 100%);
+    box-shadow: 0 16px 40px rgba(5, 150, 105, 0.32);
+}
+
+body.blu-admin-2026 .blu-kpi--violet {
+    background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%);
+    box-shadow: 0 16px 40px rgba(124, 58, 237, 0.32);
+}
+
+body.blu-admin-2026 .blu-kpi--amber {
+    background: linear-gradient(135deg, #d97706 0%, #f43f5e 100%);
+    box-shadow: 0 16px 40px rgba(217, 119, 6, 0.3);
+}
+
+body.blu-admin-2026 .blu-kpi__value {
+    font-family: "Syne", "Inter", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: #fff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+body.blu-admin-2026 .blu-kpi__label {
+    margin: 0.45rem 0 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.88);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+body.blu-admin-2026 .blu-kpi__icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    font-size: 1.15rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+body.blu-admin-2026 .blu-kpi__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    position: relative;
+    z-index: 1;
+}
+
+body.blu-admin-2026 .blu-kpi__sub {
+    margin: 0.35rem 0 0;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+body.blu-admin-2026 .blu-kpi-grid--8 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1400px) {
+    body.blu-admin-2026 .blu-kpi-grid--8 { grid-template-columns: repeat(2, 1fr); }
+}
+
+body.blu-admin-2026 .blu-kpi--teal {
+    background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+    box-shadow: 0 16px 40px rgba(13, 148, 136, 0.3);
+}
+
+body.blu-admin-2026 .blu-kpi--rose {
+    background: linear-gradient(135deg, #e11d48 0%, #f43f5e 100%);
+    box-shadow: 0 16px 40px rgba(225, 29, 72, 0.28);
+}
+
+body.blu-admin-2026 .blu-kpi--cyan {
+    background: linear-gradient(135deg, #0284c7 0%, #22d3ee 100%);
+    box-shadow: 0 16px 40px rgba(2, 132, 199, 0.3);
+}
+
+body.blu-admin-2026 .blu-kpi--slate {
+    background: linear-gradient(135deg, #475569 0%, #64748b 100%);
+    box-shadow: 0 16px 40px rgba(71, 85, 105, 0.28);
+}
+
+/* ── Dashboard complet ── */
+body.blu-admin-2026 .blu-dash-welcome {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.35rem 1.5rem;
+    margin-bottom: 1.25rem;
+    border-radius: var(--adm-radius);
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(6, 182, 212, 0.06) 50%, rgba(139, 92, 246, 0.06) 100%);
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    box-shadow: var(--adm-shadow-sm);
+}
+
+body.blu-admin-2026 .blu-dash-welcome__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--adm-blue);
+}
+
+body.blu-admin-2026 .blu-dash-welcome h3 {
+    margin: 0 0 0.35rem;
+    font-family: "Syne", "Inter", sans-serif;
+    font-size: 1.45rem;
+    font-weight: 800;
+    background: var(--adm-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body.blu-admin-2026 .blu-dash-welcome p {
+    margin: 0;
+    color: var(--adm-muted);
+    font-size: 0.92rem;
+}
+
+body.blu-admin-2026 .blu-dash-welcome__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+body.blu-admin-2026 .blu-dash-card .card-header h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+body.blu-admin-2026 .blu-dash-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+body.blu-admin-2026 .blu-dash-action {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 12px;
+    border: 1px solid var(--adm-line);
+    text-decoration: none !important;
+    color: var(--adm-text);
+    transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+
+body.blu-admin-2026 .blu-dash-action:hover {
+    border-color: rgba(37, 99, 235, 0.35);
+    background: rgba(37, 99, 235, 0.04);
+    transform: translateX(3px);
+}
+
+body.blu-admin-2026 .blu-dash-action__icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(6, 182, 212, 0.1));
+    color: var(--adm-blue);
+    flex-shrink: 0;
+}
+
+body.blu-admin-2026 .blu-dash-action__text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+
+body.blu-admin-2026 .blu-dash-action__text strong {
+    font-size: 0.88rem;
+}
+
+body.blu-admin-2026 .blu-dash-action__text em {
+    font-size: 0.72rem;
+    color: var(--adm-muted);
+    font-style: normal;
+}
+
+body.blu-admin-2026 .blu-dash-action__arrow {
+    font-size: 0.7rem;
+    color: var(--adm-muted);
+}
+
+body.blu-admin-2026 .blu-dash-bar-row {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.55rem;
+    font-size: 0.82rem;
+}
+
+body.blu-admin-2026 .blu-dash-bar {
+    height: 8px;
+    border-radius: 999px;
+    background: #e2e8f0;
+    overflow: hidden;
+}
+
+body.blu-admin-2026 .blu-dash-bar__fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #2563eb, #06b6d4);
+}
+
+body.blu-admin-2026 .blu-dash-feed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body.blu-admin-2026 .blu-dash-feed li {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--adm-line);
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+body.blu-admin-2026 .blu-dash-feed li:last-child {
+    border-bottom: none;
+}
+
+body.blu-admin-2026 .blu-dash-feed li strong {
+    font-size: 0.82rem;
+}
+
+body.blu-admin-2026 .blu-dash-feed li span {
+    font-size: 0.8rem;
+    color: var(--adm-text);
+}
+
+body.blu-admin-2026 .blu-dash-feed li em {
+    font-size: 0.72rem;
+    color: var(--adm-muted);
+    font-style: normal;
+}
+
+body.blu-admin-2026 .blu-dash-feed__empty {
+    color: var(--adm-muted);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 1.5rem !important;
+}
+
+body.blu-admin-2026 .blu-card-icon--violet { background: rgba(124, 58, 237, 0.12); color: #7c3aed; }
+body.blu-admin-2026 .blu-card-icon--green { background: rgba(16, 185, 129, 0.12); color: #10b981; }
+body.blu-admin-2026 .blu-card-icon--amber { background: rgba(245, 158, 11, 0.12); color: #d97706; }
+
+/* ── Carduri conținut ── */
+body.blu-admin-2026.blu-admin-neon .card {
+    background: #fff !important;
+    border: 1px solid var(--adm-line) !important;
+    border-radius: var(--adm-radius) !important;
+    box-shadow: var(--adm-shadow-sm) !important;
+    overflow: hidden;
+}
+
+body.blu-admin-2026.blu-admin-neon .card:hover {
+    box-shadow: var(--adm-shadow) !important;
+    border-color: rgba(37, 99, 235, 0.28) !important;
+}
+
+body.blu-admin-2026 .card-header {
+    background: linear-gradient(180deg, #fafcff 0%, #fff 100%) !important;
+    border-bottom: 1px solid var(--adm-line) !important;
+    padding: 1.15rem 1.4rem !important;
+}
+
+body.blu-admin-2026 .card-header h4,
+body.blu-admin-2026 .card-header .h4 {
+    font-family: "Syne", "Inter", sans-serif !important;
+    font-weight: 700 !important;
+    color: var(--adm-text) !important;
+}
+
+body.blu-admin-2026 .card-body {
+    padding: 1.3rem 1.4rem !important;
+}
+
+body.blu-admin-2026 .blu-card-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-size: 1rem;
+    color: #fff;
+    background: var(--adm-grad);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
+    flex-shrink: 0;
+}
+
+/* ── Alerts ── */
+body.blu-admin-2026 .alert {
+    border-radius: var(--adm-radius-sm);
+    border: none;
+    box-shadow: var(--adm-shadow-sm);
+    font-weight: 500;
+    padding: 0.85rem 1.15rem;
+}
+
+body.blu-admin-2026 .alert-success {
+    background: linear-gradient(135deg, #ecfdf5, #d1fae5) !important;
+    color: #065f46 !important;
+    border-left: 4px solid var(--adm-green) !important;
+}
+
+body.blu-admin-2026 .alert-danger {
+    background: linear-gradient(135deg, #fef2f2, #ffe4e6) !important;
+    color: #9f1239 !important;
+    border-left: 4px solid var(--adm-rose) !important;
+}
+
+/* ── Butoane ── */
+body.blu-admin-2026 .btn {
+    border-radius: 999px;
+    font-weight: 700;
+    padding: 0.55rem 1.25rem;
+    letter-spacing: 0.01em;
+}
+
+body.blu-admin-2026 .btn-primary {
+    background: var(--adm-grad) !important;
+    border: 0 !important;
+    color: #fff !important;
+    box-shadow: 0 10px 28px rgba(37, 99, 235, 0.35) !important;
+}
+
+body.blu-admin-2026 .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 36px rgba(37, 99, 235, 0.42) !important;
+    filter: brightness(1.05);
+}
+
+body.blu-admin-2026 .btn-outline-primary {
+    border: 2px solid rgba(37, 99, 235, 0.35) !important;
+    color: var(--adm-blue-d) !important;
+    background: #fff !important;
+}
+
+body.blu-admin-2026 .btn-outline-primary:hover {
+    background: #eff6ff !important;
+}
+
+/* ── Formulare ── */
+body.blu-admin-2026 .form-control,
+body.blu-admin-2026 .form-select {
+    border-radius: 12px !important;
+    border: 1px solid var(--adm-line) !important;
+    background: #f8fafc !important;
+    padding: 0.65rem 0.9rem !important;
+}
+
+body.blu-admin-2026 .form-control:focus,
+body.blu-admin-2026 .form-select:focus {
+    background: #fff !important;
+    border-color: var(--adm-blue) !important;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15) !important;
+}
+
+/* ── Tab-uri ── */
+body.blu-admin-2026 .blu-section-nav {
+    background: #fff !important;
+    border: 1px solid var(--adm-line) !important;
+    border-radius: 999px !important;
+    padding: 0.4rem !important;
+    box-shadow: var(--adm-shadow-sm) !important;
+    gap: 0.35rem !important;
+}
+
+body.blu-admin-2026 .blu-section-nav__tab {
+    border-radius: 999px !important;
+    font-weight: 700 !important;
+    font-size: 0.84rem !important;
+    color: var(--adm-muted) !important;
+    padding: 0.55rem 1.1rem !important;
+}
+
+body.blu-admin-2026 .blu-section-nav__tab:hover {
+    color: var(--adm-blue) !important;
+    background: #f0f9ff !important;
+}
+
+body.blu-admin-2026 .blu-section-nav__tab.is-active {
+    background: var(--adm-grad) !important;
+    color: #fff !important;
+    box-shadow: 0 8px 22px rgba(37, 99, 235, 0.3) !important;
+}
+
+body.blu-admin-2026 .nav-tabs .nav-link.active {
+    background: var(--adm-grad) !important;
+    color: #fff !important;
+    border: 0 !important;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.28) !important;
+}
+
+/* ── Tabele ── */
+body.blu-admin-2026 .table thead th {
+    background: linear-gradient(180deg, #f0f9ff, #e0f2fe) !important;
+    color: var(--adm-blue-d) !important;
+    font-size: 0.68rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    padding: 0.85rem 1rem !important;
+}
+
+body.blu-admin-2026 .table tbody td {
+    padding: 0.85rem 1rem !important;
+    vertical-align: middle;
+    border-color: rgba(148, 163, 184, 0.15) !important;
+}
+
+body.blu-admin-2026 .table tbody tr:hover {
+    background: #f8fbff !important;
+}
+
+body.blu-admin-2026 .text-muted {
+    color: var(--adm-muted) !important;
+}
+
+/* ── Panouri interne ── */
+body.blu-admin-2026 .cm-panel .cm-stat,
+body.blu-admin-2026 .cm-panel .cm-card,
+body.blu-admin-2026 .fz-card {
+    border-radius: var(--adm-radius-sm) !important;
+    box-shadow: var(--adm-shadow-sm) !important;
+    border-color: var(--adm-line) !important;
+}
+
+body.blu-admin-2026 .fz-card:hover {
+    box-shadow: var(--adm-shadow) !important;
+    border-color: rgba(37, 99, 235, 0.25) !important;
+}
+
+body.blu-admin-2026 .loader-wrapper {
+    display: none !important;
+}
+
+@media (max-width: 1199px) {
+    body.blu-admin-2026 .blu-admin-cosmos { left: 0; }
+}
+
+@media (max-width: 767px) {
+    body.blu-admin-2026 .blu-page-hero { padding: 1.1rem; }
+}

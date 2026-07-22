@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admiro admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Admiro admin template, best javascript admin, dashboard template, bootstrap admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Admiro - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&amp;display=swap" rel="stylesheet">
+    <!-- Flag icon css -->
+    <link rel="stylesheet" href="../assets/css/vendors/flag-icon.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/iconly-icon.css">
+    <link rel="stylesheet" href="../assets/css/bulk-style.css">
+    <!-- iconly-icon-->
+    <link rel="stylesheet" href="../assets/css/themify.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="../assets/css/fontawesome-min.css">
+    <!-- Whether Icon css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/weather-icons/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/slick-theme.css">
+    <!-- App css -->
+    <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <!-- tap on top starts-->
+    <div class="tap-top"><i class="iconly-Arrow-Up icli"></i></div>
+    <!-- tap on tap ends-->
+    <!-- loader-->
+    <div class="loader-wrapper">
+      <div class="loader"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="page-wrapper compact-wrapper" id="pageWrapper"> 
+      <header class="page-header row">
+        <div class="logo-wrapper d-flex align-items-center col-auto"><a href="index.html"><img class="light-logo img-fluid" src="../assets/images/logo/logo1.png" alt="logo"><img class="dark-logo img-fluid" src="../assets/images/logo/logo-dark.png" alt="logo"></a><a class="close-btn toggle-sidebar" href="javascript:void(0)">
+            <svg class="svg-color">
+              <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+            </svg></a></div>
+        <div class="page-main-header col">
+          <div class="header-left">
+            <form class="form-inline search-full col" action="form-wizard.html#" method="get">
+              <div class="form-group w-100">
+                <div class="Typeahead Typeahead--twitterUsers">
+                  <div class="u-posRelative">
+                    <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Admiro .." name="q" title="" autofocus>
+                    <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><i class="close-search" data-feather="x"></i>
+                  </div>
+                  <div class="Typeahead-menu"></div>
+                </div>
+              </div>
+            </form>
+            <div class="form-group-header d-lg-block d-none">
+              <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative d-flex align-items-center"> 
+                  <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Type to Search..." name="q" title=""><i class="search-bg iconly-Search icli"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-right">
+            <ul class="header-right"> 
+              <li class="custom-dropdown">
+                <div class="translate_wrapper">
+                  <div class="current_lang"><a class="lang" href="javascript:void(0)"><i class="flag-icon flag-icon-us"></i>
+                      <h6 class="lang-txt f-w-700">ENG</h6></a></div>
+                  <ul class="custom-menu profile-menu language-menu py-0 more_lang">
+                                  <li class="d-block"><a class="lang" href="form-wizard.html#" data-value="English"><i class="flag-icon flag-icon-us"></i>
+                                      <div class="lang-txt">English</div></a></li>
+                                  <li class="d-block"><a class="lang" href="form-wizard.html#" data-value="fr"><i class="flag-icon flag-icon-fr"></i>
+                                      <div class="lang-txt">Français</div></a></li>
+                                  <li class="d-block"><a class="lang" href="form-wizard.html#" data-value="es"><i class="flag-icon flag-icon-es"></i>
+                                      <div class="lang-txt">Español</div></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="search d-lg-none d-flex"> <a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                  </svg></a></li>
+              <li>  <a class="dark-mode" href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#moondark"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#cart-icon"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">2</span>
+                <div class="custom-menu cart-dropdown py-0 overflow-hidden">
+                  <h3 class="title dropdown-title">Cart</h3>
+                  <ul class="pb-0">
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/1.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Watch multicolor</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="form-wizard.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex"><img class="img-fluid b-r-5 me-3 img-60" src="../assets/images/dashboard-2/2.png" alt="">
+                        <div class="flex-grow-1"><span class="f-w-600">Airpods</span>
+                          <div class="qty-box">
+                            <div class="input-group"><span class="input-group-prepend">
+                                <button class="btn quantity-left-minus" type="button" data-type="minus" data-field="">-</button></span>
+                              <input class="form-control input-number" type="text" name="quantity" value="1"><span class="input-group-prepend">
+                                <button class="btn quantity-right-plus" type="button" data-type="plus" data-field="">+</button></span>
+                            </div>
+                          </div>
+                          <h6 class="font-primary">$500.00</h6>
+                        </div>
+                        <div class="close-circle"><a class="bg-danger" href="form-wizard.html#"><i data-feather="x"></i></a></div>
+                      </div>
+                    </li>
+                    <li class="total">
+                      <h6 class="mb-0">Order Total : <span class="f-w-600">$1000.00</span></h6>
+                    </li>
+                    <li class="text-center"><a class="d-block mb-3 view-cart f-w-700 text-primary" href="cart.html">Go to your cart</a><a class="btn btn-primary view-checkout text-white" href="checkout.html">Checkout</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#notification"></use>
+                  </svg></a><span class="badge rounded-pill badge-primary">4</span>
+                <div class="custom-menu notification-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Notification <span class="font-primary">View all</span></h3>
+                  <ul class="activity-timeline">
+                    <li class="d-flex align-items-start">
+                      <div class="activity-line"></div>
+                      <div class="activity-dot-primary"></div>
+                      <div class="flex-grow-1">
+                        <h6 class="f-w-600 font-primary">30-04-2024<span>Today</span><span class="circle-dot-primary float-end">
+                            <svg class="circle-color">
+                              <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                            </svg></span></h6>
+                        <h5>Alice Goodwin</h5>
+                        <p class="mb-0">Fashion should be fun. It shouldn't be labelled intellectual.</p>
+                      </div>
+                    </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">28-06-2024<span>1 hour ago</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Herry Venter</h5>
+                                      <p>I am convinced that there can be luxury in simplicity.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-primary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-primary">04-08-2024<span>Today</span><span class="float-end circle-dot-primary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Loain Deo</h5>
+                                      <p>I feel that things happen for open new opportunities.</p>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-start">
+                                    <div class="activity-dot-secondary"></div>
+                                    <div class="flex-grow-1">
+                                      <h6 class="f-w-600 font-secondary">12-11-2024<span>Yesterday</span><span class="float-end circle-dot-secondary">
+                                          <svg class="circle-color">
+                                            <use href="../assets/svg/iconly-sprite.svg#circle"></use>
+                                          </svg></span></h6>
+                                      <h5>Fenter Jessy</h5>
+                                      <p>Sometimes the simplest things are the most profound.</p>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="full-screen" href="javascript:void(0)"> 
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#scanfull"></use>
+                  </svg></a></li>
+              <li class="custom-dropdown"><a href="javascript:void(0)">
+                  <svg>
+                    <use href="../assets/svg/iconly-sprite.svg#bookmark"></use>
+                  </svg></a>
+                <div class="custom-menu bookmark-dropdown py-0 overflow-hidden">
+                  <h3 class="title bg-primary-light dropdown-title">Bookmark</h3>
+                  <ul> 
+                    <li> 
+                      <form class="mb-0">
+                        <div class="input-group">
+                          <input class="form-control" type="text" placeholder="Search Bookmark..."><span class="input-group-text">
+                            <svg class="svg-color">
+                              <use href="../assets/svg/iconly-sprite.svg#Search"></use>
+                            </svg></span>
+                        </div>
+                      </form>
+                    </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-primary"><a href="index.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#cube"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="index.html">Dashboard</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-secondary"><a href="to-do.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#check"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="to-do.html">To-do</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                                  <li class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 me-2 btn-activity-danger"><a href="apex_chart.html">
+                                        <svg class="svg-color">
+                                          <use href="../assets/svg/iconly-sprite.svg#pie"></use>
+                                        </svg></a></div>
+                                    <div class="d-flex justify-content-between align-items-center w-100"><a href="apex_chart.html">Chart</a>
+                                      <svg class="svg-color icon-star">
+                                        <use href="../assets/svg/iconly-sprite.svg#star"></use>
+                                      </svg>
+                                    </div>
+                                  </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="cloud-design"><a class="cloud-mode">
+                  <svg class="climacon climacon_cloudDrizzle" id="cloudDrizzle" version="1.1" viewBox="15 15 70 70">
+                    <g class="climacon_iconWrap climacon_iconWrap-cloudDrizzle">
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-drizzle">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-left" d="M42.001,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2.001-0.895-2.001-2v-3.998C40,54.538,40.896,53.644,42.001,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-middle" d="M49.999,53.644c1.104,0,2,0.896,2,2v4c0,1.104-0.896,2-2,2s-1.998-0.896-1.998-2v-4C48.001,54.54,48.896,53.644,49.999,53.644z"></path>
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_drizzle climacon_component-stroke_drizzle-right" d="M57.999,53.644c1.104,0,2,0.896,2,2v3.998c0,1.105-0.896,2-2,2c-1.105,0-2-0.895-2-2v-3.998C55.999,54.538,56.894,53.644,57.999,53.644z"></path>
+                      </g>
+                      <g class="climacon_wrapperComponent climacon_wrapperComponent-cloud">
+                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud" d="M63.999,64.944v-4.381c2.387-1.386,3.998-3.961,3.998-6.92c0-4.418-3.58-8-7.998-8c-1.603,0-3.084,0.481-4.334,1.291c-1.232-5.316-5.973-9.29-11.664-9.29c-6.628,0-11.999,5.372-11.999,12c0,3.549,1.55,6.729,3.998,8.926v4.914c-4.776-2.769-7.998-7.922-7.998-13.84c0-8.836,7.162-15.999,15.999-15.999c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.336-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12C71.997,58.864,68.655,63.296,63.999,64.944z"></path>
+                      </g>
+                    </g>
+                  </svg>
+                  <h3>15</h3></a></li>
+              <li class="profile-nav custom-dropdown">
+                <div class="user-wrap">
+                  <div class="user-img"><img src="../assets/images/profile.png" alt="user"></div>
+                  <div class="user-content">
+                    <h6>Ava Davis</h6>
+                    <p class="mb-0">Admin<i class="fa-solid fa-chevron-down"></i></p>
+                  </div>
+                </div>
+                <div class="custom-menu overflow-hidden">
+                  <ul class="profile-body">
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                      </svg><a class="ms-2" href="user-profile.html">Account</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                      </svg><a class="ms-2" href="letter-box.html">Inbox</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                      </svg><a class="ms-2" href="to-do.html">Task</a>
+                    </li>
+                    <li class="d-flex"> 
+                      <svg class="svg-color">
+                        <use href="../assets/svg/iconly-sprite.svg#Login"></use>
+                      </svg><a class="ms-2" href="login.html">Log Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="page-body-wrapper">
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar"> 
+          <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+          <div class="main-sidebar" id="main-sidebar">
+            <ul class="sidebar-menu" id="simple-bar">
+              <li class="pin-title sidebar-main-title">  
+                <div> 
+                  <h5 class="sidebar-title f-w-700">Pinned</h5>
+                </div>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="lan-1 f-w-700 sidebar-title">General</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Home-dashboard"></use>
+                  </svg>
+                  <h6>Dashboards</h6><span class="badge">3</span><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="dashboard-02.html">Ecommerce </a></li>
+                  <li> <a href="dashboard-03.html">Education</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Pie"></use>
+                  </svg>
+                  <h6 class="lan-2">Widgets </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="general-widget.html">General</a></li>
+                  <li><a href="chart-widget.html">Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Document"></use>
+                  </svg>
+                  <h6 class="lan-3">Page layout</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="box-layout.html">Box Layout</a></li>
+                  <li><a href="layout-rtl.html">RTL</a></li>
+                  <li> <a href="layout-dark.html">Dark</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Application</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Info-circle"></use>
+                  </svg>
+                  <h6 class="f-w-600">Project</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="project-list.html">Project list </a></li>
+                  <li> <a href="projectcreate.html">Project create </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="file-manager.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper"></use>
+                  </svg>
+                  <h6 class="f-w-600">File Manager </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="kanban-board.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Kanban board</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bag"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ecommerce</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="add-products.html">Add Products</a></li>
+                  <li> <a href="product.html">Product</a></li>
+                  <li> <a href="product-page.html">Product Page</a></li>
+                  <li> <a href="category.html">Category page</a></li>
+                  <li> <a href="list-products.html">Product list</a></li>
+                  <li> <a href="payment-details.html">Payment Details</a></li>
+                  <li> <a href="order-history.html">Order History</a></li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Invoices<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="invoices-1.html">Invoices 1</a></li>
+                      <li> <a href="invoices-2.html">Invoices 2</a></li>
+                      <li> <a href="invoices-3.html">Invoices 3</a></li>
+                      <li> <a href="invoices-4.html">Invoices 4</a></li>
+                      <li> <a href="invoices-5.html">Invoices 5</a></li>
+                      <li> <a href="invoices-6.html">Invoices 6</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="cart.html">Cart</a></li>
+                  <li> <a href="list-wish.html">Wishlist</a></li>
+                  <li> <a href="checkout.html">Checkout</a></li>
+                  <li> <a href="pricing.html">Pricing </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="letter-box.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Message"></use>
+                  </svg>
+                  <h6 class="f-w-600">Letter Box</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chat"></use>
+                  </svg>
+                  <h6 class="f-w-600">Chat</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="private-chat.html">Private Chat</a></li>
+                  <li> <a href="group-chat.html">Group Chat</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Profile"></use>
+                  </svg>
+                  <h6 class="f-w-600">Users</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="user-profile.html">Users Profile</a></li>
+                  <li> <a href="edit-profile.html">Users Edit</a></li>
+                  <li> <a href="user-cards.html">Users Cards      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="bookmark.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Bookmark"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bookmarks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="contacts.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Contacts"></use>
+                  </svg>
+                  <h6 class="f-w-600">Contacts   </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="task.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Tick-square"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tasks</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="calendar-basic.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Calendar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Calendar  </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="social-app.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Camera"></use>
+                  </svg>
+                  <h6 class="f-w-600">Social App</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="to-do.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit"></use>
+                  </svg>
+                  <h6 class="f-w-600">To-Do </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="search.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Search-sidebar"></use>
+                  </svg>
+                  <h6 class="f-w-600">Search Result                                                </h6></a></li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="f-w-700 sidebar-title pt-3">Components</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="buttons.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#More-box"></use>
+                  </svg>
+                  <h6 class="f-w-600">buttons </h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Folder"></use>
+                  </svg>
+                  <h6 class="f-w-600">Ui Kits</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li> <a href="alert.html">Alert</a></li>
+                  <li> <a href="helper-classes.html">Helper classes</a></li>
+                  <li> <a href="grid.html">Grid</a></li>
+                  <li> <a href="accordion.html">Accordion</a></li>
+                  <li> <a href="tag-pills.html">Tag pills</a></li>
+                  <li> <a href="modal.html">Modal </a></li>
+                  <li> <a href="popover.html">Popover </a></li>
+                  <li> <a href="progress-bar.html">Progress bar</a></li>
+                  <li> <a href="tab-bootstrap.html">Tab bootstrap</a></li>
+                  <li> <a href="tooltip.html">Tooltip</a></li>
+                  <li> <a href="dropdown.html"> Dropdown</a></li>
+                  <li> <a href="list.html">List</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket-star"></use>
+                  </svg>
+                  <h6 class="f-w-600">Bonus Ui</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="scrollable.html">Scrollable</a></li>
+                  <li> <a href="tree.html">Tree view </a></li>
+                  <li><a href="toasts.html">Toasts </a></li>
+                  <li> <a href="rating.html">Rating</a></li>
+                  <li> <a href="dropzone.html">Dropzone</a></li>
+                  <li> <a href="tour.html">Tour</a></li>
+                  <li> <a href="sweetalert2.html">Sweetalert2 </a></li>
+                  <li> <a href="modal-animated.html">Animated Modal</a></li>
+                  <li> <a href="slider.html">Slider</a></li>
+                  <li> <a href="ribbons.html">Ribbons</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li> <a href="breadcrumb.html">Breadcrumb</a></li>
+                  <li> <a href="range-slider.html">Range slider</a></li>
+                  <li> <a href="image-cropper.html">Image cropper</a></li>
+                  <li> <a href="basic-card.html">Basic Card</a></li>
+                  <li> <a href="creative-card.html">Creative Card</a></li>
+                  <li> <a href="dragable-card.html">Dragable Card </a></li>
+                  <li> <a href="timeline.html">Timeline</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Category"></use>
+                  </svg>
+                  <h6 class="f-w-600">Animation </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li>  <a href="AOS.html">aos</a></li>
+                  <li>  <a href="WOW.html">wow</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Activity"></use>
+                  </svg>
+                  <h6 class="f-w-600">Icon</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="font-awesome.html">Fontawesome icon</a></li>
+                  <li><a href="feather_icon.html">Feather icon</a></li>
+                  <li> <a href="iconly-icon.html">Iconly icon </a></li>
+                  <li> <a href="themify-icon.html">Themify Icon</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Chart"></use>
+                  </svg>
+                  <h6 class="f-w-600">Charts</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li><a href="echarts.html">Echarts</a></li>
+                  <li> <a href="apex_chart.html">Apex Chart</a></li>
+                  <li> <a href="chart-google.html">Google Chart</a></li>
+                  <li> <a href="chart-sparkline.html">Sparkline chart</a></li>
+                  <li> <a href="chart-flot.html">Flot Chart</a></li>
+                  <li> <a href="chart-knob.html">Knob Chart</a></li>
+                  <li> <a href="chart-morris.html">Morris Chart</a></li>
+                  <li> <a href="chartjs.html">Chatjs Chart</a></li>
+                  <li> <a href="chartist_chart.html">Chartist Chart</a></li>
+                  <li><a href="chart-peity.html">Peity Chart</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Tables & Forms</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter"></use>
+                  </svg>
+                  <h6 class="f-w-600">Forms</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">form-control<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="base-input.html">Base input</a></li>
+                      <li> <a href="form-validation.html">Form validation</a></li>
+                      <li> <a href="radio-checkbox-control.html">Checkbox & Radio </a></li>
+                      <li> <a href="input-group.html">Input group</a></li>
+                      <li> <a href="input-mask.html">Input mask</a></li>
+                      <li> <a href="megaoptions.html">Mega Options                                                    </a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datepicker.html">Datepicker</a></li>
+                      <li> <a href="touchspin.html">Touchspin</a></li>
+                      <li> <a href="select2.html">Select2 </a></li>
+                      <li> <a href="switch.html">Switch </a></li>
+                      <li> <a href="typehead.html">Typehead </a></li>
+                      <li> <a href="clipboard.html">Clipboard</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Form Layout<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="form-wizard.html">Form wizard 1</a></li>
+                      <li> <a href="form-wizard-two.html">Form wizard 2</a></li>
+                      <li> <a href="form-wizard-three.html">Two factor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Edit-line"></use>
+                  </svg>
+                  <h6 class="f-w-600">Tables</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-table.html">Basic Tables</a></li>
+                      <li> <a href="table-components.html">Table components</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Data Tables<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="datatable-basic-init.html">Basic Init</a></li>
+                      <li> <a href="datatable-advance.html">Advance Init</a></li>
+                      <li> <a href="datatable-API.html">API</a></li>
+                      <li><a href="datatable-data-source.html">Data Sources</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="datatable-ext-autofill.html">Ex. Data Tables</a></li>
+                  <li> <a href="jsgrid-table.html">Js Grid Table         </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Pages</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="landing-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Wallet"></use>
+                  </svg>
+                  <h6 class="f-w-600">Landing page</h6></a></li>
+              <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="sample-page.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Paper-plus"></use>
+                  </svg>
+                  <h6 class="f-w-600">Sample page</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="internationalization.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Play"></use>
+                  </svg>
+                  <h6 class="f-w-600">Internationalization</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="../starter-kit/index.html" target="_blank">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Star-kit"></use>
+                  </svg>
+                  <h6 class="f-w-600">Starter kit</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Password"></use>
+                  </svg>
+                  <h6 class="f-w-600">Others</h6><i class="iconly-Arrow-Right-2 icli"> </i></a>
+                <ul class="sidebar-submenu">
+                  <li><a class="submenu-title" href="javascript:void(0)">Error Page<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="error-page1.html">Error page 1</a></li>
+                      <li> <a href="error-page2.html">Error page 2</a></li>
+                      <li> <a href="error-page3.html">Error page 3</a></li>
+                      <li> <a href="error-page4.html">Error page 4</a></li>
+                      <li> <a href="error-page5.html">Error page 5</a></li>
+                      <li> <a href="error-page6.html">Error page 6</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)"> Authentication<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="login.html" target="_blank">Login Simple</a></li>
+                      <li> <a href="login_one.html" target="_blank">Login with bg image</a></li>
+                      <li> <a href="login_two.html" target="_blank">Login with image two</a></li>
+                      <li> <a href="login-bs-validation.html" target="_blank">Login With validation</a></li>
+                      <li> <a href="login-bs-tt-validation.html" target="_blank">Login with tooltip</a></li>
+                      <li> <a href="login-sa-validation.html" target="_blank">Login with sweetalert</a></li>
+                      <li> <a href="sign-up.html" target="_blank">Register Simple</a></li>
+                      <li> <a href="sign-up-one.html" target="_blank">Register with Bg Image</a></li>
+                      <li> <a href="sign-up-two.html" target="_blank">Register with image two</a></li>
+                      <li> <a href="sign-up-wizard.html" target="_blank">Register wizard</a></li>
+                      <li> <a href="unlock.html">Unlock User</a></li>
+                      <li> <a href="forget-password.html">Forget Password</a></li>
+                      <li> <a href="reset-password.html">Reset Password</a></li>
+                      <li> <a href="maintenance.html">Maintenance</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Coming Soon<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="comingsoon.html">Coming Simple</a></li>
+                      <li> <a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
+                      <li> <a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="submenu-title" href="javascript:void(0)">Email templates<i class="iconly-Arrow-Right-2 icli"> </i></a>
+                    <ul class="according-submenu">
+                      <li> <a href="basic-template.html">Basic Email</a></li>
+                      <li> <a href="email-header.html">Basic With Header</a></li>
+                      <li> <a href="template-email.html">Ecomerce Template</a></li>
+                      <li> <a href="template-email-2.html">Email Template 2</a></li>
+                      <li> <a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                      <li> <a href="email-order-success.html">Order Success</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar-main-title">
+                <div>
+                  <h5 class="sidebar-title pt-3 f-w-700">Miscellaneous</h5>
+                </div>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Gallery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Gallery  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="gallery.html">Gallery Grid</a></li>
+                  <li> <a href="gallery-with-description.html">Gallery Grid Desc</a></li>
+                  <li> <a href="masonary.html">Masonary Gallery</a></li>
+                  <li> <a href="masonary_with_disc.html">Masonary With Desc</a></li>
+                  <li> <a href="gallery-hover.html">Hover Effects</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Game"></use>
+                  </svg>
+                  <h6 class="f-w-600">Blog  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="blog.html">Blog Details</a></li>
+                  <li> <a href="blog-single.html">Blog Single</a></li>
+                  <li><a href="add_post.html">Add Post</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link" href="faq.html"> 
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Danger"></use>
+                  </svg>
+                  <h6 class="f-w-600">FAQ</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Filter-2"></use>
+                  </svg>
+                  <h6 class="f-w-600">Job Search  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="job-cards-view.html">Card view</a></li>
+                  <li> <a href="job-list-view.html">List view</a></li>
+                  <li><a href="job-details.html">Job details   </a></li>
+                  <li><a href="job-apply.html">Apply</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Work"></use>
+                  </svg>
+                  <h6 class="f-w-600">Learning</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="learning_list_visit.html">Learning List</a></li>
+                  <li> <a href="learning_detailed.html">Learning Detailed</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Discovery"></use>
+                  </svg>
+                  <h6 class="f-w-600">Maps</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="data-map.html">Data Map</a></li>
+                  <li> <a href="vector-map.html">Vector Maps</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="javascript:void(0)">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Shield"></use>
+                  </svg>
+                  <h6 class="f-w-600">Editors</h6><i class="iconly-Arrow-Right-2 icli"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="quilleditor.html">Quill editor</a></li>
+                  <li> <a href="ace-code-editor.html">ACE Code Editor</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="knowledgebase.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Setting"></use>
+                  </svg>
+                  <h6 class="f-w-600">Knowledgebase</h6></a></li>
+              <li class="sidebar-list"> <i class="fa-solid fa-thumbtack"></i><a class="sidebar-link" href="support-ticket.html">
+                  <svg class="stroke-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#Ticket"></use>
+                  </svg>
+                  <h6 class="f-w-600">Support Ticket</h6></a></li>
+            </ul>
+          </div>
+          <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+        </aside>
+        <!-- Page sidebar end-->
+        <div class="page-body">
+          <div class="container-fluid">
+            <div class="page-title">
+              <div class="row">
+                <div class="col-sm-6 col-12">
+                  <h2>Form Wizard 1</h2>
+                </div>
+                <div class="col-sm-6 col-12">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="iconly-Home icli svg-color"></i></a></li>
+                    <li class="breadcrumb-item">Form Layout</li>
+                    <li class="breadcrumb-item active">Form Wizard 1</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Numbering wizard</h3>
+                    <p class="mt-1 mb-0">This is a validation form.</p>
+                  </div>
+                  <div class="card-body basic-wizard important-validation">
+                    <div class="stepper-horizontal" id="stepper1">
+                      <div class="stepper-one stepper step editing active">
+                        <div class="step-circle"><span>1</span></div>
+                        <div class="step-title">Basic Info  </div>
+                        <div class="step-bar-left"></div>
+                        <div class="step-bar-right"></div>
+                      </div>
+                      <div class="stepper-two step">
+                        <div class="step-circle"><span>2</span></div>
+                        <div class="step-title">Cart Info</div>
+                        <div class="step-bar-left"></div>
+                        <div class="step-bar-right"></div>
+                      </div>
+                      <div class="stepper-three step">
+                        <div class="step-circle"><span>3</span></div>
+                        <div class="step-title">Feedback</div>
+                        <div class="step-bar-left"></div>
+                        <div class="step-bar-right"></div>
+                      </div>
+                      <div class="stepper-four step">
+                        <div class="step-circle"><span>4</span></div>
+                        <div class="step-title">Finish</div>
+                        <div class="step-bar-left"></div>
+                        <div class="step-bar-right"> </div>
+                      </div>
+                    </div>
+                    <div id="msform">
+                      <form class="stepper-one row g-3 needs-validation custom-input" novalidate="">
+                        <div class="col-6">       
+                          <label class="form-label" for="email-basic-wizard">Email<span class="text-danger">*</span></label>
+                          <input class="form-control" id="email-basic-wizard" type="email" required="" placeholder="admiro@gmail.com">
+                          <div class="invalid-feedback">Please enter your valid email</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-6">
+                          <label class="form-label" for="firstnamewizard">First Name<span class="text-danger">*</span></label>
+                          <input class="form-control" id="firstnamewizard" type="text" required="" placeholder="Enter your name">
+                          <div class="invalid-feedback">Please enter your valid name</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-12">
+                          <label class="col-sm-12 form-label" for="passwordwizard888">Password<span class="text-danger">*</span></label>
+                          <input class="form-control" id="passwordwizard888" type="password" placeholder="Enter password" required="">
+                          <div class="invalid-feedback">Please enter your valid password</div>
+                        </div>
+                        <div class="col-12">
+                          <label class="col-sm-12 form-label" for="confirmpasswordwizard">Confirm Password<span class="text-danger">*</span></label>
+                          <input class="form-control" id="confirmpasswordwizard" type="password" placeholder="Enter confirm password" required="">
+                          <div class="invalid-feedback">Please enter your valid password</div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" id="inputcheckwizard" type="checkbox" value="" required="">
+                            <label class="form-check-label mb-0" for="inputcheckwizard">Agree to terms and conditions</label>
+                          </div>
+                        </div>
+                      </form>
+                      <form class="stepper-two row g-3 needs-validation custom-input" novalidate="">
+                        <div class="col-md-12"> 
+                          <label class="form-label" for="placeholdername">Placeholder Name </label>
+                          <input class="form-control" id="placeholdername" type="text" required="" placeholder="Placeholder name">
+                        </div>
+                        <div class="col-md-4">               
+                          <label class="form-label" for="textCardNumber1">Card Number</label>
+                          <input class="form-control" id="textCardNumber1" type="text" required="" placeholder="xxxx xxxx xxxx xxxx">
+                          <div class="invalid-feedback">Please enter your valid number</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-md-4">
+                          <label class="form-label" for="validationCustom-ddd">Expiration(MM/YY)</label>
+                          <input class="form-control" id="validationCustom-ddd" type="number" required="" placeholder="xx/xx">
+                          <div class="invalid-feedback">Please enter your valid number</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-md-4">
+                          <label class="form-label" for="cvvnumber3">CVV Number</label>
+                          <input class="form-control" id="cvvnumber3" type="number" required="">
+                          <div class="invalid-feedback">Please enter your valid number</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-12"> 
+                          <label class="form-label" for="formFile3">Upload Documentation</label>
+                          <input class="form-control" id="formFile3" type="file" aria-label="file example" required="">
+                          <div class="invalid-feedback">Invalid form file selected</div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check validation-vertical-wizard">
+                            <input class="form-check-input" id="invalidCheck-b" type="checkbox" value="" required="">
+                            <label class="form-check-label" for="invalidCheck-b">All the above information is correct</label>
+                            <div class="invalid-feedback">You must agree before submitting.</div>
+                          </div>
+                        </div>
+                      </form>
+                      <form class="stepper-three row g-3 needs-validation custom-input" novalidate="">
+                        <div class="col-6">
+                          <label class="form-label" for="email-basic">LinkedIn<span class="text-danger">*</span></label>
+                          <input class="form-control" id="email-basic" type="url" required="" placeholder="https://linkededin.com/admiro">
+                          <div class="invalid-feedback">Please enter your valid link</div>
+                          <div class="valid-feedback">
+                                Looks's Good!</div>
+                        </div>
+                        <div class="col-6">
+                          <label class="form-label" for="validationCustom996">Github<span class="text-danger">*</span></label>
+                          <input class="form-control" id="validationCustom996" type="url" required="" placeholder="https://github.com/admiro">
+                          <div class="invalid-feedback">Please enter your valid link</div>
+                          <div class="valid-feedback">
+                             Looks's Good!</div>
+                        </div>
+                        <div class="col-12"> 
+                          <label class="form-label" for="validationCustom88">Select State<span class="text-danger">*</span></label>
+                          <select class="form-select" id="validationCustom88" required="">
+                            <option selected="" disabled="" value="">Choose...</option>
+                            <option>U.K </option>
+                            <option>U.K </option>
+                            <option>India</option>
+                          </select>
+                          <div class="invalid-feedback">Please select a valid state.</div>
+                        </div>
+                        <div class="col-12"> 
+                          <label class="form-label" for="givefeedback">Give Feedback</label>
+                          <textarea class="form-control" id="givefeedback" required=""></textarea>
+                          <div class="invalid-feedback">Please enter a message in the textarea.</div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check mb-3">
+                            <input class="form-check-input" id="invalidCheck46" type="checkbox" value="" required="">
+                            <label class="form-check-label mb-0" for="invalidCheck46">Agree to terms and conditions</label>
+                            <div class="invalid-feedback">You must agree before submitting.</div>
+                          </div>
+                        </div>
+                      </form>
+                      <form class="stepper-four row g-3 needs-validation" novalidate="">
+                        <div class="col-12 m-0">
+                          <div class="successful-form"><img class="img-fluid" src="../assets/images/gif/success/successful.gif" alt="successful">
+                            <h6>Congratulations </h6>
+                            <p>Well done! You have successfully completed.</p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="wizard-footer d-flex gap-2 justify-content-end"> 
+                      <button class="btn text-light btn-primary" id="backbtn" onclick="backStep()"> Back</button>
+                      <button class="btn btn-primary" id="nextbtn" onclick="nextStep()">Next       </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Student validation form</h3>
+                    <p class="mt-1 mb-0">
+                        Please make sure fill all the filed before click on next button.</p>
+                  </div>
+                  <div class="card-body basic-form">
+                    <form class="form-wizard" id="regForm" action="form-wizard.html#" method="POST">
+                      <div class="tab">
+                        <div class="row g-3">
+                          <div class="col-sm-12">
+                            <label class="form-label" for="name">Name  </label>
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name" required="required">
+                          </div>
+                          <div class="col-sm-12">
+                            <label class="form-label" for="email-basic-wizard66">Email    <span class="text-danger">*</span></label>
+                            <input class="form-control" id="email-basic-wizard66" type="email" required="" placeholder="admiro@gmail.com">
+                            <div class="invalid-feedback">Please enter your valid email</div>
+                            <div class="valid-feedback">Looks's Good!</div>
+                          </div>
+                          <div class="col-12">
+                            <label class="col-sm-12 form-label" for="passwordwizard88">Password<span class="text-danger">*</span></label>
+                            <input class="form-control" id="passwordwizard88" type="password" placeholder="Enter password" required="">
+                            <div class="invalid-feedback">Please enter your valid password</div>
+                          </div>
+                          <div class="col-12">
+                            <label class="col-sm-12 form-label" for="confirmpassowrd">Confirm Password<span class="text-danger">*</span></label>
+                            <input class="form-control" id="confirmpassowrd" type="password" placeholder="Enter password" required="">
+                            <div class="invalid-feedback">Please enter your valid password            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab">
+                        <div class="row g-3 avatar-upload">
+                          <div class="col-12">
+                            <div>
+                              <div class="avatar-edit">
+                                <input id="imageUpload" type="file" accept=".png, .jpg, .jpeg">
+                                <label for="imageUpload"></label>
+                              </div>
+                              <div class="avatar-preview">
+                                <div id="image"></div>
+                              </div>
+                            </div>
+                            <h6>Add Profile</h6>
+                          </div>
+                          <div class="col-12">
+                            <label class="form-label" for="exampleFormControlInput01">Portfolio URL</label>
+                            <input class="form-control" id="exampleFormControlInput01" type="url" placeholder="https://admiro">
+                          </div>
+                          <div class="col-12"> 
+                            <label class="form-label" for="exampleFormControlTextarea11">Project Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea11" rows="2"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab"> 
+                        <h5 class="mb-2">Social Links</h5>
+                        <div class="row g-3">
+                          <div class="col-6">                     
+                            <label class="form-label" for="exampleFormControlInput02">Twitter</label>
+                            <input class="form-control" id="exampleFormControlInput02" type="url" placeholder="https://twiiter.com">
+                          </div>
+                          <div class="col-6">
+                            <label class="form-label" for="exampleFormControlInput03">Github</label>
+                            <input class="form-control" id="exampleFormControlInput03" type="url" placeholder="https:/github.com">
+                          </div>
+                          <div class="col-12"> 
+                            <div class="input-group">
+                              <input class="form-control" id="inputGroupFile04" type="file" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                              <button class="btn btn-outline-secondary" id="inputGroupFileAddon04" type="button">Submit</button>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected="">Positions</option>
+                              <option value="1">Web Designer</option>
+                              <option value="2">Software Engineer</option>
+                              <option value="3">UI/UX Designer </option>
+                              <option value="3">Web Developer</option>
+                            </select>
+                          </div>
+                          <div class="col-12">
+                            <label class="form-label" for="exampleFormControlTextarea22">Why do you want to take this position?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea22" rows="2"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="text-end pt-3">
+                          <button class="btn btn-secondary" id="prevBtn" type="button" onclick="nextPrev(-1)">Previous</button>
+                          <button class="btn btn-primary" id="nextBtn" type="button" onclick="nextPrev(1)">Next    </button>
+                        </div>
+                      </div>
+                      <!-- Circles which indicates the steps of the form:-->
+                      <div class="text-center"><span class="step"></span><span class="step"></span><span class="step"></span><span class="step">     </span></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Vertical validation wizard </h3>
+                    <p class="mt-1 mb-0">
+                       Fill up your true details and next proceed.   </p>
+                  </div>
+                  <div class="card-body">
+                    <div class="vertical-main-wizard">
+                      <div class="row g-3">    
+                        <div class="col-xxl-3 col-xl-4 col-12">
+                          <div class="nav flex-column header-vertical-wizard" id="wizard-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="wizard-contact-tab" data-bs-toggle="pill" href="form-wizard.html#wizard-contact" role="tab" aria-controls="wizard-contact" aria-selected="true"> 
+                              <div class="vertical-wizard">
+                                <div class="stroke-icon-wizard"><i class="fa-solid fa-user"></i></div>
+                                <div class="vertical-wizard-content">
+                                  <h5 class="f-w-600">Your Info</h5>
+                                  <p>Add your details</p>
+                                </div>
+                              </div></a><a class="nav-link" id="wizard-cart-tab" data-bs-toggle="pill" href="form-wizard.html#wizard-cart" role="tab" aria-controls="wizard-cart" aria-selected="false">
+                              <div class="vertical-wizard">
+                                <div class="stroke-icon-wizard"><i class="fa-solid fa-link-slash"></i></div>
+                                <div class="vertical-wizard-content">
+                                  <h5 class="f-w-600">Cart Info</h5>
+                                  <p>Add your a/c details</p>
+                                </div>
+                              </div></a><a class="nav-link" id="wizard-banking-tab" data-bs-toggle="pill" href="form-wizard.html#wizard-banking" role="tab" aria-controls="wizard-banking" aria-selected="false"> 
+                              <div class="vertical-wizard">
+                                <div class="stroke-icon-wizard"><i class="fa-solid fa-users"></i></div>
+                                <div class="vertical-wizard-content">
+                                  <h5 class="f-w-600">Net Banking</h5>
+                                  <p>Choose your bank</p>
+                                </div>
+                              </div></a></div>
+                        </div>
+                        <div class="col-xxl-9 col-xl-8 col-12">
+                          <div class="tab-content" id="wizard-tabContent"> 
+                            <div class="tab-pane fade show active" id="wizard-contact" role="tabpanel" aria-labelledby="wizard-contact-tab">
+                              <form class="row g-3 needs-validation custom-input validation-vertical-wizard" novalidate="">
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="validationCustom0-a">First name<span class="text-danger">*</span></label>
+                                  <input class="form-control" id="validationCustom0-a" type="text" placeholder="Enter first name" required="">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="validationCustom-b">Last name<span class="text-danger">*</span></label>
+                                  <input class="form-control" id="validationCustom-b" type="text" placeholder="Enter last name" required="">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="validationemail-b">Email<span class="text-danger">*</span></label>
+                                  <input class="form-control" id="validationemail-b" type="email" required="" placeholder="admiro@example.com">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-md-5 col-sm-6">
+                                  <label class="form-label" for="validationCustom04">State</label>
+                                  <select class="form-select" id="validationCustom04" required="">
+                                    <option selected="" disabled="" value="">Choose...</option>
+                                    <option>USA </option>
+                                    <option>U.K </option>
+                                    <option>U.S</option>
+                                  </select>
+                                  <div class="invalid-feedback">Please select a valid state.</div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <label class="form-label" for="validationCustom05">Zip Code</label>
+                                  <input class="form-control" id="validationCustom05" type="number" required="">
+                                  <div class="invalid-feedback">Please provide a valid zip.</div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="contactnumber">Contact Number</label>
+                                  <input class="form-control" id="contactnumber" type="number" placeholder="Enter number" required="">
+                                  <div class="valid-feedback">Looks good!</div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" id="invalidCheck-n" type="checkbox" value="" required="">
+                                    <label class="form-check-label" for="invalidCheck-n">Agree to terms and conditions</label>
+                                    <div class="invalid-feedback">You must agree before submitting.</div>
+                                  </div>
+                                </div>
+                                <div class="col-12 text-end">
+                                  <button class="btn btn-primary">Next</button>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="tab-pane fade" id="wizard-cart" role="tabpanel" aria-labelledby="wizard-cart-tab">
+                              <form class="row g-3 needs-validation custom-input validation-vertical-wizard" novalidate="">
+                                <div class="col-xxl-6">
+                                  <div class="card-wrapper border rounded-3 checkbox-checked">
+                                    <h6 class="sub-title fw-bold">Select your payment method</h6>
+                                    <div class="radio-form">
+                                      <div class="form-check">
+                                        <input class="form-check-input" id="flexRadioDefault1" type="radio" name="flexRadioDefault-a">
+                                        <label class="form-check-label" for="flexRadioDefault1">Visa</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" id="flexRadioDefault2" type="radio" name="flexRadioDefault-a" checked="">
+                                        <label class="form-check-label" for="flexRadioDefault2">MasterCard</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" id="flexRadioDefault3" type="radio" name="flexRadioDefault-a" checked="">
+                                        <label class="form-check-label" for="flexRadioDefault3">Paypal</label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xxl-6 vartical-cart">
+                                  <div class="row"> 
+                                    <div class="col-12">
+                                      <div class="input-group mb-3">
+                                        <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-secondary" id="button-addon2" type="button">Submit</button>
+                                      </div>
+                                    </div>
+                                    <div class="col-12"> 
+                                      <div class="input-group"><span class="input-group-text" id="basic-addon1">@</span>
+                                        <input class="form-control" type="text" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="txtCardNumber1">Card Number</label>
+                                  <input class="form-control" id="txtCardNumber1" type="text" required="" placeholder="xxxx xxxx xxxx xxxx">
+                                  <div class="invalid-feedback">Please enter your valid number</div>
+                                  <div class="valid-feedback">
+                                     Looks's Good!</div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="validationCustom-dd">Expiration(MM/YY)</label>
+                                  <input class="form-control" id="validationCustom-dd" type="number" required="" placeholder="xx/xx">
+                                  <div class="invalid-feedback">Please enter your valid number</div>
+                                  <div class="valid-feedback">
+                                     Looks's Good!</div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                  <label class="form-label" for="cvvnumber1">CVV</label>
+                                  <input class="form-control" id="cvvnumber1" type="number" required="">
+                                  <div class="invalid-feedback">Please enter your valid number</div>
+                                  <div class="valid-feedback">
+                                     Looks's Good!</div>
+                                </div>
+                                <div class="col-md-12 col-sm-6">
+                                  <label class="form-label" for="formFile4">Upload Documentation</label>
+                                  <input class="form-control" id="formFile4" type="file" aria-label="file example" required="">
+                                  <div class="invalid-feedback">Invalid form file selected</div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check mb-0">
+                                    <input class="form-check-input" id="invalidCheck-c" type="checkbox" value="" required="">
+                                    <label class="form-check-label" for="invalidCheck-c">All the above information is correct</label>
+                                    <div class="invalid-feedback">You must agree before submitting.</div>
+                                  </div>
+                                </div>
+                                <div class="col-12 text-end"> 
+                                  <button class="btn btn-primary">Previous</button>
+                                  <button class="btn btn-primary">Next</button>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="tab-pane fade" id="wizard-banking" role="tabpanel" aria-labelledby="wizard-banking-tab">
+                              <form class="row g-3 mb-3 needs-validation custom-input vartical-validation validation-vertical-wizard" novalidate="">
+                                <div class="col-md-12"> 
+                                  <div class="accordion dark-accordion" id="accordionExample-a">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne-a">
+                                        <button class="accordion-button collapsed accordion-light-primary text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-a" aria-expanded="true" aria-controls="collapseOne-a">
+                                           NET BANKING<i class="fa-solid fa-chevron-down"></i></button>
+                                      </h2>
+                                      <div class="accordion-collapse collapse" id="collapseOne-a" aria-labelledby="headingOne-a" data-bs-parent="#accordionExample-a">
+                                        <div class="accordion-body weight-title">
+                                          <h6 class="sub-title">SELECT YOUR BANK</h6>
+                                          <div class="row">
+                                            <div class="col-sm-6">
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-z" type="radio" name="flexRadioDefault-v">
+                                                <label class="form-check-label" for="flexRadioDefault-z">Industrial & Commercial Bank</label>
+                                              </div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-y" type="radio" name="flexRadioDefault-v">
+                                                <label class="form-check-label" for="flexRadioDefault-y">Agricultural Bank</label>
+                                              </div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-x" type="radio" name="flexRadioDefault-v" checked="">
+                                                <label class="form-check-label" for="flexRadioDefault-x">JPMorgan Chase & Co.</label>
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-6"> 
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-w" type="radio" name="flexRadioDefault-v">
+                                                <label class="form-check-label" for="flexRadioDefault-w">Construction Bank Corp.</label>
+                                              </div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-v" type="radio" name="flexRadioDefault-v">
+                                                <label class="form-check-label" for="flexRadioDefault-v">Bank of America</label>
+                                              </div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="flexRadioDefault-u" type="radio" name="flexRadioDefault-v">
+                                                <label class="form-check-label" for="flexRadioDefault-u">HDFC Bank</label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12"> 
+                                  <textarea class="form-control" id="validationTextarea24" placeholder="Your Feedback" required=""></textarea>
+                                  <div class="invalid-feedback">Please enter a message in the textarea.                                        </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check mb-0">
+                                    <input class="form-check-input" id="invalidCheck67" type="checkbox" value="" required="">
+                                    <label class="form-check-label mb-0" for="invalidCheck67">Agree to terms and conditions</label>
+                                    <div class="invalid-feedback">You must agree before submitting.</div>
+                                  </div>
+                                  <div class="col-12 text-end"> 
+                                    <button class="btn btn-success">Finish</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <h3>Shipping form</h3>
+                    <p class="mt-1 mb-0">Fill up your true details and next proceed.</p>
+                  </div>
+                  <div class="card-body">
+                    <div class="row shopping-wizard">
+                      <div class="col-12"> 
+                        <div class="row shipping-form g-3">
+                          <div class="col-xl-8 shipping-border">
+                            <div class="row"> 
+                              <div class="col-12">
+                                <div class="nav nav-pills horizontal-options shipping-options" id="cart-options-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="bill-wizard-tab" data-bs-toggle="pill" href="form-wizard.html#bill-wizard" role="tab" aria-controls="bill-wizard" aria-selected="true">
+                                    <div class="cart-options">
+                                      <div class="stroke-icon-wizard"><i class="fa-solid fa-user"></i></div>
+                                      <div class="cart-options-content">
+                                        <h6 class="f-w-700">Billing</h6>
+                                      </div>
+                                    </div></a><a class="nav-link" id="ship-wizard-tab" data-bs-toggle="pill" href="form-wizard.html#ship-wizard" role="tab" aria-controls="ship-wizard" aria-selected="false">
+                                    <div class="cart-options">
+                                      <div class="stroke-icon-wizard"><i class="fa-solid fa-truck"></i></div>
+                                      <div class="cart-options-content">
+                                        <h6 class="f-w-700">Shipping</h6>
+                                      </div>
+                                    </div></a><a class="nav-link" id="payment-wizard-tab" data-bs-toggle="pill" href="form-wizard.html#payment-wizard" role="tab" aria-controls="payment-wizard" aria-selected="false">
+                                    <div class="cart-options">
+                                      <div class="stroke-icon-wizard"><i class="fa-solid fa-money-bill"></i></div>
+                                      <div class="cart-options-content">
+                                        <h6 class="f-w-700">Payment</h6>
+                                      </div>
+                                    </div></a><a class="nav-link" id="finish-wizard-tab" data-bs-toggle="pill" href="form-wizard.html#finish-wizard" role="tab" aria-controls="finish-wizard" aria-selected="false">
+                                    <div class="cart-options">
+                                      <div class="stroke-icon-wizard"><i class="fa-solid fa-square-check"></i></div>
+                                      <div class="cart-options-content"> 
+                                        <h6 class="f-w-700">Finish</h6>
+                                      </div>
+                                    </div></a></div>
+                              </div>
+                              <div class="col-12"> 
+                                <div class="tab-content dark-field shipping-content" id="cart-options-tabContent">
+                                  <div class="tab-pane fade show active" id="bill-wizard" role="tabpanel" aria-labelledby="bill-wizard-tab">
+                                    <h5 class="f-w-600">Billing Information </h5>
+                                    <p>Fill up the following information</p>
+                                    <form class="row g-3 needs-validation basic-form" novalidate="">
+                                      <div class="col-sm-6">
+                                        <label class="form-label" for="customFirstname">First Name<span class="text-danger">*</span></label>
+                                        <input class="form-control" id="customFirstname" type="text" placeholder="Enter first name" required="">
+                                        <div class="valid-feedback">Looks good!</div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <label class="form-label" for="customLastname">Last Name<span class="text-danger">*</span></label>
+                                        <input class="form-control" id="customLastname" type="text" placeholder="Enter first name" required="">
+                                        <div class="valid-feedback">Looks good!</div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <label class="form-label" for="customContact">Contact Number</label>
+                                        <input class="form-control" id="customContact" type="number" placeholder="Enter number" required="">
+                                        <div class="valid-feedback">Looks good!</div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <label class="form-label" for="customEmail01">Email   <span class="text-danger">*</span></label>
+                                        <input class="form-control" id="customEmail01" type="email" required="" placeholder="admiro@example.com">
+                                        <div class="valid-feedback">Looks good!</div>
+                                      </div>
+                                      <div class="col-12"> 
+                                        <label class="form-label" for="exampleFormControlTextarea33">Address </label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea33" rows="3"></textarea>
+                                      </div>
+                                      <div class="col-sm-4">
+                                        <label class="form-label" for="customState-wizard">Country</label>
+                                        <select class="form-select" id="customState-wizard" required="">
+                                          <option selected="" disabled="" value="">Select Country</option>
+                                          <option>Africa</option>
+                                          <option>India    </option>
+                                          <option>Indonesia</option>
+                                          <option>Netherlands</option>
+                                          <option>U.K </option>
+                                          <option>U.S</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select a valid state.</div>
+                                      </div>
+                                      <div class="col-sm-4"> 
+                                        <label class="form-label" for="customEmail02">State</label>
+                                        <input class="form-control" id="customEmail02" type="text" placeholder="Enter state" required="">
+                                      </div>
+                                      <div class="col-sm-4">
+                                        <label class="form-label" for="custom-zipcode">Zip Code</label>
+                                        <input class="form-control" id="custom-zipcode" type="number" required="">
+                                        <div class="invalid-feedback">Please provide a valid zip.</div>
+                                      </div>
+                                      <div class="col-12">
+                                        <div class="form-check">
+                                          <input class="form-check-input" id="invalid-check-wizard" type="checkbox" value="" required="">
+                                          <label class="form-check-label mb-0 d-block" for="invalid-check-wizard">Remember me for next time</label>
+                                          <div class="invalid-feedback">You must agree before submitting.</div>
+                                        </div>
+                                      </div>
+                                      <div class="col-12"> 
+                                        <label class="form-label" for="exampleFormControlTextarea44">Other Notes</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea44" rows="3" placeholder="Enter your queries..."></textarea>
+                                      </div>
+                                      <div class="col-12 text-end">
+                                        <button class="btn btn-primary">Proceed to Next<i class="fa-solid fa-truck proceed-next pe-2"> </i></button>
+                                      </div>
+                                    </form>
+                                  </div>
+                                  <div class="tab-pane fade shipping-wizard" id="ship-wizard" role="tabpanel" aria-labelledby="ship-wizard-tab"> 
+                                    <h5 class="f-w-600">Shipping Information</h5>
+                                    <p>Fill up the following information to send you the order</p>
+                                    <div class="shipping-title">
+                                      <h5 class="f-w-600 mb-2"> Saved Address</h5>
+                                      <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalgetbootstrap" data-whatever="@getbootstrap">   <i class="fa-solid fa-square-plus f-20"></i></button>
+                                      <div class="modal fade" id="exampleModalgetbootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalgetbootstrap" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5>Information</h5>
+                                              <button class="btn-close py-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <form class="row g-3 needs-validation basic-form" novalidate="">
+                                                <div class="col-12">
+                                                  <label class="form-label" for="validationCustom01">Name</label>
+                                                  <input class="form-control" id="validationCustom01" type="text" placeholder="Enter your name" required="">
+                                                  <div class="valid-feedback">Looks good!</div>
+                                                </div>
+                                                <div class="col-12">
+                                                  <label class="form-label" for="validationCustom22">Address</label>
+                                                  <textarea class="form-control" id="validationCustom22" rows="3" placeholder="Enter your address..."></textarea>
+                                                  <div class="valid-feedback">Looks good!</div>
+                                                </div>
+                                                <div class="col-12"> 
+                                                  <label class="form-label w-100" for="validationCustom09">Address Type
+                                                    <select class="form-select" id="validationCustom09" required="">
+                                                      <option selected="" value="">Home</option>
+                                                      <option>Office</option>
+                                                    </select>
+                                                  </label>
+                                                </div>
+                                                <div class="col-12">
+                                                  <label for="contact">Contact No</label>
+                                                  <input class="form-control" id="contact" type="number" placeholder="123456789">
+                                                </div>
+                                              </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button class="btn m-0" type="button" data-bs-dismiss="modal">Close</button>
+                                              <button class="btn btn-primary m-0" type="button">Save</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row g-3">
+                                      <div class="col-xxl-4 col-sm-6">
+                                        <div class="card-wrapper border rounded-3 h-100">
+                                          <div class="collect-address">
+                                            <div class="d-flex gap-2 align-items-center">
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="shipping-choose1" type="radio" name="radio1" value="option1" checked="">
+                                                <label class="form-check-label mb-0" for="shipping-choose1">Home</label>
+                                              </div>
+                                            </div>
+                                            <div class="card-icon"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></div>
+                                          </div>
+                                          <div class="shipping-address">
+                                            <h5 class="f-w-600">Filomena Green </h5><span>
+                                              Address: 2211 Fruitville Rd, Sarasota, Florida, US 34237</span><span>
+                                              Contact: (941) 321-5643</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-xxl-4 col-sm-6"> 
+                                        <div class="card-wrapper border rounded-3 h-100">
+                                          <div class="collect-address">
+                                            <div class="d-flex gap-2 align-items-center">
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="shipping-choose2" type="radio" name="radio1" value="option1" checked="">
+                                                <label class="form-check-label mb-0" for="shipping-choose2">
+                                                   Work</label>
+                                              </div>
+                                            </div>
+                                            <div class="card-icon"><i class="fa-solid fa-pencil"></i><i class="fa-solid fa-trash"></i></div>
+                                          </div>
+                                          <div class="shipping-address">
+                                            <h5 class="f-w-600">Ms. Ila Runte DDS</h5><span>
+                                              Address: 1531 E 23rd St S, Independence, Mississippi, US 64055</span><span>
+                                              Contact:(816) 252-4500</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h5 class="f-w-600 mt-4 mb-2">Shipping Method</h5>
+                                    <div class="row shipping-method g-3">
+                                      <div class="col-sm-6">
+                                        <div class="card-wrapper border rounded-3 h-100">
+                                          <div class="form-check radio radio-primary">
+                                            <input class="form-check-input" id="shipping-choose3" type="radio" name="radio2" value="option1" checked="">
+                                            <label class="form-check-label mb-0" for="shipping-choose3">Standard Delivery - Free</label>
+                                          </div>
+                                          <p>Estimated 5-7 days shipping</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <div class="card-wrapper border rounded-3 h-100">
+                                          <div class="form-check radio radio-primary">
+                                            <input class="form-check-input" id="shipping-choose4" type="radio" name="radio2" value="option1" checked="">
+                                            <label class="form-check-label mb-0" for="shipping-choose4">Express Delivery - $24</label>
+                                          </div>
+                                          <P>Estimated 1-2 days shipping</P>
+                                        </div>
+                                      </div>
+                                      <div class="col-12 text-end">
+                                        <button class="btn btn-primary">Proceed to Next<i class="fa-solid fa-truck proceed-next pe-2"></i></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="tab-pane fade shipping-wizard" id="payment-wizard" role="tabpanel" aria-labelledby="payment-wizard-tab">
+                                    <h5 class="f-w-600">Payment Information</h5>
+                                    <p>Fill up the following information to send you the order</p>
+                                    <div class="payment-info-wrapper">
+                                      <div class="row shipping-method g-3">
+                                        <div class="col-12">
+                                          <div class="card-wrapper border rounded-3">
+                                            <div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="shipping-choose5" type="radio" name="radio3" value="option1" checked="">
+                                                <label class="form-check-label mb-0 f-w-500" for="shipping-choose5">Paypal</label>
+                                              </div>
+                                              <p>You will be taken to the paypal website to finish your transaction safely</p>
+                                            </div>
+                                            <div><img src="../assets/images/ecommerce/paypal.png" alt="paypal"></div>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="card-wrapper border rounded-3 pay-info">
+                                            <div>
+                                              <div>
+                                                <div class="form-check radio radio-primary">
+                                                  <input class="form-check-input" id="shipping-choose6" type="radio" name="radio3" value="option1">
+                                                  <label class="form-check-label mb-0 f-w-600" for="shipping-choose6">Credit Card</label>
+                                                </div>
+                                                <P>Transferring money securely through your bank account. Mastercard, Visa, Discover, and Stripe are all accepted</P>
+                                              </div>
+                                              <div> <img src="../assets/images/forms/credit-card.png" alt="card"></div>
+                                            </div>
+                                            <form class="row g-3 needs-validation basic-form" novalidate="">
+                                              <div class="col-md-12">
+                                                <label class="form-label" for="placeholdername99">Card Holder</label>
+                                                <input class="form-control" id="placeholdername99" type="text" required="" placeholder="Enter card holder name">
+                                              </div>
+                                              <div class="col-md-4">
+                                                <label class="form-label" for="holdernumber">Card Number</label>
+                                                <input class="form-control" id="holdernumber" type="text" required="" placeholder="xxxx xxxx xxxx xxxx">
+                                                <div class="invalid-feedback">Please enter your valid number</div>
+                                                <div class="valid-feedback">Looks's Good!</div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <label class="form-label" for="validationCustom-d">Expiration(MM/YY)</label>
+                                                <input class="form-control" id="validationCustom-d" type="number" required="" placeholder="xx/xx">
+                                                <div class="invalid-feedback">Please enter your valid number</div>
+                                                <div class="valid-feedback">
+                                                   Looks's Good!</div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <label class="form-label" for="cvvnumber2">CVV</label>
+                                                <input class="form-control" id="cvvnumber2" type="number" required="">
+                                                <div class="invalid-feedback">Please enter your valid number</div>
+                                                <div class="valid-feedback">
+                                                   Looks's Good!</div>
+                                              </div>
+                                              <div class="col-12"> 
+                                                <label class="form-label" for="formFile5">Upload Documentation</label>
+                                                <input class="form-control" id="formFile5" type="file" aria-label="file example" required="">
+                                                <div class="invalid-feedback">Invalid form file selected</div>
+                                              </div>
+                                              <div class="col-12">
+                                                <div class="form-check">
+                                                  <input class="form-check-input" id="invalidCheck-a" type="checkbox" value="" required="">
+                                                  <label class="form-check-label text-black" for="invalidCheck-a">All the above information is correct</label>
+                                                  <div class="invalid-feedback">You must agree before submitting.</div>
+                                                </div>
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="card-wrapper border rounded-3">
+                                            <div>
+                                              <div class="form-check radio radio-primary">
+                                                <input class="form-check-input" id="shipping-choose7" type="radio" name="radio3" value="option1">
+                                                <label class="form-check-label mb-0 f-w-500" for="shipping-choose7">Cash On Delivery</label>
+                                              </div>
+                                              <p>After your order is delivered, make a cash payment</p>
+                                            </div>
+                                            <div> <img src="../assets/images/forms/delivery.png" alt="delivery"></div>
+                                          </div>
+                                        </div>
+                                        <div class="col-12 text-end">
+                                          <button class="btn btn-primary">Proceed to Next<i class="fa-solid fa-truck proceed-next pe-2"></i></button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="tab-pane fade shipping-wizard finish-wizard1" id="finish-wizard" role="tabpanel" aria-labelledby="finish-wizard-tab">
+                                    <div class="order-confirm"><img src="../assets/images/gif/success/successful.gif" alt="popper">
+                                      <h4 class="f-w-600">Thank you! Your order is confirmed.</h4>
+                                      <p class="mb-0">An email with your order's specifics will be sent to you as order confirmation.</p>
+                                      <p class="text-center f-w-500 mt-2">Order ID :  <a class="text-decoration-underline text-primary" href="javascript:void(0)">GE34598 </a></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4"> 
+                            <div class="shipping-info">
+                              <h4 class="f-w-700">Current Cart </h4>
+                              <div class="overflow-auto">
+                                <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">Product</th>
+                                      <th scope="col">Product Detail </th>
+                                      <th scope="col">Price </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td> <img src="../assets/images/product/13.png" alt="t-shirt"></td>
+                                      <td>
+                                        <div>
+                                          <h5 class="f-w-600">T-shirt </h5><span>$98 * 2</span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <p>$400</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td><img src="../assets/images/product-1/2.png" alt="headphone"></td>
+                                      <td> 
+                                        <div>
+                                          <h5 class="f-w-600">Headphone</h5><span>$4*2</span>
+                                        </div>
+                                      </td>
+                                      <td> 
+                                        <p>$450</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td><img src="../assets/images/product/2.png" alt="headphone"></td>
+                                      <td>
+                                        <h5 class="f-w-600">T-shirt</h5><span>$10 * 2</span>
+                                      </td>
+                                      <td>
+                                        <p>$234</p>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td><img src="../assets/images/product-1/4.png" alt="headphone"></td>
+                                      <td> 
+                                        <div>
+                                          <h5 class="f-w-600">Chairs</h5><span>$98 * 2</span>
+                                        </div>
+                                      </td>
+                                      <td> 
+                                        <p>$200</p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                  <tfoot>
+                                    <tr> 
+                                      <td class="f-w-700">Sub Total :</td>
+                                      <td class="f-w-700" colspan="2">$1284.00</td>
+                                    </tr>
+                                    <tr> 
+                                      <td>Discount :</td>
+                                      <td colspan="2">$20.00</td>
+                                    </tr>
+                                    <tr> 
+                                      <td>Shipping Charge :</td>
+                                      <td colspan="2">$100.78</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tax :</td>
+                                      <td colspan="2">$205.34</td>
+                                    </tr>
+                                    <tr>            
+                                      <td class="f-w-700">Total (USD) :</td>
+                                      <td class="f-w-700" colspan="2">$1569.7</td>
+                                    </tr>
+                                  </tfoot>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer"> 
+          <div class="container-fluid">
+            <div class="row"> 
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2024 © Admiro theme by pixelstrap.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="float-end mb-0">Hand crafted &amp; made with
+                  <svg class="svg-color footer-icon">
+                    <use href="../assets/svg/iconly-sprite.svg#heart"></use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- jquery-->
+    <script src="../assets/js/vendors/jquery/jquery.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" defer=""></script>
+    <script src="../assets/js/vendors/bootstrap/dist/js/popper.min.js" defer=""></script>
+    <!--fontawesome-->
+    <script src="../assets/js/vendors/font-awesome/fontawesome-min.js"></script>
+    <!-- sidebar -->
+    <script src="../assets/js/sidebar.js"></script>
+    <!-- scrollbar-->
+    <script src="../assets/js/scrollbar/simplebar.js"></script>
+    <script src="../assets/js/scrollbar/custom.js"></script>
+    <!-- slick-->
+    <script src="../assets/js/slick/slick.min.js"></script>
+    <script src="../assets/js/slick/slick.js"></script>
+    <!-- form_wizard-->
+    <script src="../assets/js/form-wizard/image-upload.js"></script>
+    <script src="../assets/js/form-wizard/form-wizard.js"></script>
+    <!-- image upload-->
+    <script src="../assets/js/form-wizard/image-upload.js"></script>
+    <!-- theme_customizer-->
+    <script src="../assets/js/theme-customizer/customizer.js"></script>
+    <!-- custom script -->
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

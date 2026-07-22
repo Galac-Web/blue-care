@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "Radu Galac",
+        "email": "galacradu1992@gmail.com",
+        "password": "$2y$10$GTZwW3QadxIv4.ljWL9LKOSJnaOX.MNpqEyUW7W6VWmfRbkUZDGNC",
+        "created_at": "2026-06-04 14:55:32",
+        "status": "blocked",
+        "updated_at": "2026-06-18 15:37:11",
+        "blocked_at": "2026-06-18 15:37:11"
+    },
+    {
+        "id": 2,
+        "name": "Galac Radu",
+        "email": "galacivan@tutamail.com",
+        "password": "$2y$10$dcwd3qnqFPV6Q4hxRW3QxucByy3Lyweoge9oHxCY3J7PIva6Skuwq",
+        "status": "active",
+        "created_at": "2026-06-18 15:36:03",
+        "created_by": "admin"
+    }
+]

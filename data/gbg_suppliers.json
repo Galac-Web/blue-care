@@ -1,0 +1,134 @@
+[
+    {
+        "randomn_id": 1481,
+        "id_users": 1,
+        "supplier_name": "GBG e-shop",
+        "site_url": "http://www.gbg-eshop.gr/demo/Authenticate3.aspx",
+        "cont_id": "gbg_user_01",
+        "user": "21253",
+        "pas": "h5MXjFP9",
+        "created_at": "2026-05-23 08:25:30",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2001,
+        "id_users": 1,
+        "supplier_name": "Oepiesa / Bardia Auto",
+        "site_url": "https://www.bardiaauto.ro",
+        "cont_id": "furnizor_oepiesa",
+        "user": "mariusdum25@gmail.com",
+        "pas": "Bardiaauto2006",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2002,
+        "id_users": 1,
+        "supplier_name": "Autonet",
+        "site_url": "http://dvsews.autonet.ro",
+        "cont_id": "furnizor_autonet",
+        "user": "bluecar1",
+        "pas": "",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2003,
+        "id_users": 1,
+        "supplier_name": "Webcat Solutions (Car Solution)",
+        "site_url": "https://www.webcat-solutions.com",
+        "cont_id": "furnizor_webcat",
+        "user": "bluecar178131738.dm",
+        "pas": "",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2004,
+        "id_users": 1,
+        "supplier_name": "Materom (portal)",
+        "site_url": "https://portal.materom.ro",
+        "cont_id": "furnizor_materom",
+        "user": "8490178131738dm",
+        "pas": "",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2005,
+        "id_users": 1,
+        "supplier_name": "Materom Shop",
+        "site_url": "https://shop.materom.ro",
+        "cont_id": "furnizor_materom_shop",
+        "user": "mariusdum25@gmail.com",
+        "pas": "Marius2021.",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2006,
+        "id_users": 1,
+        "supplier_name": "InterCars",
+        "site_url": "https://account.intercars.eu",
+        "cont_id": "furnizor_intercars",
+        "user": "mariusdum25@gmail.com",
+        "pas": "78131738.Dm!",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2007,
+        "id_users": 1,
+        "supplier_name": "Euroestcar",
+        "site_url": "http://eshop.euroestcar.ro",
+        "cont_id": "furnizor_euroestcar",
+        "user": "bluecar",
+        "pas": "",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2008,
+        "id_users": 1,
+        "supplier_name": "Conexdist",
+        "site_url": "https://eshop.conexdist.ro",
+        "cont_id": "furnizor_conexdist",
+        "user": "mariusdum25@gmail.com",
+        "pas": "78131738",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2009,
+        "id_users": 1,
+        "supplier_name": "Ajsparts (cont 000078)",
+        "site_url": "https://www.ajsparts.pl",
+        "cont_id": "furnizor_ajsparts_1",
+        "user": "000078",
+        "pas": "EXPORT",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2010,
+        "id_users": 1,
+        "supplier_name": "Ajsparts (cont 006376)",
+        "site_url": "https://www.ajsparts.pl",
+        "cont_id": "furnizor_ajsparts_2",
+        "user": "006376",
+        "pas": "",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    },
+    {
+        "randomn_id": 2011,
+        "id_users": 1,
+        "supplier_name": "Elite (Elit)",
+        "site_url": "https://www.elit.ro",
+        "cont_id": "furnizor_elite",
+        "user": "64717087",
+        "pas": "wJ7EHJZ",
+        "created_at": "2026-06-04 12:00:00",
+        "updated_at": "2026-06-04 12:00:00"
+    }
+]

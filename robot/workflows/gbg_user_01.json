@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "robot_mode": "workflow",
+  "site_name": "GBG e-shop",
+  "login_url": "http://www.gbg-eshop.gr/demo/Authenticate3.aspx",
+  "catalog_url": "http://www.gbg-eshop.gr/demo/gbg_wapp.aspx",
+  "html_pages": [
+    {
+      "key": "login",
+      "name": "Pagina LOGIN (HTML)",
+      "url": "{{login_url}}",
+      "what_scans": "Formular autentificare: câmp user (#textUsername), parolă (#textPassword), buton login.",
+      "verify_selectors": [
+        "#textUsername",
+        "#textPassword",
+        "#ctl00_centerPlaceHolder_ButtonLogin"
+      ],
+      "save_html": true
+    },
+    {
+      "key": "catalog",
+      "name": "Pagina CATALOG marci (HTML)",
+      "url": "{{catalog_url}}",
+      "what_scans": "Lista mărci (BrandClick), headere modele, linkuri submodele și piese GenericStyle_Link.",
+      "verify_selectors": [
+        "a[onclick*='BrandClick']",
+        "//div[contains(@id, 'butModelHeader')]"
+      ],
+      "save_html": true
+    },
+    {
+      "key": "produs",
+      "name": "Pagina PRODUS (HTML)",
+      "url": "(dinamic — fiecare link .GenericStyle_Link)",
+      "what_scans": "Cod articol #ctl00_centerPlaceHolder_labelItemID, coduri OEM (Γνήσιοι Κωδικοί), apoi trimitere server TecDoc.",
+      "verify_selectors": [
+        "#ctl00_centerPlaceHolder_labelItemID"
+      ],
+      "save_html": true
+    }
+  ],
+  "banners": [
+    {
+      "name": "Avertisment HTTP Chrome (Continue / Proceed)",
+      "selectors": [
+        "//button[contains(., 'Перейти')]",
+        "//button[contains(., 'Continue')]",
+        "//button[contains(., 'Proceed')]",
+        "//button[contains(., 'Advanced')]",
+        "//a[contains(., 'Proceed')]",
+        "//*[@id='proceed-button']",
+        "//*[@id='proceed-link']",
+        "//*[@id='primary-button']"
+      ]
+    },
+    {
+      "name": "Popup mesaje GBG (Μήνυμα / DIVGreetingsMsg)",
+      "selectors": [
+        "#btnMsgClose",
+        "button#btnMsgClose",
+        ".GrMsgFooter button",
+        "//button[@id='btnMsgClose']",
+        "//button[contains(., 'OK')]"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "type": "navigate",
+      "label": "Deschid pagina de login GBG",
+      "url": "{{login_url}}",
+      "html_purpose": "Pagina HTML login — robotul verifică formularul înainte de completare.",
+      "save_html": true,
+      "what_scans": "Formular login, titlu pagină, prezență câmpuri user/parolă.",
+      "verify_selectors": [
+        "#textUsername",
+        "#textPassword"
+      ],
+      "wait_after": 6
+    },
+    {
+      "order": 2,
+      "type": "analyze_html",
+      "label": "Analizez HTML login (snapshot + verificare)",
+      "page_key": "login",
+      "save_html": true,
+      "wait_after": 2
+    },
+    {
+      "order": 3,
+      "type": "close_banners",
+      "label": "Închid banere / avertismente HTTP",
+      "use_global_banners": true,
+      "wait_after": 2
+    },
+    {
+      "order": 4,
+      "type": "wait",
+      "label": "Aștept încărcarea completă a formularului",
+      "seconds": 3
+    },
+    {
+      "order": 5,
+      "type": "fill",
+      "label": "Completez utilizatorul",
+      "selector": "#textUsername",
+      "selector_type": "css",
+      "value": "{{user}}",
+      "wait_after": 1.5
+    },
+    {
+      "order": 6,
+      "type": "fill",
+      "label": "Completez parola",
+      "selector": "#textPassword",
+      "selector_type": "css",
+      "value": "{{pass}}",
+      "wait_after": 1.5
+    },
+    {
+      "order": 7,
+      "type": "wait",
+      "label": "Pauză scurtă înainte de Login",
+      "seconds": 2
+    },
+    {
+      "order": 8,
+      "type": "click",
+      "label": "Apăs butonul Login",
+      "selector": "#ctl00_centerPlaceHolder_ButtonLogin",
+      "selector_type": "css",
+      "wait_after": 4
+    },
+    {
+      "order": 9,
+      "type": "wait",
+      "label": "Aștept răspunsul după login (browser lent)",
+      "seconds": 25
+    },
+    {
+      "order": 10,
+      "type": "close_banners",
+      "label": "Închid banere după login",
+      "use_global_banners": true,
+      "wait_after": 2
+    },
+    {
+      "order": 11,
+      "type": "analyze_html",
+      "label": "Deschid + analizez HTML catalog înainte de scanare",
+      "url": "{{catalog_url}}",
+      "page_key": "catalog",
+      "save_html": true,
+      "what_scans": "Număr linkuri marci, headere modele — confirmă că catalogul s-a încărcat.",
+      "verify_selectors": [
+        "a[onclick*='BrandClick']"
+      ],
+      "wait_after": 8
+    },
+    {
+      "order": 12,
+      "type": "builtin",
+      "label": "Scanare catalog (marci → modele → piese → server)",
+      "action": "gbg_catalog_scan",
+      "html_purpose": "Parcurge toate mărcile/modelele; la fiecare piesă deschide HTML produs, extrage cod OEM, trimite la server."
+    }
+  ],
+  "updated_at": "2026-07-09 19:15:00",
+  "cont_id": "gbg_user_01"
+}

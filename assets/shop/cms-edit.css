@@ -1,0 +1,101 @@
+body.blu-cms-editing {
+  padding-top: 52px !important;
+}
+
+.blu-cms-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.55rem 1rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+  color: #f8fafc;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.35);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 0.875rem;
+}
+
+.blu-cms-toolbar-badge {
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.blu-cms-toolbar-hint {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.blu-cms-toolbar-status {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: #fbbf24;
+}
+
+.blu-cms-toolbar-status.is-ok {
+  color: #4ade80;
+}
+
+.blu-cms-toolbar-status.is-error {
+  color: #f87171;
+}
+
+.blu-cms-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 0.85rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.blu-cms-btn-primary {
+  background: #308e87;
+  color: #fff;
+}
+
+.blu-cms-btn-primary:hover {
+  background: #267a74;
+}
+
+.blu-cms-btn-ghost {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.blu-cms-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.blu-cms-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+[data-cms][contenteditable="true"] {
+  outline: 2px dashed transparent;
+  outline-offset: 3px;
+  border-radius: 4px;
+  transition: outline-color 0.15s, background 0.15s;
+  cursor: text;
+}
+
+[data-cms][contenteditable="true"]:hover {
+  outline-color: rgba(48, 142, 135, 0.55);
+  background: rgba(48, 142, 135, 0.06);
+}
+
+[data-cms][contenteditable="true"].is-focused,
+[data-cms][contenteditable="true"]:focus {
+  outline-color: #308e87;
+  background: rgba(48, 142, 135, 0.1);
+}
