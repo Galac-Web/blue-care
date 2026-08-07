@@ -787,7 +787,7 @@ def _url_append_params(url, extra_params: dict):
 SITE_API_TIMEOUT = int(os.environ.get("BLU_SITE_API_TIMEOUT", "600"))
 
 
-def trimite_la_site(brand, model, cod_articol, coduri_oem, cont_id, pret_eur=0, descriere_gr=""):
+def trimite_la_site(brand, model, cod_articol, coduri_oem, cont_id, pret_eur=0, descriere_gr="", imagine_url=""):
     global SITE_API_URL_ACTIV
     payload = {
         "brand": brand,
@@ -797,6 +797,8 @@ def trimite_la_site(brand, model, cod_articol, coduri_oem, cont_id, pret_eur=0, 
         "cont_id": cont_id,
         "pret_eur": round(float(pret_eur or 0), 2),
         "descriere_gr": (descriere_gr or "").strip(),
+        "imagine_url": (imagine_url or "").strip(),
+        "gbg_image": (imagine_url or "").strip(),
     }
 
     last_error = "Niciun URL API configurat"
@@ -1253,6 +1255,91 @@ def _extrage_pret_eur_din_pagina(driver):
     return 0.0
 
 
+def _extrage_imagine_gbg(driver) -> str:
+    """
+    Extrage URL-ul imaginii principale a produsului din pagina GBG.
+    Folosit ca fallback când Autodoc/TecDoc nu returnează poză.
+    """
+    try:
+        url = driver.execute_script("""
+            function abs(u) {
+                try { return new URL(u, location.href).href; } catch (e) { return ''; }
+            }
+            function bad(u) {
+                if (!u) return true;
+                var s = String(u).toLowerCase();
+                if (s.indexOf('data:') === 0) return true;
+                return /logo|icon|spacer|blank|pixel|button|banner|avatar|favicon|1x1|loading|spinner|arrow|cart|basket/.test(s);
+            }
+            function score(el, u) {
+                if (bad(u)) return -1;
+                var w = el.naturalWidth || el.width || parseInt(el.getAttribute('width') || '0', 10) || 0;
+                var h = el.naturalHeight || el.height || parseInt(el.getAttribute('height') || '0', 10) || 0;
+                var area = w * h;
+                if (area > 0 && area < 2500) return -1; // prea mică
+                var s = 0;
+                var id = (el.id || '').toLowerCase();
+                var cls = (el.className || '').toString().toLowerCase();
+                if (/item|product|photo|imagine|main|large|zoom/.test(id + ' ' + cls)) s += 50000;
+                if (/centerplaceholder/.test(id)) s += 20000;
+                return s + area;
+            }
+
+            var candidates = [];
+            var selectors = [
+                '#ctl00_centerPlaceHolder_imgItem',
+                '#ctl00_centerPlaceHolder_Image1',
+                '#ctl00_centerPlaceHolder_productImage',
+                "img[id*='ItemImage']",
+                "img[id*='itemImage']",
+                "img[id*='ProductImage']",
+                "img[id*='ImgItem']",
+                "img[id*='imgItem']",
+                "img[src*='ItemID']",
+                "img[src*='itemid']",
+                "img[src*='GetImage']",
+                "img[src*='showimage']",
+                "img[src*='ProductImages']",
+                '#ctl00_centerPlaceHolder img',
+                '.product-image img',
+                'a[href*=".jpg"] img',
+                'a[href*=".jpeg"] img',
+                'a[href*=".png"] img',
+                'a[href*=".webp"] img'
+            ];
+            selectors.forEach(function(sel) {
+                document.querySelectorAll(sel).forEach(function(el) {
+                    var u = abs(el.currentSrc || el.src || el.getAttribute('data-src') || '');
+                    var sc = score(el, u);
+                    if (sc > 0) candidates.push({u: u, s: sc});
+                    // uneori poza mare e pe link-ul părinte
+                    var a = el.closest('a[href]');
+                    if (a) {
+                        var hu = abs(a.getAttribute('href') || '');
+                        if (/\\.(jpe?g|png|webp|gif)(\\?|$)/i.test(hu) && !bad(hu)) {
+                            candidates.push({u: hu, s: sc + 100000});
+                        }
+                    }
+                });
+            });
+
+            var og = document.querySelector('meta[property="og:image"]');
+            if (og && og.content) {
+                var ou = abs(og.content);
+                if (!bad(ou)) candidates.push({u: ou, s: 80000});
+            }
+
+            candidates.sort(function(a, b) { return b.s - a.s; });
+            return candidates.length ? candidates[0].u : '';
+        """)
+        url = (url or "").strip()
+        if url.lower().startswith("http://") or url.lower().startswith("https://"):
+            return url
+    except Exception:
+        pass
+    return ""
+
+
 def _urls_egale(a: str, b: str) -> bool:
     """Compară URL-uri ignorând slash final și fragment."""
     def norm(u: str) -> str:
@@ -1460,11 +1547,18 @@ def naviga_si_extrage_date(driver, cont_id):
         if pret_eur <= 0:
             pret_eur = _extrage_pret_eur_din_pagina(driver)
 
+        # Imagine produs GBG — fallback când Autodoc/TecDoc nu au poză.
+        imagine_url = _extrage_imagine_gbg(driver)
+        if imagine_url:
+            log_step(cont_id, f"Produs #{pozitie}: imagine GBG gasita.", "ok")
+        else:
+            log_step(cont_id, f"Produs #{pozitie}: fara imagine pe pagina GBG.", "warn")
+
         pret_txt = f", pret GBG {pret_eur:.2f} EUR" if pret_eur > 0 else ""
         log_step(cont_id, f"Produs #{pozitie}: cod articol {cod_articol}{pret_txt} — import BD + PieseAuto (astept finalizare)...", "info")
         raspuns = trimite_la_site(
             nume_marca, nume_submodel, cod_articol, coduri_oem, cont_id,
-            pret_eur=pret_eur, descriere_gr=descriere_gr,
+            pret_eur=pret_eur, descriere_gr=descriere_gr, imagine_url=imagine_url,
         )
         status = str(raspuns.get("status") or "").lower()
 

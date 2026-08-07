@@ -168,6 +168,12 @@ function blu_robot_process_part(array $input): array
     $coduriOem = trim((string)($input['coduri_oem'] ?? $input['oem'] ?? $input['cod_oem'] ?? ''));
     $contId = trim((string)($input['cont_id'] ?? $input['cont'] ?? 'robot'));
     $descriereGr = trim((string)($input['descriere_gr'] ?? $input['description_gr'] ?? $input['titlu_gr'] ?? ''));
+    $imagineUrl = trim((string)(
+        $input['imagine_url'] ?? $input['gbg_image'] ?? $input['image_url'] ?? $input['image'] ?? ''
+    ));
+    if ($imagineUrl !== '' && !preg_match('#^https?://#i', $imagineUrl)) {
+        $imagineUrl = '';
+    }
     $pretEur = blu_entry_pret_eur($input);
 
     // Optimizează OEM (variante + Ollama dacă e nevoie) înainte de căutare.
@@ -210,6 +216,8 @@ function blu_robot_process_part(array $input): array
         'missing_oem' => $missingOem,
         'pret_eur' => $pretEur,
         'descriere_gr' => $descriereGr,
+        'imagine_url' => $imagineUrl,
+        'gbg_image' => $imagineUrl,
     ];
 
     blu_robot_append_feed([
@@ -221,6 +229,7 @@ function blu_robot_process_part(array $input): array
         'coduri_oem' => $coduriOem,
         'codes' => $codes,
         'missing_oem' => $missingOem,
+        'image' => $imagineUrl,
         'message' => $missingOem
             ? 'Cautare TecDoc dupa cod articol (OEM lipsa)...'
             : 'Cautare Autodoc24/TecDoc (OEM) + Ollama daca e nevoie...',

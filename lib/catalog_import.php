@@ -379,6 +379,77 @@ function blu_first_article_image(array $articles): string
     return '';
 }
 
+/** URL imagine deja setat pe cartelă (image / admin / main_image / images_json). */
+function blu_card_image_url(array $card): string
+{
+    $admin = is_array($card['admin_card'] ?? null) ? $card['admin_card'] : [];
+    foreach ([
+        (string)($card['image'] ?? ''),
+        (string)($admin['imagine'] ?? ''),
+    ] as $u) {
+        $u = trim($u);
+        if ($u !== '' && preg_match('#^https?://#i', $u)) {
+            return $u;
+        }
+    }
+
+    foreach (['main_image', 'images_json'] as $key) {
+        $raw = $card[$key] ?? null;
+        if (!is_string($raw) || $raw === '') {
+            continue;
+        }
+        $decoded = json_decode($raw, true);
+        if (is_array($decoded)) {
+            foreach ($decoded as $img) {
+                if (is_string($img) && preg_match('#^https?://#i', $img)) {
+                    return trim($img);
+                }
+                if (is_array($img) && !empty($img['url']) && preg_match('#^https?://#i', (string)$img['url'])) {
+                    return trim((string)$img['url']);
+                }
+            }
+        } elseif (preg_match('#^https?://#i', $raw)) {
+            return trim($raw);
+        }
+    }
+
+    return '';
+}
+
+/**
+ * Dacă Autodoc/TecDoc n-au poză, folosește imaginea din catalogul GBG (trimisă de robot).
+ *
+ * @param array<string,mixed> $card
+ * @param array<string,mixed> $entry
+ * @return array<string,mixed>
+ */
+function blu_apply_gbg_image_fallback(array $card, array $entry): array
+{
+    if (blu_card_image_url($card) !== '') {
+        return $card;
+    }
+
+    $url = trim((string)(
+        $entry['imagine_url'] ?? $entry['gbg_image'] ?? $entry['image_url'] ?? $entry['image'] ?? ''
+    ));
+    if ($url === '' || !preg_match('#^https?://#i', $url)) {
+        return $card;
+    }
+
+    $card['image'] = $url;
+    $card['main_image'] = json_encode([$url], JSON_UNESCAPED_UNICODE);
+    $card['images_json'] = json_encode([
+        ['url' => $url, 'remote' => true, 'source' => 'gbg'],
+    ], JSON_UNESCAPED_UNICODE);
+    if (!isset($card['admin_card']) || !is_array($card['admin_card'])) {
+        $card['admin_card'] = [];
+    }
+    $card['admin_card']['imagine'] = $url;
+    $card['image_source'] = 'gbg';
+
+    return $card;
+}
+
 /**
  * Transformă un articol RapidAPI + context catalog în cartelă produs.
  * $imageFallback = imagine de rezerva (de la alt furnizor) cand articolul nu are una.
@@ -660,6 +731,7 @@ function blu_process_catalog_batch(array $entries, int $offset, int $limit, bool
                     $card = blu_autodoc_item_to_product_card($item, $context, $fallbackImage);
                     $card = blu_apply_strict_card_template($card, $context, $entry);
                     $card = blu_apply_gbg_supplier_pricing($card, $entry);
+                    $card = blu_apply_gbg_image_fallback($card, $entry);
                     $pid = (string)($card['product_id'] ?? '');
                     if ($pid === '' || isset($seenProductIds[$pid])) {
                         continue;
@@ -735,6 +807,7 @@ function blu_process_catalog_batch(array $entries, int $offset, int $limit, bool
                     $context = $contextBase + ['search_code' => $searchCode];
                     $card = blu_article_to_product_card($article, $context, $fallbackImage);
                     $card = blu_apply_gbg_supplier_pricing($card, $entry);
+                    $card = blu_apply_gbg_image_fallback($card, $entry);
                     $pid = (string)($card['product_id'] ?? '');
                     if ($pid === '' || isset($seenProductIds[$pid])) {
                         continue;
@@ -756,17 +829,19 @@ function blu_process_catalog_batch(array $entries, int $offset, int $limit, bool
                 $stub = blu_catalog_stub_card($contextBase, $entry);
                 $stubStatus = (string) ($stub['status'] ?? 'empty');
                 if ($stubStatus === 'imported') {
-                    // Traducere Ollama din textul GBG — salvăm ca produs valid.
+                    // Traducere Ollama din textul GBG — salvăm ca produs valid + imagine GBG.
                     $stub = blu_apply_gbg_supplier_pricing($stub, $entry);
+                    $stub = blu_apply_gbg_image_fallback($stub, $entry);
                     $cardsToSave[] = $stub;
                     $result['found']++;
+                    $imgNote = blu_card_image_url($stub) !== '' ? ' + imagine GBG' : '';
                     $result['log'][] = [
                         'code' => $searchCode,
                         'status' => 'ok',
                         'count' => 0,
                         'tried' => $api['_tried'] ?? [],
                         'source' => 'ollama_gbg',
-                        'message' => 'Autodoc/TecDoc gol — titlu/descriere din Ollama (GR→RO)',
+                        'message' => 'Autodoc/TecDoc gol — titlu/descriere din Ollama (GR→RO)' . $imgNote,
                     ];
                 } else {
                     if (!blu_entry_missing_oem(
@@ -776,6 +851,7 @@ function blu_process_catalog_batch(array $entries, int $offset, int $limit, bool
                         $stub['status'] = 'empty';
                         $stub['descriere'] = (string) ($stub['descriere'] ?? '') . "\nTecDoc: niciun articol gasit.";
                     }
+                    $stub = blu_apply_gbg_image_fallback($stub, $entry);
                     $result['log'][] = [
                         'code' => $searchCode,
                         'status' => ($stub['status'] ?? 'empty'),
@@ -1200,7 +1276,7 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
                 'oem_codes' => $oems,
                 'internal_code' => $cod,
             ]);
-            return [
+            $stubOut = [
                 'product_id' => $pid,
                 'title' => $formatted['title'],
                 'brand' => '',
@@ -1221,6 +1297,7 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
                 'title_original' => $partName,
                 'updated_at' => date('Y-m-d H:i:s'),
             ];
+            return blu_apply_gbg_image_fallback($stubOut, $entry);
         }
     }
 
@@ -1239,7 +1316,7 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
         $descriere .= "\n\nStatus: Așteaptă re-import cu API (TecDoc/Autodoc).";
     }
 
-    return [
+    $stubEmpty = [
         'product_id' => $pid,
         'title' => $formatted['title'],
         'brand' => '',
@@ -1255,6 +1332,8 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
         'missing_oem' => $missingOem,
         'updated_at' => date('Y-m-d H:i:s'),
     ];
+
+    return blu_apply_gbg_image_fallback($stubEmpty, $entry);
 }
 
 function blu_merge_imported_cards(array $rows): void
