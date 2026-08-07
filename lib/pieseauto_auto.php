@@ -30,7 +30,7 @@ function blu_pieseauto_auto_config(): array
         'cont_id' => 'bluecar',
         'default_price' => 100.0,
         'min_title_len' => 15,
-        'stare_produs' => 'Second',
+        'stare_produs' => 'Nou',
         'wait_until_done' => true,
         'max_wait_sec' => 420,
         'auto_open_browser' => true,
@@ -287,6 +287,30 @@ function blu_pieseauto_build_publish_payload(array $displayCard, array $context 
     }
 
     $title = trim((string)($item['title'] ?? ''));
+    $description = trim((string)($item['description'] ?? $title));
+
+    // Garantie Model cartelă + RO înainte de postare PieseAuto
+    require_once __DIR__ . '/tecdoc_product_enrich.php';
+    if ($description === '' || !blu_description_uses_card_template($description)) {
+        $ctx = [
+            'brand' => (string)($context['brand'] ?? $merged['marca_masina'] ?? $merged['car_brand'] ?? $item['car_brand'] ?? ''),
+            'model' => (string)($context['model'] ?? $merged['model'] ?? $item['car_model'] ?? ''),
+            'cod_articol' => (string)($displayCard['cod_articol'] ?? $context['cod_articol'] ?? $item['cod_articol'] ?? ''),
+            'coduri_oem' => (string)($displayCard['cod_oem'] ?? $context['coduri_oem'] ?? $item['cod_oem'] ?? $item['coduri_oem'] ?? ''),
+        ];
+        $fixed = blu_apply_card_template_to_card(array_merge($merged, [
+            'title' => $title,
+            'title_original' => (string)($merged['title_original'] ?? $title),
+            'description' => $description,
+            'cod_articol' => $ctx['cod_articol'],
+            'coduri_oem' => $ctx['coduri_oem'],
+            'marca_masina' => $ctx['brand'],
+            'model' => $ctx['model'],
+        ]), $ctx);
+        $title = trim((string)($fixed['title'] ?? $title));
+        $description = trim((string)($fixed['description'] ?? $description));
+    }
+
     if ($title === '' || mb_strlen($title, 'UTF-8') < (int)$cfg['min_title_len']) {
         return null;
     }
@@ -320,7 +344,7 @@ function blu_pieseauto_build_publish_payload(array $displayCard, array $context 
     return [
         'cont_id' => $contId,
         'titlu' => $title,
-        'descriere' => trim((string)($item['description'] ?? $title)),
+        'descriere' => $description !== '' ? $description : $title,
         'pret' => max(1, (float)($item['price'] ?? $cfg['default_price'])),
         'stare_produs' => (string)$cfg['stare_produs'],
         'categorie_nume' => $categorie,

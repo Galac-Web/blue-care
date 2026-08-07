@@ -413,8 +413,8 @@ function blu_render_pieseauto_panel(array $accounts): void
                                     <div class="col-sm-4 col-12">
                                         <label class="pa-form-label">Stare</label>
                                         <select id="piesa_stare" class="form-select form-select-sm">
-                                            <option value="Second" selected>Second Hand</option>
-                                            <option value="Nou">Nou</option>
+                                            <option value="Nou" selected>Nou</option>
+                                            <option value="Second">Second Hand</option>
                                         </select>
                                     </div>
                                     <div class="col-sm-4 col-12">
@@ -992,7 +992,7 @@ function blu_render_pieseauto_panel(array $accounts): void
     function payloadDinProdusScanat(item, contId) {
         const images = item.images?.length ? item.images.map(i => typeof i === 'string' ? i : (i.url||'')).filter(Boolean) : (item.image_url ? [item.image_url] : []);
         const categorie = item.pieseauto_category || item.sub_category || item.category_name || 'Alte piese de caroserie';
-        return { cont_id: contId, titlu: item.title||'', descriere: item.description||item.title||'', pret: item.price||100, stare_produs: 'Second', categorie_nume: categorie, imagine_url: images[0]||'', imagini_multiple: images };
+        return { cont_id: contId, titlu: item.title||'', descriere: item.description||item.title||'', pret: item.price||100, stare_produs: 'Nou', categorie_nume: categorie, imagine_url: images[0]||'', imagini_multiple: images };
     }
 
     async function pornesteAutoProduse() {

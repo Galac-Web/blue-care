@@ -17,53 +17,155 @@ function blu_tecdoc_title_translations(): array
     }
 
     $bluTecdocTitleTranslations = [
+        // poziții / calități
+        'front left' => 'fata stanga',
+        'front right' => 'fata dreapta',
+        'rear left' => 'spate stanga',
+        'rear right' => 'spate dreapta',
+        'left front' => 'fata stanga',
+        'right front' => 'fata dreapta',
+        'left rear' => 'spate stanga',
+        'right rear' => 'spate dreapta',
+        'front' => 'fata',
+        'rear' => 'spate',
+        'left' => 'stanga',
+        'right' => 'dreapta',
+        'inner' => 'interior',
+        'outer' => 'exterior',
+        'upper' => 'sus',
+        'lower' => 'jos',
+        'electric' => 'electric',
+        'manual' => 'manual',
+        'with motor' => 'cu motor',
+        'without motor' => 'fara motor',
+        // geam / caroserie
         'window regulator' => 'Macara geam',
+        'window lift' => 'Macara geam',
         'switch, window regulator' => 'Comutator macara geam',
         'switch window regulator' => 'Comutator macara geam',
-        'bearing' => 'Cuzinet',
+        'multifunction switch/operating unit' => 'Comutator macara geam',
+        'door handle' => 'Maner usa',
+        'outside mirror' => 'Oglinda exterioara',
+        'wing mirror' => 'Oglinda exterioara',
+        'mirror glass' => 'Sticla oglinda',
+        'mirror' => 'Oglinda',
+        'bumper cover' => 'Bara protectie',
+        'bumper' => 'Bara protectie',
+        'fender' => 'Aripa',
+        'wing' => 'Aripa',
+        'bonnet' => 'Capota motor',
+        'hood' => 'Capota motor',
+        'engine hood' => 'Capota motor',
+        'trunk lid' => 'Capota portbagaj',
+        'boot lid' => 'Capota portbagaj',
+        'tailgate' => 'Hayon',
+        'grille' => 'Grila radiator',
+        'radiator grille' => 'Grila radiator',
+        'door panel' => 'Panou usa',
+        'side panel' => 'Panou lateral',
+        'seat' => 'Scaun',
+        'dashboard' => 'Plansa bord',
+        // frânare / suspensie
+        'brake pad set' => 'Set placute frana',
+        'brake pad' => 'Placute frana',
+        'brake disc' => 'Disc frana',
+        'brake shoe' => 'Saboti frana',
+        'brake caliper' => 'Etrier frana',
+        'shock absorber' => 'Amortizor',
+        'coil spring' => 'Arc suspensie',
+        'leaf spring' => 'Arc foi',
+        'control arm' => 'Bascula',
+        'wishbone' => 'Bascula',
+        'tie rod end' => 'Cap bara directie',
+        'tie rod' => 'Bieleta directie',
+        'ball joint' => 'Pivot',
+        'stabilizer link' => 'Bieleta antiruliu',
+        'anti-roll bar' => 'Bara stabilizatoare',
+        // motor / transmisie
         'crankshaft bearing' => 'Cuzinet vibrochen',
         'main bearing' => 'Cuzinet principal',
         'rod bearing' => 'Cuzinet biela',
-        'brake pad' => 'Placute frana',
-        'brake disc' => 'Disc frana',
+        'wheel bearing' => 'Rulment roata',
+        'bearing' => 'Cuzinet',
         'air filter' => 'Filtru aer',
         'oil filter' => 'Filtru ulei',
         'fuel filter' => 'Filtru combustibil',
+        'cabin filter' => 'Filtru habitaclu',
+        'pollen filter' => 'Filtru habitaclu',
         'spark plug' => 'Bujie',
         'glow plug' => 'Bujie incandescenta',
         'water pump' => 'Pompa apa',
+        'fuel pump' => 'Pompa combustibil',
         'oil pump' => 'Pompa ulei',
         'alternator' => 'Alternator',
+        'starter motor' => 'Electromotor',
         'starter' => 'Electromotor',
+        'clutch kit' => 'Kit ambreiaj',
         'clutch disc' => 'Disc ambreiaj',
         'pressure plate' => 'Placa presiune ambreiaj',
-        'shock absorber' => 'Amortizor',
-        'coil spring' => 'Arc suspensie',
-        'control arm' => 'Bascula',
-        'tie rod' => 'Bieleta directie',
-        'ball joint' => 'Pivot',
-        'wheel bearing' => 'Rulment roata',
+        'release bearing' => 'Rulment presiune',
         'cv joint' => 'Cap planetara',
         'drive shaft' => 'Planetara',
+        'half shaft' => 'Planetara',
+        'timing belt kit' => 'Kit distributie',
         'timing belt' => 'Curea distributie',
         'timing chain' => 'Lant distributie',
+        'v-belt' => 'Curea transmisie',
+        'serpentine belt' => 'Curea transmisie',
+        'tensioner' => 'Intinzator',
+        'idler pulley' => 'Rola ghidaj',
         'turbocharger' => 'Turbocompresor',
         'intercooler' => 'Intercooler',
         'radiator' => 'Radiator',
         'thermostat' => 'Termostat',
-        'sensor' => 'Senzor',
         'lambda sensor' => 'Sonda lambda',
+        'oxygen sensor' => 'Sonda lambda',
+        'abs sensor' => 'Senzor ABS',
+        'crankshaft sensor' => 'Senzor vibrochen',
+        'camshaft sensor' => 'Senzor ax cu came',
+        'sensor' => 'Senzor',
+        // iluminare
         'headlight' => 'Far',
+        'headlamp' => 'Far',
         'tail light' => 'Stop',
+        'taillight' => 'Stop',
+        'rear light' => 'Stop',
         'fog light' => 'Proiector ceata',
-        'mirror' => 'Oglinda',
-        'door handle' => 'Maner usa',
-        'bumper' => 'Bară',
-        'fender' => 'Aripa',
-        'hood' => 'Capota',
-        'trunk lid' => 'Capota portbagaj',
-        'seat' => 'Scaun',
-        'dashboard' => 'Plansa bord',
+        'indicator' => 'Semnalizare',
+        'turn signal' => 'Semnalizare',
+        'daytime running light' => 'Lumina de zi',
+        // diverse
+        'wiper blade' => 'Lamela stergator',
+        'wiper motor' => 'Motor stergator',
+        'wiper' => 'Stergator',
+        'ignition coil' => 'Bobina inductie',
+        'injector' => 'Injector',
+        'egr valve' => 'Supapa EGR',
+        'throttle body' => 'Clapeta acceleratie',
+        'catalytic converter' => 'Catalizator',
+        'muffler' => 'Toba esapament',
+        'exhaust pipe' => 'Teava esapament',
+        'flywheel' => 'Volanta',
+        'piston' => 'Piston',
+        'gasket' => 'Garnitura',
+        'seal' => 'Simering',
+        'bush' => 'Bucsa',
+        'bushing' => 'Bucsa',
+        'mount' => 'Tampon motor',
+        'engine mount' => 'Tampon motor',
+        'hose' => 'Furtun',
+        'pipe' => 'Conducta',
+        'cable' => 'Cablu',
+        'switch' => 'Comutator',
+        'relay' => 'Releu',
+        'battery' => 'Baterie',
+        'compressor' => 'Compessor AC',
+        'condenser' => 'Condensator AC',
+        'fan' => 'Ventilator',
+        'body' => 'Caroserie',
+        'cover' => 'Capac',
+        'panel' => 'Panou',
+        'part' => 'Piesa',
     ];
 
     return $bluTecdocTitleTranslations;
@@ -76,19 +178,45 @@ function blu_tecdoc_translate_title(string $title): string
         return 'Piesa auto';
     }
 
+    // deja română (diacritice / termeni comuni) → păstrează
+    if (preg_match('/[ăâîșţțşĂÂÎȘŢȚŞ]/u', $title)
+        || preg_match('/\b(capota|macara|filtru|placute|amortizor|oglinda|bara|aripa|far|pompa|curea|rulment|bascula|planetara)\b/ui', $title)
+    ) {
+        return preg_replace('/\s+/u', ' ', $title) ?? $title;
+    }
+
     $key = mb_strtolower($title, 'UTF-8');
+    $key = str_replace(['/', ',', ';', '_'], ' ', $key);
+    $key = trim((string)preg_replace('/\s+/u', ' ', $key));
     $map = blu_tecdoc_title_translations();
+
     if (isset($map[$key])) {
         return $map[$key];
     }
 
-    foreach ($map as $needle => $ro) {
-        if (mb_strpos($key, $needle, 0, 'UTF-8') !== false) {
-            return $ro;
+    // fraze lungi întâi, înlocuire progresivă (nu pierdem stânga/dreapta/față)
+    $needles = array_keys($map);
+    usort($needles, static fn(string $a, string $b): int => mb_strlen($b, 'UTF-8') <=> mb_strlen($a, 'UTF-8'));
+
+    $out = $key;
+    foreach ($needles as $needle) {
+        if ($needle === '' || mb_strpos($out, $needle, 0, 'UTF-8') === false) {
+            continue;
         }
+        $out = str_replace($needle, $map[$needle], $out);
     }
 
-    return $title;
+    $out = trim((string)preg_replace('/\s+/u', ' ', $out));
+    if ($out === '') {
+        return 'Piesa auto';
+    }
+
+    // capitalizează prima literă a fiecărui segment
+    $parts = preg_split('/\s+/u', $out) ?: [$out];
+    $parts[0] = mb_strtoupper(mb_substr($parts[0], 0, 1, 'UTF-8'), 'UTF-8')
+        . mb_substr($parts[0], 1, null, 'UTF-8');
+
+    return implode(' ', $parts);
 }
 
 function blu_tecdoc_categories_config(): array
@@ -236,14 +364,8 @@ function blu_tecdoc_api_url(string $path): string
 
 function blu_tecdoc_category_translations(): array
 {
-    return [
-        'window regulator' => 'Macara geam',
-        'multifunction switch/operating unit' => 'Comutator macara geam',
-        'switch, window regulator' => 'Comutator macara geam',
-        'bearing' => 'Cuzinet',
-        'main bearing' => 'Cuzinet principal',
-        'rod bearing' => 'Cuzinet biela',
-    ];
+    // aceleași mapări ca la titlu — categorii TecDoc vin deseori în EN
+    return blu_tecdoc_title_translations();
 }
 
 function blu_tecdoc_translate_category_name(string $name): string
@@ -1289,7 +1411,7 @@ function blu_sync_all_product_sources(): array
                 'main_image' => $mainImageJson,
                 'images_json' => json_encode($imagesForDb, JSON_UNESCAPED_UNICODE),
                 'stock' => '1',
-                'item_condition' => 'Second',
+                'item_condition' => 'Nou',
                 'updated_at' => date('Y-m-d H:i:s'),
                 'admin_card' => [
                     'nume' => $title,

@@ -1179,7 +1179,6 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
     }
 
     $partName = blu_tecdoc_translate_title('Piesa catalog');
-    $aiNote = '';
     $greek = trim((string) ($entry['descriere_gr'] ?? $entry['description_gr'] ?? $entry['titlu_gr'] ?? ''));
     if ($greek !== '' && !$missingOem) {
         require_once __DIR__ . '/ollama_client.php';
@@ -1191,9 +1190,9 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
             $cod
         );
         if (!empty($ai['ok'])) {
-            $partName = (string) ($ai['part_name'] ?? $partName);
+            // part_name din dicționar/Ollama, dar titlu+descriere STRICT după Model cartelă
+            $partName = blu_tecdoc_translate_title((string) ($ai['part_name'] ?? $partName));
             $status = 'imported';
-            $aiNote = "\n\n[Traducere Ollama din catalogul GBG — Autodoc/TecDoc fără rezultat]";
             $formatted = blu_card_template_format([
                 'part_name' => $partName,
                 'brand' => (string) ($contextBase['brand'] ?? ''),
@@ -1201,23 +1200,25 @@ function blu_catalog_stub_card(array $contextBase, array $entry): array
                 'oem_codes' => $oems,
                 'internal_code' => $cod,
             ]);
-            $title = (string) ($ai['title'] ?? $formatted['title']);
-            $descriere = trim((string) ($ai['description'] ?? $formatted['description'])) . $aiNote;
             return [
                 'product_id' => $pid,
-                'title' => $title,
+                'title' => $formatted['title'],
                 'brand' => '',
                 'cod_oem' => $oem !== '' ? preg_replace('/\s*,\s*/', ', ', $oem) : $cod,
                 'cod_articol' => $cod,
                 'coduri_oem' => $oem,
                 'image' => '',
-                'descriere' => $descriere,
+                'descriere' => $formatted['description'],
+                'description' => $formatted['description'],
+                'ad_title' => $formatted['title'],
+                'ad_description' => $formatted['description'],
                 'car' => trim((string) ($contextBase['brand'] ?? '') . ' — ' . (string) ($contextBase['model'] ?? '')),
                 'marca_masina' => (string) ($contextBase['brand'] ?? ''),
                 'model' => (string) ($contextBase['model'] ?? ''),
                 'status' => $status,
                 'missing_oem' => $missingOem,
                 'source' => 'ollama_gbg',
+                'title_original' => $partName,
                 'updated_at' => date('Y-m-d H:i:s'),
             ];
         }

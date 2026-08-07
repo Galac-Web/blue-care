@@ -933,7 +933,7 @@ def proceseaza_adauga_piesa(data, cont_id, driver):
 
         update_status(cont_id, "💰 Completez stare și preț...")
 
-        stare_val = data.get("stare_produs", "Second")
+        stare_val = data.get("stare_produs", "Nou")
         driver.execute_script("""
             var sel = document.querySelector('select[name="question[3]"]');
             if (sel) {
